@@ -7,28 +7,28 @@ export const dynamic = 'force-static'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.theelderscrollsvi.wiki'
 
-// 内容类型优先级配置
+// 内容类型优先级配置（与 navigation.ts 的 NAVIGATION_CONFIG 一致）
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'release': 0.9,
+	'setting': 0.9,
+	'platforms': 0.9,
+	'features': 0.8,
+	'development': 0.8,
+	'trailers': 0.8,
+	'guide': 0.8,
+	'rumors': 0.7,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'release': 'weekly',
+	'setting': 'weekly',
+	'platforms': 'weekly',
+	'features': 'weekly',
+	'development': 'weekly',
+	'trailers': 'weekly',
+	'guide': 'weekly',
+	'rumors': 'weekly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

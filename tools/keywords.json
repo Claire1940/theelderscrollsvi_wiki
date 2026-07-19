@@ -1,47 +1,87 @@
 {
+  "topic_name": "the elder scrolls vi",
   "categories": [
     {
-      "category": "Guides",
+      "category": "guide",
       "keywords": [
-        "lucid blocks guide"
+        "the elder scrolls vi what we know",
+        "the elder scrolls vi latest news",
+        "the elder scrolls vi wishlist",
+        "the elder scrolls vi reddit",
+        "the elder scrolls vi preview"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "release",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "the elder scrolls vi release date",
+        "the elder scrolls vi release year",
+        "the elder scrolls vi delayed",
+        "the elder scrolls vi cancelled",
+        "the elder scrolls vi price",
+        "the elder scrolls vi collector's edition"
       ]
     },
     {
-      "category": "Items",
+      "category": "setting",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "the elder scrolls vi hammerfell",
+        "the elder scrolls vi location",
+        "the elder scrolls vi high rock",
+        "the elder scrolls vi iliac",
+        "the elder scrolls vi map",
+        "the elder scrolls vi akavir"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "platforms",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "the elder scrolls vi xbox",
+        "the elder scrolls vi xbox exclusive",
+        "the elder scrolls vi ps5",
+        "the elder scrolls vi pc",
+        "the elder scrolls vi nintendo switch",
+        "the elder scrolls vi ps6"
       ]
     },
     {
-      "category": "Building",
+      "category": "trailers",
       "keywords": [
-        "lucid blocks qualia"
+        "the elder scrolls vi teaser",
+        "the elder scrolls vi new trailer",
+        "the elder scrolls vi trailer date",
+        "the elder scrolls vi leaked trailer",
+        "the elder scrolls vi gameplay trailer"
       ]
     },
     {
-      "category": "Support",
+      "category": "development",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "the elder scrolls vi bethesda",
+        "the elder scrolls vi todd howard",
+        "the elder scrolls vi creation engine",
+        "the elder scrolls vi development status",
+        "the elder scrolls vi xbox layoffs"
+      ]
+    },
+    {
+      "category": "features",
+      "keywords": [
+        "the elder scrolls vi gameplay",
+        "the elder scrolls vi multiplayer",
+        "the elder scrolls vi ai features",
+        "the elder scrolls vi handcrafted world",
+        "the elder scrolls vi mods"
+      ]
+    },
+    {
+      "category": "rumors",
+      "keywords": [
+        "the elder scrolls vi leaks",
+        "the elder scrolls vi release window speculated to be in late 2027"
       ]
     }
-  ]
+  ],
+  "contentCountAfterMerging": 40,
+  "content_count_after_merge": 40
 }

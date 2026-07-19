@@ -1,12 +1,868 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de The Elder Scrolls VI - Lanzamiento, ambientación y noticias",
+      "description": "La Wiki de The Elder Scrolls VI sigue actualizaciones de lanzamiento, plataformas, pistas sobre la ambientación, detalles de Creation Engine 3, tráileres, lore y noticias verificadas de Bethesda.",
+      "keywords": "The Elder Scrolls VI, TES 6, fecha de lanzamiento, ambientación, Xbox, PC, tráiler, Creation Engine 3",
+      "ogTitle": "Wiki de The Elder Scrolls VI - Lanzamiento, ambientación y noticias",
+      "ogDescription": "La Wiki de The Elder Scrolls VI sigue actualizaciones de lanzamiento, plataformas, pistas sobre la ambientación, detalles de Creation Engine 3, tráileres, lore y noticias verificadas de Bethesda.",
+      "twitterTitle": "Wiki de The Elder Scrolls VI - Lanzamiento, ambientación y noticias",
+      "twitterDescription": "Sigue las actualizaciones de lanzamiento, plataformas, pistas de ambientación, tráileres y noticias verificadas de Bethesda de The Elder Scrolls VI."
+    }
+  },
   "nav": {
     "release": "Lanzamiento",
-    "setting": "Escenario",
+    "setting": "Ambientación",
     "platforms": "Plataformas",
     "features": "Características",
     "development": "Desarrollo",
-    "trailers": "Tráilers",
+    "trailers": "Tráileres",
     "guide": "Guía",
     "rumors": "Rumores"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Visitar sitio oficial",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Próximo RPG de fantasía de mundo abierto",
+    "title": "Wiki de The Elder Scrolls VI",
+    "description": "Sigue el próximo RPG de fantasía principal de Bethesda con actualizaciones de lanzamiento verificadas, noticias de plataformas, pistas de ambientación, tráileres, detalles de personajes, tecnología y hitos de desarrollo.",
+    "getFreeCodesCTA": "Seguir actualizaciones de lanzamiento",
+    "playOnSteamCTA": "Ver tráiler oficial",
+    "stats": {
+      "stat1": {
+        "value": "Por anunciar",
+        "label": "Fecha de lanzamiento"
+      },
+      "stat2": {
+        "value": "Enfoque principal",
+        "label": "Estado del desarrollo"
+      },
+      "stat3": {
+        "value": "20M+",
+        "label": "Visualizaciones del tráiler"
+      },
+      "stat4": {
+        "value": "2018",
+        "label": "Año de revelación"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de The Elder Scrolls VI",
+    "description": "Sigue la pista de la próxima aventura principal de Elder Scrolls — exploración de mundo abierto, combate, magia, facciones y el regreso a Tamriel con la tecnología del último Creation Engine de Bethesda."
+  },
+  "tools": {
+    "title": "The Elder Scrolls VI",
+    "titleHighlight": "Portal de la Wiki",
+    "subtitle": "Todo lo que sabemos sobre The Elder Scrolls VI — lanzamiento, plataformas, ambientación, jugabilidad, motor y lore",
+    "cards": [
+      {
+        "icon": "CalendarClock",
+        "title": "Fecha de lanzamiento",
+        "description": "Estado confirmado, ventana de lanzamiento y progreso del desarrollo"
+      },
+      {
+        "icon": "MonitorSmartphone",
+        "title": "Plataformas",
+        "description": "Xbox, PC, PlayStation, Game Pass y soporte de próxima generación"
+      },
+      {
+        "icon": "Clapperboard",
+        "title": "Tráiler",
+        "description": "Teaser de anuncio oficial y futuras presentaciones"
+      },
+      {
+        "icon": "Map",
+        "title": "Ambientación y mapa",
+        "description": "Swords"
+      },
+      {
+        "icon": "Jugabilidad",
+        "title": "Exploración, combate, magia y sistemas de rol",
+        "description": "GitBranch"
+      },
+      {
+        "icon": "Cronología del desarrollo",
+        "title": "Desde la revelación de 2018 hasta la producción activa",
+        "description": "Cpu"
+      },
+      {
+        "icon": "Creation Engine 3",
+        "title": "Renderizado, animación, IA y soporte para mods",
+        "description": "ScrollText"
+      },
+      {
+        "icon": "Historia y lore",
+        "title": "Historia, razas, facciones y conflictos de Tamriel",
+        "description": "Fecha de lanzamiento de The Elder Scrolls VI"
+      }
+    ]
+  },
+  "modules": {
+    "elderScrollsViReleaseDate": {
+      "title": "Estado del lanzamiento",
+      "eyebrow": "Bethesda no ha anunciado una fecha de lanzamiento. Sigue el progreso del juego desde su revelación en 2018 hasta las primeras versiones jugables.",
+      "subtitle": "timeline",
+      "displayType": "Bethesda anunció The Elder Scrolls VI después de Fallout 76 en el E3 2018. El desarrollo se mantuvo en planificación y preproducción mientras Bethesda Game Studios se centraba en Starfield, antes de pasar a la producción activa y a las primeras versiones jugables internas.",
+      "intro": "Junio de 2018",
+      "items": [
+        {
+          "date": "Anuncio oficial",
+          "type": "Se revela The Elder Scrolls VI",
+          "title": "Bethesda Game Studios presentó un breve teaser con un paisaje durante su presentación en el E3 2018. El anuncio confirmó el proyecto, pero no reveló su ambientación, plataformas, jugabilidad ni fecha de lanzamiento.",
+          "description": "2018–2022"
+        },
+        {
+          "date": "2018–2022",
+          "type": "Fase de desarrollo",
+          "title": "Planificación y preproducción",
+          "description": "El proyecto se mantuvo por detrás de Starfield en el calendario de desarrollo de Bethesda Game Studios. Los primeros trabajos se centraron en la tecnología, los conceptos de diseño, la planificación del mundo y los sistemas necesarios para el próximo juego principal de Elder Scrolls."
+        },
+        {
+          "date": "2023",
+          "type": "Actualización de desarrollo",
+          "title": "Comienza el desarrollo temprano",
+          "description": "Tras la finalización y el lanzamiento de Starfield, Bethesda describió The Elder Scrolls VI como en desarrollo temprano. El estudio comenzó a destinar más recursos de desarrollo al proyecto."
+        },
+        {
+          "date": "Marzo de 2024",
+          "type": "Hito jugable",
+          "title": "Se están jugando versiones tempranas",
+          "description": "Bethesda confirmó que los desarrolladores ya estaban jugando a versiones tempranas del juego. Esto marcó una transición del trabajo de planificación hacia entornos jugables, mecánicas y prototipos internos."
+        },
+        {
+          "date": "2026 o más tarde",
+          "type": "Estimación de planificación",
+          "title": "Ventana de los documentos judiciales de Microsoft",
+          "description": "Los documentos publicados durante los procesos legales de Microsoft indicaban que se esperaba el juego para 2026 o más tarde. Este era un rango de planificación interna en lugar de un anuncio público de lanzamiento por parte de Bethesda."
+        },
+        {
+          "date": "Estado actual",
+          "type": "Estado oficial",
+          "title": "Sin fecha de lanzamiento anunciada",
+          "description": "Bethesda no ha anunciado un año de lanzamiento, día de estreno, calendario de reservas ni una presentación pública de jugabilidad. El juego sigue siendo un proyecto activo a largo plazo en Bethesda Game Studios."
+        }
+      ]
+    },
+    "elderScrollsViPlatforms": {
+      "title": "Plataformas de The Elder Scrolls VI",
+      "eyebrow": "Guía de plataformas",
+      "subtitle": "Xbox y PC han aparecido en los documentos de planificación interna de Microsoft, mientras que Bethesda no ha publicado una lista definitiva de plataformas.",
+      "displayType": "tabla",
+      "intro": "The Elder Scrolls VI se está desarrollando bajo Bethesda Game Studios, propiedad de Xbox. Su largo ciclo de desarrollo significa que los objetivos de hardware finales pueden depender de la generación de consolas disponible cerca de su lanzamiento.",
+      "columns": {
+        "platform": "Plataforma",
+        "status": "Estado",
+        "availability": "Disponibilidad esperada",
+        "details": "Detalles"
+      },
+      "items": [
+        {
+          "platform": "Xbox Series X|S",
+          "status": "Incluido en la planificación anterior de Xbox",
+          "availability": "Lanzamiento esperado en el ecosistema de Xbox",
+          "details": "Los documentos judiciales de Microsoft asociaron el juego con Xbox y PC. Bethesda no ha publicado una página de tienda definitiva ni especificaciones técnicas específicas para consolas."
+        },
+        {
+          "platform": "Windows PC",
+          "status": "Incluido en la planificación anterior de Xbox",
+          "availability": "Lanzamiento esperado en PC",
+          "details": "Los títulos principales de Bethesda Game Studios tradicionalmente se lanzan en Windows PC, y la documentación de Microsoft incluyó a PC junto a Xbox para The Elder Scrolls VI."
+        },
+        {
+          "platform": "Xbox Game Pass",
+          "status": "No anunciado individualmente",
+          "availability": "Sin ficha dedicada",
+          "details": "El juego aún no tiene una página pública en Game Pass, fecha de lanzamiento, nivel de suscripción ni información de precarga."
+        },
+        {
+          "platform": "PlayStation 5",
+          "status": "Sin anuncio de plataforma",
+          "availability": "Indeterminado",
+          "details": "Bethesda y Xbox no han publicado una versión para PlayStation 5, un calendario de lanzamientos, una ficha de tienda ni una declaración de exclusividad para el juego terminado."
+        },
+        {
+          "platform": "Xbox de próxima generación",
+          "status": "Posible objetivo futuro",
+          "availability": "Depende de la fecha de lanzamiento",
+          "details": "El largo calendario de producción del juego podría situarlo cerca de una nueva generación de hardware de Xbox, pero Bethesda no ha mencionado ninguna consola de próxima generación."
+        },
+        {
+          "platform": "Steam",
+          "status": "Sin página de la tienda anunciada",
+          "availability": "Compatibilidad de tienda indeterminada",
+          "details": "No se ha listado formalmente un lanzamiento en Steam. Los lanzamientos recientes más importantes de Bethesda para PC han sido compatibles tanto con la Microsoft Store como con Steam."
+        },
+        {
+          "platform": "Hardware de Nintendo",
+          "status": "Sin anuncio",
+          "availability": "Indeterminado",
+          "details": "No se ha anunciado ninguna versión de Nintendo, edición en la nube, port o plataforma técnica objetivo."
+        },
+        {
+          "platform": "Juego en la nube",
+          "status": "Sin anuncio",
+          "availability": "Indeterminado",
+          "details": "Bethesda no ha confirmado la disponibilidad en Xbox Cloud Gaming, los objetivos de rendimiento de streaming ni los dispositivos compatibles."
+        }
+      ]
+    },
+    "elderScrollsViTrailer": {
+      "title": "Tráiler de The Elder Scrolls VI",
+      "eyebrow": "Videos oficiales",
+      "subtitle": "El teaser de anuncio oficial de 2018 sigue siendo el principal video público. Revela un gran paisaje costero, pero no contiene personajes, combates, interfaz ni sistemas de juego.",
+      "displayType": "video-gallery",
+      "intro": "Bethesda presentó The Elder Scrolls VI con un breve sobrevuelo cinematográfico en su presentación del E3 2018. El metraje estableció la escala y la atmósfera de fantasía del proyecto, al tiempo que mantuvo ocultos su provincia, historia, época y conflicto central.",
+      "featuredVideo": {
+        "videoId": "OkFdqqyI8y4",
+        "title": "The Elder Scrolls VI – Teaser de anuncio oficial",
+        "date": "10 de junio de 2018",
+        "event": "Presentación de Bethesda en el E3 2018",
+        "watchLabel": "Ver en YouTube"
+      },
+      "items": [
+        {
+          "title": "Teaser de anuncio oficial",
+          "date": "10 de junio de 2018",
+          "event": "Presentación de Bethesda en el E3 2018",
+          "videoType": "Teaser cinematográfico de anuncio",
+          "available": true,
+          "details": [
+            "Una cámara aérea se desplaza por un paisaje costero montañoso.",
+            "El entorno incluye acantilados, valles, agua, caminos y asentamientos lejanos.",
+            "El tema musical de The Elder Scrolls acompaña la revelación del paisaje.",
+            "La tarjeta de título final confirma The Elder Scrolls VI.",
+            "No aparece ningún personaje jugable, sistema de combate, interfaz, diálogo ni metraje de misiones."
+          ]
+        },
+        {
+          "title": "Revelación de jugabilidad",
+          "date": "---",
+          "event": "No publicado",
+          "videoType": "Futura presentación de Bethesda",
+          "available": false,
+          "details": [
+            "Presentación de jugabilidad",
+            "No se ha publicado ninguna demostración oficial de jugabilidad.",
+            "No se han mostrado los sistemas de creación de personajes, exploración, combate, magia, diálogo ni misiones."
+          ]
+        },
+        {
+          "title": "Bethesda no ha anunciado una fecha para la primera presentación de jugabilidad.",
+          "date": "Análisis profundo de los desarrolladores",
+          "event": "No publicado",
+          "videoType": "Futura presentación de los desarrolladores",
+          "available": false,
+          "details": [
+            "Entrevista o documental de los desarrolladores",
+            "No se ha publicado ningún documental de desarrollo dedicado.",
+            "Bethesda no ha mostrado públicamente las herramientas de creación de mundos ni la tecnología Creation Engine."
+          ]
+        },
+        {
+          "title": "Los futuros vídeos de los desarrolladores podrían tratar la ambientación, las facciones, los sistemas de exploración y el diseño técnico.",
+          "date": "Tráiler de lanzamiento",
+          "event": "No publicado",
+          "videoType": "Futura campaña de lanzamiento",
+          "available": false,
+          "details": [
+            "Tráiler de estreno",
+            "No hay ningún tráiler de lanzamiento ni campaña de estreno disponible.",
+            "Las reservas, ediciones, bonificaciones y plataformas de lanzamiento no se han presentado en formato de vídeo."
+          ]
+        }
+      ]
+    },
+    "elderScrollsViSettingAndMap": {
+      "title": "Esta entrega seguirá el calendario oficial de marketing de lanzamiento.",
+      "eyebrow": "Ambientación y mapa de The Elder Scrolls VI",
+      "subtitle": "Mundo y ubicación",
+      "displayType": "Bethesda no ha nombrado la provincia del juego, pero el teaser del anuncio ha generado fuertes teorías sobre Hammerfell, High Rock y la Iliac Bay.",
+      "intro": "map-cards",
+      "items": [
+        {
+          "category": "The Elder Scrolls VI regresará a Tamriel, el continente utilizado por los principales juegos numerados de Elder Scrolls. Su provincia exacta sigue sin revelarse, lo que deja el paisaje del teaser como la fuente principal para comparar posibles ubicaciones.",
+          "region": "Información visual confirmada",
+          "mapScope": "Región de Tamriel sin nombre",
+          "evidence": [
+            "Desconocido",
+            "El teaser muestra una gran masa de tierra montañosa junto a una masa de agua considerable.",
+            "Se ven acantilados, valles, senderos, ruinas y asentamientos distantes.",
+            "El paisaje contiene tanto zonas rocosas secas como terrenos elevados más verdes."
+          ],
+          "summary": "No aparece ningún mapa legible, nombre de provincia, nombre de ciudad, bandera o símbolo de facción."
+        },
+        {
+          "category": "El metraje confirma una gran región costera de fantasía pero no identifica su provincia.",
+          "region": "Teoría principal de la ambientación",
+          "mapScope": "Hammerfell",
+          "evidence": [
+            "Una provincia en el oeste de Tamriel",
+            "Hammerfell contiene montañas secas, desiertos, costas rocosas e importantes asentamientos portuarios.",
+            "Sus paisajes occidentales y septentrionales pueden asemejarse al terreno escarpado que se muestra en el teaser.",
+            "La provincia es el hogar de los Redguards."
+          ],
+          "summary": "Páramo del Martillo es la teoría de una sola provincia más destacada relacionada con la geografía costera seca del teaser."
+        },
+        {
+          "category": "Teoría principal sobre la ambientación",
+          "region": "Roca Alta",
+          "mapScope": "Una provincia en el noroeste de Tamriel",
+          "evidence": [
+            "Roca Alta es conocida por sus empinadas montañas, valles verdes, castillos y reinos costeros fragmentados.",
+            "La provincia es la patria de los bretones.",
+            "Sus regiones principales incluyen Daggerfall, Wayrest, Evermore, Northpoint y las Montañas de Wrothgar.",
+            "Los acantilados y las ubicaciones fortificadas distantes del teaser coinciden con partes de la geografía establecida de Roca Alta."
+          ],
+          "summary": "Roca Alta sigue siendo una teoría importante debido a la costa montañosa y los asentamientos de aspecto medieval del teaser."
+        },
+        {
+          "category": "Teoría del mapa combinado",
+          "region": "Bahía de Iliac",
+          "mapScope": "Páramo del Martillo y Roca Alta",
+          "evidence": [
+            "La Bahía de Iliac separa el sur de Roca Alta del norte de Páramo del Martillo.",
+            "Un mapa regional podría incluir reinos bretones, ciudades de los guardias rojos, islas, puertos, montañas y zonas desérticas.",
+            "La región sirvió anteriormente como escenario central de The Elder Scrolls II: Daggerfall.",
+            "Una estructura de dos provincias permitiría el viaje naval y un fuerte conflicto político entre culturas vecinas."
+          ],
+          "summary": "La teoría de la Bahía de Iliac combina las interpretaciones más sólidas de Páramo del Martillo y Roca Alta en un solo mundo de juego conectado."
+        },
+        {
+          "category": "Teoría de un mundo más amplio",
+          "region": "Múltiples provincias de Tamriel",
+          "mapScope": "Varias regiones conectadas",
+          "evidence": [
+            "La tecnología más reciente de Bethesda permite entornos más grandes y espacios de exploración más densos.",
+            "Una historia que cruce fronteras podría conectar Páramo del Martillo, Roca Alta, Orsinium e islas cercanas.",
+            "El teaser de anuncio no establece los límites definitivos del mapa jugable."
+          ],
+          "summary": "Un mapa multirregional podría extenderse más allá de una sola provincia, especialmente alrededor de la Bahía de Iliac y el oeste de Tamriel."
+        },
+        {
+          "category": "Rumor no respaldado",
+          "region": "Todo Tamriel",
+          "mapScope": "El continente entero",
+          "evidence": [
+            "Ningún tráiler o comunicado oficial presenta todas las provincias de Tamriel como jugables.",
+            "El teaser muestra solo un paisaje continuo.",
+            "No se ha mostrado ningún mapa continental completo, sistema de viaje o lista de provincias."
+          ],
+          "summary": "No se ha anunciado todo el continente como el mapa jugable para The Elder Scrolls VI."
+        }
+      ]
+    },
+    "elderScrollsViGameplay": {
+      "title": "Jugabilidad de The Elder Scrolls VI",
+      "eyebrow": "Sistemas de juego",
+      "subtitle": "Explora el rumbo confirmado del próximo RPG de fantasía para un jugador de Bethesda y los sistemas principales heredados de juegos anteriores de Elder Scrolls.",
+      "displayType": "card-list",
+      "intro": "The Elder Scrolls VI regresa a Tamriel como el próximo gran juego de rol de mundo abierto de Bethesda Game Studios. No se han mostrado mecánicas detalladas públicamente, pero la exploración, la libertad de los personajes, las misiones, el combate, la magia y la narrativa ambiental siguen siendo fundamentales para la saga.",
+      "items": [
+        {
+          "category": "Exploración",
+          "classification": "Rumbo confirmado",
+          "icon": "Brújula",
+          "title": "Un nuevo mundo abierto en Tamriel",
+          "description": "---"
+        },
+        {
+          "category": "Los jugadores explorarán otra gran región de Tamriel llena de naturaleza, asentamientos, ruinas, mazmorras e historias ambientales. Bethesda ha descrito el juego como el próximo capítulo de la serie The Elder Scrolls.",
+          "classification": "Combate",
+          "icon": "Base de la serie",
+          "title": "Swords",
+          "description": "Combate en primera y tercera persona"
+        },
+        {
+          "category": "La serie tradicionalmente permite el uso de armas cuerpo a cuerpo, arcos, escudos, ataques de sigilo y magia ofensiva desde perspectivas de primera o tercera persona. El bloqueo, el uso de dos armas y el combate basado en el equipo de Skyrim proporcionan la base más clara para el próximo juego.",
+          "classification": "Magia",
+          "icon": "Base de la serie",
+          "title": "Wand2",
+          "description": "Hechizos, encantamiento y configuraciones mágicas"
+        },
+        {
+          "category": "Destrucción, Restauración, Conjuración, Ilusión y Alteración son las principales escuelas de magia modernas. El encantamiento, los artefactos mágicos, las habilidades raciales y las configuraciones especializadas de mago son partes establecidas de la progresión de personajes en Elder Scrolls.",
+          "classification": "Misiones",
+          "icon": "Dirección confirmada",
+          "title": "ScrollText",
+          "description": "Historia principal, facciones y aventuras secundarias"
+        },
+        {
+          "category": "El juego se está diseñando como una experiencia de rol completa para un solo jugador. La estructura de The Elder Scrolls normalmente combina un conflicto central con tramas de facciones, historias locales, misiones daédricas, objetivos en mazmorras y encuentros menores descubiertos al explorar.",
+          "classification": "Progresión de personaje",
+          "icon": "Base de la serie",
+          "title": "TrendingUp",
+          "description": "Crea un personaje a través de las habilidades"
+        },
+        {
+          "category": "Los juegos anteriores mejoran las habilidades mediante el uso y las conectan con niveles, atributos o ventajas. Los jugadores tradicionalmente pueden combinar estilos de juego de guerrero, mago, ladrón, asesino, arquero, alquimista e híbridos sin seleccionar una clase bloqueada permanentemente.",
+          "classification": "Diálogo y decisiones",
+          "icon": "Base de la serie",
+          "title": "MessageCircle",
+          "description": "Conversaciones, persuasión y decisiones del jugador"
+        },
+        {
+          "category": "Se espera que el diálogo permita descubrir misiones, la persuasión, la intimidación, el soborno y las interacciones con facciones. Los juegos anteriores también permiten a los jugadores elegir los resultados de las misiones, apoyar a grupos rivales y cambiar la forma en que responden los personajes individuales.",
+          "classification": "Asentamientos",
+          "icon": "Base de la serie",
+          "title": "Home",
+          "description": "Ciudades, aldeas, hogares y economías locales"
+        },
+        {
+          "category": "Los asentamientos de Tamriel tradicionalmente contienen tiendas, posadas, sedes de gremios, templos, hogares, guardias y redes de misiones locales. La propiedad de bienes, las estaciones de artesanía, los comerciantes, los sistemas de delincuencia y la política regional son características establecidas del mundo abierto.",
+          "classification": "Sistemas emergentes",
+          "icon": "Tradición de diseño de Bethesda",
+          "title": "Sparkles",
+          "description": "Encuentros dinámicos e interacción ambiental"
+        }
+      ]
+    },
+    "elderScrollsViDevelopmentTimeline": {
+      "title": "Los mundos de Bethesda combinan el comportamiento programado de los PNJ, la fauna, objetos con físicas, encuentros aleatorios, respuestas al crimen y conflictos no guionizados. Estos sistemas permiten que las misiones y los eventos de exploración se solapen en lugar de funcionar como actividades aisladas.",
+      "eyebrow": "Cronología del desarrollo de The Elder Scrolls VI",
+      "subtitle": "Historia del desarrollo",
+      "displayType": "Sigue el progreso del juego desde su anuncio en 2018 a través de la preproducción, las primeras versiones y el desarrollo activo.",
+      "intro": "Bethesda anunció The Elder Scrolls VI años antes de entrar en producción completa porque Starfield era la prioridad inmediata del estudio. El desarrollo avanzó a través de la preparación del motor, la preproducción y versiones internas jugables antes de convertirse en el próximo gran proyecto de Bethesda Game Studios.",
+      "items": [
+        {
+          "date": "10 de junio de 2018",
+          "phase": "Anuncio",
+          "title": "Se revela The Elder Scrolls VI",
+          "description": "Bethesda anunció el juego durante su presentación del E3 2018 con un breve teaser de paisajes. La revelación confirmó que se planeaba un sexto juego principal de Elder Scrolls después de Starfield."
+        },
+        {
+          "date": "2018–2021",
+          "phase": "Preproducción",
+          "title": "Planificación de conceptos y tecnología",
+          "description": "El proyecto se mantuvo en una etapa inicial de planificación mientras Bethesda concentraba sus principales recursos de producción en Starfield. Durante este período se desarrollaron los conceptos del mundo, los requisitos tecnológicos y la dirección creativa a largo plazo del juego."
+        },
+        {
+          "date": "2021–2022",
+          "phase": "Base del motor",
+          "title": "Creation Engine 2 se convierte en la base técnica",
+          "description": "Starfield se convirtió en el primer juego de Bethesda desarrollado con Creation Engine 2. Su motor de renderizado, canalización de animaciones, herramientas procedimentales y sistemas de desarrollo actualizados crearon la base técnica disponible para el equipo de The Elder Scrolls VI."
+        },
+        {
+          "date": "2023",
+          "phase": "Transición de producción",
+          "title": "El desarrollo se expande después de Starfield",
+          "description": "A medida que se acercaba el lanzamiento de Starfield, Bethesda comenzó a trasladar más desarrolladores y atención de producción hacia The Elder Scrolls VI. El proyecto dejó atrás su largo período de preproducción para entrar en la fase inicial de desarrollo."
+        },
+        {
+          "date": "Marzo de 2024",
+          "phase": "Versiones jugables",
+          "title": "Bethesda menciona versiones internas tempranas",
+          "description": "En un mensaje del estudio para celebrar el aniversario de The Elder Scrolls, Bethesda declaró que los desarrolladores estaban regresando a Tamriel y jugando a versiones tempranas del nuevo juego."
+        },
+        {
+          "date": "2024–2025",
+          "phase": "Desarrollo activo",
+          "title": "El mundo y los sistemas de juego toman forma",
+          "description": "La producción se centró en la creación del mundo jugable, los sistemas de rol principales, las misiones, la tecnología y las canalizaciones de contenido necesarias para el próximo gran lanzamiento para un solo jugador de Bethesda."
+        },
+        {
+          "date": "Diciembre de 2025",
+          "phase": "Actualización del estudio",
+          "title": "Bethesda analiza el progreso continuo",
+          "description": "Bethesda ofreció otra actualización sobre el desarrollo a medida que continuaban los trabajos en el juego. El proyecto se mantuvo posicionado como el próximo gran juego de rol de fantasía del estudio después de Starfield."
+        },
+        {
+          "date": "Etapa de producción actual",
+          "phase": "Desarrollo completo",
+          "title": "Bethesda construye la próxima versión de Tamriel",
+          "description": "El equipo de desarrollo está trabajando en el diseño del mundo, la jugabilidad, las misiones, el arte, la animación, el audio y la tecnología del motor. No se ha publicado ninguna demostración de juego pública ni una fecha de lanzamiento final."
+        }
+      ]
+    },
+    "elderScrollsViCreationEngine3": {
+      "title": "The Elder Scrolls VI Creation Engine 3",
+      "eyebrow": "Motor y tecnología",
+      "subtitle": "Compara los sistemas de motor más antiguos de Bethesda, las mejoras del Creation Engine 2 de Starfield y los requisitos tecnológicos del próximo mundo de Elder Scrolls.",
+      "displayType": "comparison-table",
+      "intro": "The Elder Scrolls VI se está desarrollando tras la importante remodelación del Creation Engine de Bethesda para Starfield. Bethesda no ha publicado una especificación formal de Creation Engine 3, pero la próxima iteración del motor puede basarse en Creation Engine 2 al tiempo que se centra en paisajes, ciudades, personajes y combates más densos, así como en la simulación de mundos de fantasía.",
+      "columns": {
+        "technologyArea": "Área tecnológica",
+        "earlierGames": "Juegos anteriores de Elder Scrolls",
+        "starfieldBaseline": "Starfield (Creation Engine 2)",
+        "tesViDirection": "Dirección de The Elder Scrolls VI"
+      },
+      "items": [
+        {
+          "technologyArea": "Base del motor",
+          "earlierGames": "Oblivion utilizó la tecnología Gamebryo, mientras que Skyrim y Fallout 4 utilizaron generaciones del Creation Engine original de Bethesda.",
+          "starfieldBaseline": "Starfield introdujo Creation Engine 2 con cambios importantes en el renderizado, la animación, las herramientas y la producción de mundos a gran escala.",
+          "tesViDirection": "Una rama del motor más desarrollada, diseñada en torno a una densa provincia de fantasía, misiones hechas a mano y soporte de contenido a largo plazo."
+        },
+        {
+          "technologyArea": "Renderizado del mundo",
+          "earlierGames": "Los juegos más antiguos utilizaban celdas de región, un detalle lejano limitado y sistemas de materiales, sombras e iluminación más simples.",
+          "starfieldBaseline": "Creation Engine 2 añadió materiales mejorados, iluminación, efectos volumétricos, renderizado de terreno y entornos más detallados.",
+          "tesViDirection": "Grandes paisajes naturales, ciudades detalladas, efectos climáticos más fuertes, agua mejorada, líneas de visión más largas y vegetación más rica."
+        },
+        {
+          "technologyArea": "Carga y streaming",
+          "earlierGames": "Las ciudades, los edificios, las cuevas y las grandes regiones utilizaban con frecuencia transiciones de carga independientes.",
+          "starfieldBaseline": "Un almacenamiento más rápido y un streaming actualizado admiten entornos más grandes, aunque muchas naves, interiores y ubicaciones siguen estando separados.",
+          "tesViDirection": "Un streaming regional más rápido y un movimiento más fluido entre la naturaleza, los asentamientos, los interiores y los espacios subterráneos."
+        },
+        {
+          "technologyArea": "Animación de personajes",
+          "earlierGames": "Skyrim utilizaba un sistema de animación heredado para el movimiento, los ataques cuerpo a cuerpo, las conversaciones y el comportamiento de las criaturas.",
+          "starfieldBaseline": "Starfield expandió la animación facial, la locomoción, el manejo de armas y los sistemas de interacción de personajes.",
+          "tesViDirection": "Un combate cuerpo a cuerpo con mejor respuesta, lanzamiento de hechizos mejorado, mejor movimiento de las criaturas y escenas de diálogo más expresivas."
+        },
+        {
+          "technologyArea": "Inteligencia artificial",
+          "earlierGames": "Radiant AI daba a los PNJ horarios, hogares, trabajos y reacciones básicas a los delitos o eventos cercanos.",
+          "starfieldBaseline": "Los PNJ admiten roles de combate, asignaciones de tripulación, actividad en asentamientos y una gran cantidad de interacciones de misiones.",
+          "tesViDirection": "Rutinas diarias más profundas, relaciones entre facciones, encuentros dinámicos, combate coordinado y reacciones más fuertes a la reputación del jugador."
+        },
+        {
+          "technologyArea": "Física e interacción",
+          "earlierGames": "Los objetos sueltos, las trampas, los cuerpos, las armas y los elementos del entorno podían reaccionar a través de la simulación física.",
+          "starfieldBaseline": "El motor admite grandes cantidades de objetos móviles, interiores de naves, movimiento con gravedad baja y combate a gravedad cero.",
+          "tesViDirection": "Interacción ambiental mejorada para armas, hechizos, trampas, puertas, objetos cotidianos, objetos destructibles y mecanismos de mazmorras."
+        },
+        {
+          "technologyArea": "Herramientas de creación de mundos",
+          "earlierGames": "Bethesda ensamblaba las provincias a partir de celdas exteriores creadas a mano, mazmorras, ciudades y ubicaciones de misiones programadas.",
+          "starfieldBaseline": "Las herramientas de generación procedimental de terreno y colocación de ubicaciones admiten un universo muy grande junto con ciudades y misiones creadas a mano.",
+          "tesViDirection": "Las herramientas procedimentales pueden establecer el terreno y los detalles naturales mientras los desarrolladores concentran el trabajo hecho a mano en los asentamientos, las mazmorras y las ubicaciones de la historia."
+        },
+        {
+          "technologyArea": "Soporte para mods",
+          "earlierGames": "El Creation Kit y el sistema de plugins permitieron nuevas misiones, ubicaciones, objetos, personajes y conversiones totales.",
+          "starfieldBaseline": "Creation Kit 2 admite la creación de mods oficiales y el flujo de trabajo de contenido moderno de Bethesda.",
+          "tesViDirection": "Una estructura de mundo basada en datos, adecuada para mods comunitarios a largo plazo, misiones personalizadas, nuevas regiones, equipamiento y renovaciones del sistema de juego."
+        }
+      ]
+    },
+    "elderScrollsViStoryAndLore": {
+      "title": "Historia y lore de The Elder Scrolls VI",
+      "eyebrow": "Historia y lore de Tamriel",
+      "subtitle": "Repasa la historia establecida de Tamriel, los principales conflictos regionales y el lore relacionado con el posible escenario del juego.",
+      "displayType": "acordeón",
+      "intro": "Bethesda ha confirmado que The Elder Scrolls VI llevará de vuelta a los jugadores a Tamriel, pero no ha publicado el protagonista, el conflicto central ni la fecha histórica exacta. Hammerfell y High Rock siguen siendo las principales teorías sobre el escenario debido al paisaje del tráiler de presentación y a las tramas políticas establecidas en la región de la Bahía de Iliac.",
+      "items": [
+        {
+          "section": "Información confirmada de la historia",
+          "classification": "---",
+          "summary": "Información oficial",
+          "details": [
+            "El juego es la sexta entrega principal de la serie The Elder Scrolls y tiene lugar en algún lugar de Tamriel.",
+            "Bethesda reveló un paisaje costero montañoso en el teaser de anuncio.",
+            "El personaje jugable, el antagonista principal y la misión central no han sido presentados.",
+            "La provincia exacta y el año histórico no han sido publicados."
+          ]
+        },
+        {
+          "section": "La historia sigue los eventos de los juegos principales anteriores de Elder Scrolls dentro del mismo universo compartido.",
+          "classification": "Hammerfell",
+          "summary": "Lore establecido",
+          "details": [
+            "Hammerfell es la patria de los Redguards y contiene desiertos, montañas, puertos, ruinas antiguas y reinos políticamente divididos.",
+            "Las ubicaciones principales incluyen Sentinel, Hegathe, Dragonstar, Rihad, Taneth, Elinhir y el Alik'r Desert.",
+            "La política Redguard ha estado históricamente dividida entre los tradicionalistas Crowns y los más cosmopolitas Forebears.",
+            "Hammerfell luchó contra el Aldmeri Dominion después de que el Imperio aceptara el White-Gold Concordat."
+          ]
+        },
+        {
+          "section": "El Segundo Tratado de Stros M'Kai puso fin al conflicto en la 4E 180 y exigió que las fuerzas del Dominion se retiraran de Hammerfell.",
+          "classification": "High Rock y la Iliac Bay",
+          "summary": "Lore establecido",
+          "details": [
+            "High Rock es la patria de los Bretons y es conocida por sus reinos feudales, rivalidades nobiliarias, órdenes de caballería y poderosas tradiciones mágicas.",
+            "Las ciudades importantes incluyen Daggerfall, Wayrest, Camlorn y Northpoint.",
+            "High Rock y el oeste de Hammerfell rodean la Iliac Bay, el escenario de The Elder Scrolls II: Daggerfall.",
+            "La sociedad Breton combina influencias culturales humanas, élficas y de los Direnni."
+          ]
+        },
+        {
+          "section": "Los reinos fragmentados de la región proporcionan un escenario natural para la diplomacia, las disputas de sucesión y la guerra de facciones.",
+          "classification": "El Aldmeri Dominion y el Imperio",
+          "summary": "Lore establecido",
+          "details": [
+            "La Cuarta Era está marcada por un Imperio debilitado, el ascenso del Aldmeri Dominion y las consecuencias no resueltas de la Gran Guerra.",
+            "El White-Gold Concordat puso fin a la Gran Guerra entre el Imperio y el Dominion.",
+            "El tratado prohibió el culto a Talos y transfirió territorio en disputa en el sur de Hammerfell.",
+            "Hammerfell rechazó el acuerdo imperial y continuó luchando de forma independiente."
+          ]
+        },
+        {
+          "section": "El equilibrio político entre el Imperio, el Dominion y las provincias independientes sigue siendo uno de los mayores conflictos sin resolver de Tamriel.",
+          "classification": "Razas jugables",
+          "summary": "Tradición de la serie",
+          "details": [
+            "Los juegos modernos de Elder Scrolls permiten tradicionalmente a los jugadores crear personajes de diez razas principales de Tamriel.",
+            "Razas humanas: Breton, Imperial, Nord y Redguard.",
+            "Razas élficas: Altmer, Bosmer, Dunmer y Orsimer.",
+            "Razas de bestias: Argonian y Khajiit."
+          ]
+        },
+        {
+          "section": "Cada raza recibe tradicionalmente diferentes bonificaciones iniciales, resistencias, poderes o diálogos culturales.",
+          "classification": "Facciones regionales",
+          "summary": "Material de historia basado en el entorno",
+          "details": [
+            "Un juego en Hammerfell o la Iliac Bay puede nutrirse de las casas Redguard, los reinos Breton, las fortalezas de Orcs y las fuerzas políticas internacionales.",
+            "Los grupos políticos Crown y Forebear representan tradiciones Redguard enfrentadas.",
+            "Las casas nobles y las órdenes de caballería Breton controlan reinos y territorios independientes.",
+            "Agentes imperiales, operativos Thalmor, mercaderes, piratas, mercenarios y cultos daédricos pueden conectar las historias regionales con el resto de Tamriel."
+          ]
+        },
+        {
+          "section": "Saber yokudano antiguo",
+          "classification": "Lore establecido",
+          "summary": "Los Guardias Rojos descienden de Yokuda, un continente occidental perdido cuyos guerreros, dioses y tradiciones mágicas aún dan forma a Páramo del Martillo.",
+          "details": [
+            "Las migraciones de los Ra Gada establecieron el dominio de los Guardias Rojos en gran parte de Páramo del Martillo.",
+            "Los Cantores de la Espada eran guerreros que podían manifestar armas espirituales conocidas como Shehai.",
+            "La religión yokudana incluye deidades como Ruptga, Tu'whacca, Zeht, Tava y el HoonDing.",
+            "Las antiguas ruinas yokudanas y las técnicas de espada perdidas proporcionan bases fundamentales para las misiones y artefactos regionales."
+          ]
+        },
+        {
+          "section": "Posibles temas de la historia principal",
+          "classification": "Teoría sobre la ambientación",
+          "summary": "Los temas más sólidos basados en la ambientación conectan la independencia de Páramo del Martillo, la presión del Dominio y la inestable política de la Bahía de Ilíac.",
+          "details": [
+            "Un conflicto renovado entre Páramo del Martillo y el Dominio de Aldmer.",
+            "La competencia entre los líderes de los Coronas y los Antepasados por el futuro de Páramo del Martillo.",
+            "Disputas de sucesión bretonas y alianzas entre los reinos de la Bahía de Ilíac.",
+            "La restauración o destrucción de Orsinium.",
+            "El regreso de las tradiciones de los Cantores de la Espada u otro antiguo poder yokudano."
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que sabemos hasta ahora sobre The Elder Scrolls VI",
+    "questions": [
+      {
+        "question": "¿Cuándo es la fecha de lanzamiento de The Elder Scrolls VI?",
+        "answer": "Bethesda no ha anunciado una fecha de lanzamiento para The Elder Scrolls VI. El juego sigue en desarrollo activo como el próximo gran proyecto de Bethesda Game Studios, sin ventana de lanzamiento pública, calendario de reservas o presentación de jugabilidad confirmados."
+      },
+      {
+        "question": "¿En qué plataformas estará disponible The Elder Scrolls VI?",
+        "answer": "The Elder Scrolls VI está siendo desarrollado por Bethesda Game Studios, propiedad de Xbox. Xbox y PC han aparecido en los documentos de planificación interna de Microsoft, pero Bethesda no ha publicado una lista definitiva de plataformas, y el soporte para PlayStation, Game Pass y la próxima generación siguen sin anuncios específicos."
+      },
+      {
+        "question": "¿Dónde se ambienta The Elder Scrolls VI?",
+        "answer": "Bethesda no ha nombrado la provincia. El teaser de anuncio de The Elder Scrolls VI ha generado sólidas teorías de ambientación en Páramo del Martillo, Roca Alta y la Bahía de Ilíac basadas en su paisaje costero montañoso, pero no se ha confirmado ninguna ubicación oficial."
+      },
+      {
+        "question": "¿Es The Elder Scrolls VI un exclusivo de Xbox?",
+        "answer": "No se ha confirmado que The Elder Scrolls VI vaya a ser exclusivo de Xbox. Documentos judiciales antiguos de Microsoft indicaban una ventana de lanzamiento para Xbox y PC, pero Bethesda y Xbox no han publicado una declaración de exclusividad definitiva para el juego final."
+      },
+      {
+        "question": "¿Qué motor utiliza The Elder Scrolls VI?",
+        "answer": "The Elder Scrolls VI se está desarrollando sobre la próxima iteración del Creation Engine de Bethesda, basándose en la tecnología de Creation Engine 2 introducida con Starfield. Bethesda aún no ha publicado una especificación formal de Creation Engine 3."
+      },
+      {
+        "question": "¿Dónde puedo ver el tráiler de The Elder Scrolls VI?",
+        "answer": "El teaser oficial de anuncio de The Elder Scrolls VI del E3 2018 es el principal vídeo público, disponible en el canal de YouTube de Bethesda. Hasta ahora no se ha publicado ninguna revelación de jugabilidad, análisis profundo de los desarrolladores ni tráiler de lanzamiento."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Mantente al día sobre The Elder Scrolls VI",
+    "description": "Sigue la pista del próximo RPG de fantasía principal de Bethesda: actualizaciones oficiales de lanzamiento, tráileres, pistas sobre la ambientación y debates de la comunidad.",
+    "joinCommunity": "Únete a Discord",
+    "joinGame": "Visita el sitio oficial"
+  },
+  "footer": {
+    "title": "Wiki de The Elder Scrolls VI",
+    "description": "Tu centro verificado para actualizaciones de lanzamiento, plataformas, pistas sobre la ambientación, tráileres, tecnología y noticias de desarrollo de Bethesda para The Elder Scrolls VI.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Reddit (r/TESVI)",
+    "steamStore": "YouTube",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 The Elder Scrolls VI Wiki. No afiliado a Bethesda Game Studios.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Fecha de lanzamiento de The Elder Scrolls VI",
+      "description": "Sigue el estado de lanzamiento confirmado, la posible ventana de estreno, el progreso del desarrollo y las declaraciones principales de Bethesda.",
+      "metaTitle": "Fecha de lanzamiento de The Elder Scrolls VI - Estado y actualizaciones",
+      "metaDescription": "Sigue el estado de lanzamiento de The Elder Scrolls VI, los hitos del desarrollo y las declaraciones de Bethesda. Separa la información oficial de las estimaciones de los medios y los rumores.",
+      "categoryLabel": "SEGUIMIENTO DEL LANZAMIENTO",
+      "whatIs": "¿Qué es el seguimiento del lanzamiento?",
+      "whatIsDescription": "Actualizaciones verificadas sobre el estado de lanzamiento de The Elder Scrolls VI, la fase de desarrollo y los anuncios de Bethesda, claramente separadas de las estimaciones de los medios y los rumores.",
+      "why": "¿Por qué seguir el lanzamiento?",
+      "whySteps": {
+        "step1Title": "Estado verificado",
+        "step1Description": "Sigue las actualizaciones oficiales del desarrollo de Bethesda y sus hitos",
+        "step2Title": "Fuentes claras",
+        "step2Description": "Distingue los hechos confirmados de las estimaciones de los medios y las filtraciones",
+        "step3Title": "Preparación para el lanzamiento",
+        "step3Description": "Entérate de cuándo aparecen las reservas, ediciones y anuncios de plataformas"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de lanzamiento"
+    },
+    "setting": {
+      "title": "Ambientación y mapa de The Elder Scrolls VI",
+      "description": "Teorías sobre la ambientación en Hammerfell, High Rock, Iliac Bay y el resto de Tamriel basadas en el teaser del anuncio.",
+      "metaTitle": "Ambientación de The Elder Scrolls VI - Hammerfell, High Rock y mapa",
+      "metaDescription": "Explora las teorías sobre la ambientación de The Elder Scrolls VI, incluyendo Hammerfell, High Rock, Iliac Bay y el resto de Tamriel, con evidencia del teaser y geografía confirmada.",
+      "categoryLabel": "MUNDO Y UBICACIÓN",
+      "whatIs": "¿Cuál es la ambientación?",
+      "whatIsDescription": "Análisis del paisaje del teaser del anuncio y las principales teorías de ambientación en Hammerfell, High Rock e Iliac Bay, con información confirmada etiquetada por separado de la especulación.",
+      "why": "¿Por qué explorar la ambientación?",
+      "whySteps": {
+        "step1Title": "Evidencia visual",
+        "step1Description": "Examina el terreno, la costa y los asentamientos mostrados en el teaser",
+        "step2Title": "Teorías principales",
+        "step2Description": "Compara los mapas de Hammerfell, High Rock e Iliac Bay combinados",
+        "step3Title": "Lore establecido",
+        "step3Description": "Conecta la posible ubicación con la historia y las facciones de Tamriel"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de ambientación"
+    },
+    "platforms": {
+      "title": "Plataformas de The Elder Scrolls VI",
+      "description": "Soporte para Xbox, PC, PlayStation, Game Pass y consolas de próxima generación explicado con fuentes verificadas.",
+      "metaTitle": "Plataformas de The Elder Scrolls VI - Xbox, PC, PS5 y Game Pass",
+      "metaDescription": "Guía de plataformas de The Elder Scrolls VI que cubre el soporte para Xbox, PC, PlayStation 5, Game Pass, Steam y consolas de próxima generación con fuentes verificadas.",
+      "categoryLabel": "PLATAFORMAS",
+      "whatIs": "¿Qué son las plataformas?",
+      "whatIsDescription": "Plataformas confirmadas y no confirmadas para The Elder Scrolls VI, comparando información oficial con documentos judiciales antiguos de Microsoft y desarrollos multiplataforma más recientes.",
+      "why": "¿Por qué comprobar las plataformas?",
+      "whySteps": {
+        "step1Title": "Soporte confirmado",
+        "step1Description": "Mira qué plataformas aparecen en la planificación oficial de Xbox",
+        "step2Title": "Claridad sobre la exclusividad",
+        "step2Description": "Entiende qué está confirmado y qué no sobre la exclusividad de Xbox",
+        "step3Title": "Objetivos de hardware",
+        "step3Description": "Realiza un seguimiento del posible soporte para consolas de próxima generación"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos sobre plataformas"
+    },
+    "features": {
+      "title": "Jugabilidad y características de The Elder Scrolls VI",
+      "description": "Combate, magia, exploración, progresión, IA, soporte para mods y preguntas sobre el multijugador previstos para The Elder Scrolls VI.",
+      "metaTitle": "Jugabilidad de The Elder Scrolls VI - Combate, magia, mods y características",
+      "metaDescription": "Explora las expectativas de jugabilidad de The Elder Scrolls VI, incluidos los sistemas de combate y magia, la exploración, las funciones de IA, el soporte para mods y las preguntas sobre el multijugador.",
+      "categoryLabel": "JUGABILIDAD Y CARACTERÍSTICAS",
+      "whatIs": "¿Qué son las características de jugabilidad?",
+      "whatIsDescription": "Sistemas de jugabilidad previstos y confirmados para The Elder Scrolls VI, que incluyen combate, magia, exploración, progresión de personajes, IA, soporte para mods y preguntas sobre el multijugador, manteniendo los objetivos de diseño de Bethesda separados de las listas de deseos de la comunidad.",
+      "why": "¿Por qué explorar la jugabilidad?",
+      "whySteps": {
+        "step1Title": "Combate y magia",
+        "step1Description": "Realiza un seguimiento de las mejoras previstas en los sistemas de combate cuerpo a cuerpo, a distancia y de magia",
+        "step2Title": "Diseño de mundo abierto",
+        "step2Description": "Sigue los detalles confirmados sobre exploración, asentamientos y contenido hecho a mano",
+        "step3Title": "Mods e IA",
+        "step3Description": "Infórmate sobre el soporte para mods de Creation Engine 3 y las funciones de IA de próxima generación"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos sobre características"
+    },
+    "development": {
+      "title": "Desarrollo de The Elder Scrolls VI",
+      "description": "Estado del desarrollo de Bethesda Game Studios, actualizaciones de Todd Howard, progreso de Creation Engine 3 y hitos del estudio para The Elder Scrolls VI.",
+      "metaTitle": "Desarrollo de The Elder Scrolls VI - Bethesda, Todd Howard y motor",
+      "metaDescription": "Realiza un seguimiento del estado del desarrollo de The Elder Scrolls VI, los hitos de Bethesda Game Studios, las actualizaciones de Todd Howard y el progreso de Creation Engine 3 desde su presentación en 2018.",
+      "categoryLabel": "DESARROLLO",
+      "whatIs": "¿Qué es el seguimiento del desarrollo?",
+      "whatIsDescription": "---",
+      "why": "Actualizaciones cronológicas sobre el desarrollo de The Elder Scrolls VI en Bethesda Game Studios, incluyendo el enfoque del equipo, comentarios de Todd Howard, el progreso del Creation Engine 3 y los cambios en el estudio desde el anuncio de 2018.",
+      "whySteps": {
+        "step1Title": "¿Por qué seguir el desarrollo?",
+        "step1Description": "Estado del estudio",
+        "step2Title": "Consulta en qué fase de la cadena de producción se encuentra Bethesda Game Studios",
+        "step2Description": "Progreso del motor",
+        "step3Title": "Sigue las mejoras del Creation Engine 3 respecto a la tecnología de Starfield",
+        "step3Description": "Voces clave"
+      },
+      "featured": "Sigue los comentarios de Todd Howard y el liderazgo de Bethesda",
+      "all": "Destacado y esencial"
+    },
+    "trailers": {
+      "title": "Todos los artículos de desarrollo",
+      "description": "Tráileres de The Elder Scrolls VI",
+      "metaTitle": "Teaser de anuncio oficial, futuros tráileres, presentaciones de gameplay y análisis fotograma a fotograma de The Elder Scrolls VI.",
+      "metaDescription": "Tráileres de The Elder Scrolls VI - Teaser, presentaciones de gameplay y análisis",
+      "categoryLabel": "Mira los tráileres de The Elder Scrolls VI, incluyendo el teaser de anuncio de 2018, futuras presentaciones de gameplay y análisis fotograma a fotograma de cada detalle confirmado.",
+      "whatIs": "TRÁILERES Y MULTIMEDIA",
+      "whatIsDescription": "¿Qué son los análisis de tráileres?",
+      "why": "Cada tráiler, teaser y presentación de gameplay oficial de The Elder Scrolls VI, con análisis fotograma a fotograma del metraje del anuncio de 2018 y desgloses de los detalles visuales confirmados que aparecen en pantalla.",
+      "whySteps": {
+        "step1Title": "¿Por qué ver los tráileres?",
+        "step1Description": "Metraje oficial",
+        "step2Title": "Mira el teaser de anuncio verificado de 2018 y futuras revelaciones",
+        "step2Description": "Análisis de fotogramas",
+        "step3Title": "Examina el terreno, la arquitectura y las pistas ocultas en cada toma",
+        "step3Description": "Pistas sobre el lanzamiento"
+      },
+      "featured": "Detecta pistas sobre la ambientación, la cronología y las características en el material oficial",
+      "all": "Destacado y esencial"
+    },
+    "guide": {
+      "title": "Todos los artículos sobre tráileres",
+      "description": "Guías de The Elder Scrolls VI",
+      "metaTitle": "Resúmenes completos, últimas noticias, avances, listas de deseos y debates de la comunidad sobre The Elder Scrolls VI.",
+      "metaDescription": "Guías de The Elder Scrolls VI - Noticias, avances y comunidad",
+      "categoryLabel": "Lee las guías de The Elder Scrolls VI que cubren lo que sabemos hasta ahora, resúmenes de las últimas noticias, avances, listas de deseos y debates de la comunidad de Reddit.",
+      "whatIs": "GUÍAS Y NOTICIAS",
+      "whatIsDescription": "¿Qué son las guías?",
+      "why": "Resúmenes de The Elder Scrolls VI fáciles de leer que combinan lo que sabemos hasta ahora, las últimas noticias, avances, listas de deseos de los fans y lo más destacado de los debates de la comunidad en síntesis claras y actualizadas periódicamente.",
+      "whySteps": {
+        "step1Title": "¿Por qué leer las guías?",
+        "step1Description": "Lo que sabemos",
+        "step2Title": "Obtén un resumen claro de cada detalle confirmado en un solo lugar",
+        "step2Description": "Últimas noticias",
+        "step3Title": "Ponte al día con las actualizaciones recientes de Bethesda y la cobertura de la industria",
+        "step3Description": "Pulso de la comunidad"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de guías"
+    },
+    "rumors": {
+      "title": "Rumores de The Elder Scrolls VI",
+      "description": "Filtraciones, reportes de insiders y especulaciones de los fans sobre The Elder Scrolls VI, recopilados y organizados en un solo centro.",
+      "metaTitle": "Rumores de The Elder Scrolls VI - Filtraciones y especulación de los fans",
+      "metaDescription": "Sigue los rumores de The Elder Scrolls VI, las filtraciones de insiders y las especulaciones de los fans, incluyendo la ventana de lanzamiento, todo en un centro organizado.",
+      "categoryLabel": "RUMORES Y FILTRACIONES",
+      "whatIs": "¿Qué son los rumores?",
+      "whatIsDescription": "Las últimas filtraciones, reportes de insiders y especulaciones de los fans sobre The Elder Scrolls VI, reunidos en un centro organizado que cubre ventanas de lanzamiento y teorías de la comunidad.",
+      "why": "¿Por qué leer rumores?",
+      "whySteps": {
+        "step1Title": "Seguimiento de filtraciones",
+        "step1Description": "Sigue los reportes de insiders y las ventanas de lanzamiento rumoreadas",
+        "step2Title": "Teorías de los fans",
+        "step2Description": "Explora las teorías de la comunidad basadas en la evidencia de los teasers",
+        "step3Title": "Todo en un solo lugar",
+        "step3Description": "Encuentra cada rumor y teoría reunidos en un mismo sitio"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de rumores"
+    }
   }
 }
