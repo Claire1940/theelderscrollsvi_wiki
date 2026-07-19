@@ -116,7 +116,7 @@
       "title": "The Elder Scrolls VI Veröffentlichungsdatum",
       "eyebrow": "Release-Status",
       "subtitle": "Bethesda hat noch kein Veröffentlichungsdatum bekannt gegeben. Verfolge den Fortschritt des Spiels von der Enthüllung 2018 bis hin zu frühen spielbaren Builds.",
-      "displayType": "Zeitstrahl",
+      "displayType": "timeline",
       "intro": "Bethesda kündigte The Elder Scrolls VI nach Fallout 76 auf der E3 2018 an. Die Entwicklung verblieb in der Planungs- und Vorproduktionsphase, während sich Bethesda Game Studios auf Starfield konzentrierte, bevor die aktive Produktion und interne frühe Builds begannen.",
       "items": [
         {
@@ -161,7 +161,7 @@
       "title": "The Elder Scrolls VI Plattformen",
       "eyebrow": "Plattform-Guide",
       "subtitle": "Xbox und PC tauchten in den internen Planungsdokumenten von Microsoft auf, während Bethesda noch keine endgültige Plattformliste veröffentlicht hat.",
-      "displayType": "Tabelle",
+      "displayType": "table",
       "intro": "The Elder Scrolls VI wird unter den zu Xbox gehörenden Bethesda Game Studios entwickelt. Der lange Entwicklungszyklus bedeutet, dass die endgültigen Hardware-Ziele von der Konsolengeneration abhängen können, die zum Zeitpunkt der Veröffentlichung verfügbar ist.",
       "columns": {
         "platform": "Plattform",
@@ -554,7 +554,7 @@
       "title": "Die Geschichte und Lore von The Elder Scrolls VI",
       "eyebrow": "Geschichte und Tamriel-Lore",
       "subtitle": "Überprüfen Sie die etablierte Geschichte von Tamriel, wichtige regionale Konflikte und die Lore im Zusammenhang mit dem möglichen Schauplatz des Spiels.",
-      "displayType": "Akkordeon",
+      "displayType": "accordion",
       "intro": "Bethesda hat bestätigt, dass The Elder Scrolls VI die Spieler nach Tamriel zurückführen wird, hat jedoch weder den Protagonisten noch den zentralen Konflikt oder das genaue historische Datum veröffentlicht. Hammerfell und Hochfels bleiben aufgrund der Landschaft im Reveal-Trailer und der politischen Handlungsstränge in der Region der Iliac-Bucht die Haupttheorien für den Schauplatz.",
       "items": [
         {

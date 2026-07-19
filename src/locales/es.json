@@ -116,7 +116,7 @@
       "title": "Estado del lanzamiento",
       "eyebrow": "Bethesda no ha anunciado una fecha de lanzamiento. Sigue el progreso del juego desde su revelación en 2018 hasta las primeras versiones jugables.",
       "subtitle": "timeline",
-      "displayType": "Bethesda anunció The Elder Scrolls VI después de Fallout 76 en el E3 2018. El desarrollo se mantuvo en planificación y preproducción mientras Bethesda Game Studios se centraba en Starfield, antes de pasar a la producción activa y a las primeras versiones jugables internas.",
+      "displayType": "timeline",
       "intro": "Junio de 2018",
       "items": [
         {
@@ -161,7 +161,7 @@
       "title": "Plataformas de The Elder Scrolls VI",
       "eyebrow": "Guía de plataformas",
       "subtitle": "Xbox y PC han aparecido en los documentos de planificación interna de Microsoft, mientras que Bethesda no ha publicado una lista definitiva de plataformas.",
-      "displayType": "tabla",
+      "displayType": "table",
       "intro": "The Elder Scrolls VI se está desarrollando bajo Bethesda Game Studios, propiedad de Xbox. Su largo ciclo de desarrollo significa que los objetivos de hardware finales pueden depender de la generación de consolas disponible cerca de su lanzamiento.",
       "columns": {
         "platform": "Plataforma",
@@ -290,7 +290,7 @@
       "title": "Esta entrega seguirá el calendario oficial de marketing de lanzamiento.",
       "eyebrow": "Ambientación y mapa de The Elder Scrolls VI",
       "subtitle": "Mundo y ubicación",
-      "displayType": "Bethesda no ha nombrado la provincia del juego, pero el teaser del anuncio ha generado fuertes teorías sobre Hammerfell, High Rock y la Iliac Bay.",
+      "displayType": "map-cards",
       "intro": "map-cards",
       "items": [
         {
@@ -434,7 +434,7 @@
       "title": "Los mundos de Bethesda combinan el comportamiento programado de los PNJ, la fauna, objetos con físicas, encuentros aleatorios, respuestas al crimen y conflictos no guionizados. Estos sistemas permiten que las misiones y los eventos de exploración se solapen en lugar de funcionar como actividades aisladas.",
       "eyebrow": "Cronología del desarrollo de The Elder Scrolls VI",
       "subtitle": "Historia del desarrollo",
-      "displayType": "Sigue el progreso del juego desde su anuncio en 2018 a través de la preproducción, las primeras versiones y el desarrollo activo.",
+      "displayType": "vertical-timeline",
       "intro": "Bethesda anunció The Elder Scrolls VI años antes de entrar en producción completa porque Starfield era la prioridad inmediata del estudio. El desarrollo avanzó a través de la preparación del motor, la preproducción y versiones internas jugables antes de convertirse en el próximo gran proyecto de Bethesda Game Studios.",
       "items": [
         {
@@ -554,7 +554,7 @@
       "title": "Historia y lore de The Elder Scrolls VI",
       "eyebrow": "Historia y lore de Tamriel",
       "subtitle": "Repasa la historia establecida de Tamriel, los principales conflictos regionales y el lore relacionado con el posible escenario del juego.",
-      "displayType": "acordeón",
+      "displayType": "accordion",
       "intro": "Bethesda ha confirmado que The Elder Scrolls VI llevará de vuelta a los jugadores a Tamriel, pero no ha publicado el protagonista, el conflicto central ni la fecha histórica exacta. Hammerfell y High Rock siguen siendo las principales teorías sobre el escenario debido al paisaje del tráiler de presentación y a las tramas políticas establecidas en la región de la Bahía de Iliac.",
       "items": [
         {

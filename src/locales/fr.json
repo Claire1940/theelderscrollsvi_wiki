@@ -116,7 +116,7 @@
       "title": "Histoire de Tamriel, races, factions et conflits",
       "eyebrow": "Date de sortie de The Elder Scrolls VI",
       "subtitle": "Statut de la sortie",
-      "displayType": "Bethesda n'a pas annoncé de date de sortie. Suivez la progression du jeu, de la révélation en 2018 aux premières versions jouables.",
+      "displayType": "timeline",
       "intro": "timeline",
       "items": [
         {
@@ -161,7 +161,7 @@
       "title": "Plateformes de The Elder Scrolls VI",
       "eyebrow": "Guide des plateformes",
       "subtitle": "Xbox et PC sont apparus dans les documents de planification interne de Microsoft, tandis que Bethesda n'a pas encore publié de liste définitive de plateformes.",
-      "displayType": "tableau",
+      "displayType": "table",
       "intro": "The Elder Scrolls VI est développé par Bethesda Game Studios, propriété de Xbox. Son long cycle de développement signifie que les cibles matérielles finales pourraient dépendre de la génération de consoles disponible au moment de la sortie.",
       "columns": {
         "platform": "Plateforme",
@@ -369,7 +369,7 @@
       "title": "Le continent entier n'a pas été annoncé comme carte jouable pour The Elder Scrolls VI.",
       "eyebrow": "Gameplay de The Elder Scrolls VI",
       "subtitle": "Systèmes de jeu",
-      "displayType": "Explorez la direction confirmée du prochain RPG fantastique solo de Bethesda et les systèmes fondamentaux hérités des précédents jeux Elder Scrolls.",
+      "displayType": "card-list",
       "intro": "card-list",
       "items": [
         {
@@ -554,7 +554,7 @@
       "title": "Une structure de monde basée sur les données, adaptée aux mods communautaires à long terme, aux quêtes personnalisées, aux nouvelles régions, à l'équipement et aux refontes de gameplay.",
       "eyebrow": "L'histoire et le lore de The Elder Scrolls VI",
       "subtitle": "Histoire et lore de Tamriel",
-      "displayType": "Passez en revue l'histoire établie de Tamriel, les conflits régionaux majeurs et le lore lié au cadre possible du jeu.",
+      "displayType": "accordion",
       "intro": "accordéon",
       "items": [
         {
