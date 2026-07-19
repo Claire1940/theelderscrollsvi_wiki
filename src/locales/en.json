@@ -10,7 +10,16 @@
       "twitterDescription": "Track The Elder Scrolls VI release updates, platforms, setting clues, trailers, and verified Bethesda news."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "setting": "Setting",
+    "platforms": "Platforms",
+    "features": "Features",
+    "development": "Development",
+    "trailers": "Trailers",
+    "guide": "Guide",
+    "rumors": "Rumors"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -695,31 +704,11 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "The Elder Scrolls VI Guides",
-      "description": "Complete guides covering release tracking, platforms, setting theories, gameplay systems, and Tamriel lore for The Elder Scrolls VI.",
-      "metaTitle": "The Elder Scrolls VI Guides - Release, Platforms & Lore",
-      "metaDescription": "Complete The Elder Scrolls VI guides covering release updates, platform news, setting theories, gameplay systems, Creation Engine 3, and Tamriel lore.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides tracking release updates, platform news, setting theories, gameplay systems, and Tamriel lore. Learn everything confirmed about Bethesda's next mainline Elder Scrolls game.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Track Verified Updates",
-        "step1Description": "Follow official Bethesda statements and separate confirmed facts from rumors",
-        "step2Title": "Understand the Setting",
-        "step2Description": "Explore Hammerfell, High Rock, and Iliac Bay theories with visual evidence",
-        "step3Title": "Prepare for Launch",
-        "step3Description": "Study gameplay systems, races, factions, and lore before release"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
     "release": {
       "title": "The Elder Scrolls VI Release Date",
       "description": "Track the confirmed release status, possible launch window, development progress, and major Bethesda statements.",
       "metaTitle": "The Elder Scrolls VI Release Date - Status & Updates",
-      "metaDescription": "Track The Elder Scrolls VI release status, development milestones, and Bethesda statements. Separate official information from rumors and estimates.",
+      "metaDescription": "Track The Elder Scrolls VI release status, development milestones, and Bethesda statements. Separate official information from media estimates and rumors.",
       "categoryLabel": "RELEASE TRACKING",
       "whatIs": "What is release tracking?",
       "whatIsDescription": "Verified updates on The Elder Scrolls VI release status, development phase, and Bethesda announcements, clearly separated from media estimates and rumors.",
@@ -734,26 +723,6 @@
       },
       "featured": "Featured & Essential",
       "all": "All Release Articles"
-    },
-    "platforms": {
-      "title": "The Elder Scrolls VI Platforms",
-      "description": "Xbox, PC, PlayStation, Game Pass, and next-generation console support explained with verified sources.",
-      "metaTitle": "The Elder Scrolls VI Platforms - Xbox, PC, PS5 & Game Pass",
-      "metaDescription": "The Elder Scrolls VI platform guide covering Xbox, PC, PlayStation 5, Game Pass, Steam, and next-generation console support with verified sources.",
-      "categoryLabel": "PLATFORMS",
-      "whatIs": "What are platforms?",
-      "whatIsDescription": "Confirmed and unconfirmed platforms for The Elder Scrolls VI, comparing official information with older Microsoft court documents and newer multiplatform developments.",
-      "why": "Why check platforms?",
-      "whySteps": {
-        "step1Title": "Confirmed Support",
-        "step1Description": "See which platforms appear in official Xbox planning",
-        "step2Title": "Exclusivity Clarity",
-        "step2Description": "Understand what is and is not confirmed about Xbox exclusivity",
-        "step3Title": "Hardware Targets",
-        "step3Description": "Track possible next-generation console support"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Platform Articles"
     },
     "setting": {
       "title": "The Elder Scrolls VI Setting and Map",
@@ -775,45 +744,125 @@
       "featured": "Featured & Essential",
       "all": "All Setting Articles"
     },
-    "lore": {
-      "title": "The Elder Scrolls VI Story and Lore",
-      "description": "Tamriel history, playable races, regional factions, and possible main story themes for The Elder Scrolls VI.",
-      "metaTitle": "The Elder Scrolls VI Story & Lore - Races, Factions & History",
-      "metaDescription": "Explore The Elder Scrolls VI story and Tamriel lore, including playable races, Hammerfell and High Rock factions, the Aldmeri Dominion, and possible main story themes.",
-      "categoryLabel": "STORY & LORE",
-      "whatIs": "What is the lore?",
-      "whatIsDescription": "Established Tamriel history, playable races, regional factions, and possible main story themes connected to The Elder Scrolls VI's rumored Hammerfell or Iliac Bay setting.",
-      "why": "Why study the lore?",
+    "platforms": {
+      "title": "The Elder Scrolls VI Platforms",
+      "description": "Xbox, PC, PlayStation, Game Pass, and next-generation console support explained with verified sources.",
+      "metaTitle": "The Elder Scrolls VI Platforms - Xbox, PC, PS5 & Game Pass",
+      "metaDescription": "The Elder Scrolls VI platform guide covering Xbox, PC, PlayStation 5, Game Pass, Steam, and next-generation console support with verified sources.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What are platforms?",
+      "whatIsDescription": "Confirmed and unconfirmed platforms for The Elder Scrolls VI, comparing official information with older Microsoft court documents and newer multiplatform developments.",
+      "why": "Why check platforms?",
       "whySteps": {
-        "step1Title": "Tamriel History",
-        "step1Description": "Review the Fourth Era, the Great War, and the White-Gold Concordat",
-        "step2Title": "Races & Factions",
-        "step2Description": "Learn the ten playable races and the region's political groups",
-        "step3Title": "Story Themes",
-        "step3Description": "Explore possible main conflicts based on the setting"
+        "step1Title": "Confirmed Support",
+        "step1Description": "See which platforms appear in official Xbox planning",
+        "step2Title": "Exclusivity Clarity",
+        "step2Description": "Understand what is and is not confirmed about Xbox exclusivity",
+        "step3Title": "Hardware Targets",
+        "step3Description": "Track possible next-generation console support"
       },
       "featured": "Featured & Essential",
-      "all": "All Lore Articles"
+      "all": "All Platform Articles"
     },
-    "support": {
-      "title": "The Elder Scrolls VI Dev Tracker",
-      "description": "Bethesda development updates, official statements, and verified news tracking for The Elder Scrolls VI.",
-      "metaTitle": "The Elder Scrolls VI Dev Tracker - News & Updates",
-      "metaDescription": "Track The Elder Scrolls VI development updates, Bethesda statements, and verified news with dated entries and clear reliability labels.",
-      "categoryLabel": "NEWS & UPDATES",
-      "whatIs": "What is the dev tracker?",
-      "whatIsDescription": "A chronological record of Bethesda development updates, official statements, and verified news for The Elder Scrolls VI, with each entry dated and labeled by reliability.",
-      "why": "Why follow the tracker?",
+    "features": {
+      "title": "The Elder Scrolls VI Gameplay & Features",
+      "description": "Expected combat, magic, exploration, progression, AI, mod support, and multiplayer questions for The Elder Scrolls VI.",
+      "metaTitle": "The Elder Scrolls VI Gameplay - Combat, Magic, Mods & Features",
+      "metaDescription": "Explore The Elder Scrolls VI gameplay expectations including combat, magic systems, exploration, AI features, mod support, and multiplayer questions.",
+      "categoryLabel": "GAMEPLAY & FEATURES",
+      "whatIs": "What are gameplay features?",
+      "whatIsDescription": "Expected and confirmed gameplay systems for The Elder Scrolls VI, including combat, magic, exploration, character progression, AI, mod support, and multiplayer questions, with Bethesda's design goals kept separate from community wishlists.",
+      "why": "Why explore gameplay?",
       "whySteps": {
-        "step1Title": "Dated Updates",
-        "step1Description": "See development news in clear chronological order",
-        "step2Title": "Source Labels",
-        "step2Description": "Distinguish confirmed, reported, and speculative information",
-        "step3Title": "Milestone Alerts",
-        "step3Description": "Catch release date, platform, and trailer announcements"
+        "step1Title": "Combat & Magic",
+        "step1Description": "Track expected improvements to melee, ranged, and magic systems",
+        "step2Title": "Open World Design",
+        "step2Description": "Follow confirmed details on exploration, settlements, and handcrafted content",
+        "step3Title": "Mods & AI",
+        "step3Description": "Learn about Creation Engine 3 mod support and next-generation AI features"
       },
       "featured": "Featured & Essential",
-      "all": "All News Articles"
+      "all": "All Feature Articles"
+    },
+    "development": {
+      "title": "The Elder Scrolls VI Development",
+      "description": "Bethesda Game Studios development status, Todd Howard updates, Creation Engine 3 progress, and studio milestones for The Elder Scrolls VI.",
+      "metaTitle": "The Elder Scrolls VI Development - Bethesda, Todd Howard & Engine",
+      "metaDescription": "Track The Elder Scrolls VI development status, Bethesda Game Studios milestones, Todd Howard updates, and Creation Engine 3 progress since the 2018 reveal.",
+      "categoryLabel": "DEVELOPMENT",
+      "whatIs": "What is development tracking?",
+      "whatIsDescription": "Chronological updates on The Elder Scrolls VI development at Bethesda Game Studios, including team focus, Todd Howard commentary, Creation Engine 3 progress, and studio changes since the 2018 announcement.",
+      "why": "Why follow development?",
+      "whySteps": {
+        "step1Title": "Studio Status",
+        "step1Description": "See where Bethesda Game Studios is in the production pipeline",
+        "step2Title": "Engine Progress",
+        "step2Description": "Track Creation Engine 3 improvements over Starfield technology",
+        "step3Title": "Key Voices",
+        "step3Description": "Follow Todd Howard and Bethesda leadership commentary"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Development Articles"
+    },
+    "trailers": {
+      "title": "The Elder Scrolls VI Trailers",
+      "description": "Official announcement teaser, future trailers, gameplay reveals, and frame-by-frame analysis for The Elder Scrolls VI.",
+      "metaTitle": "The Elder Scrolls VI Trailers - Teaser, Gameplay Reveals & Analysis",
+      "metaDescription": "Watch The Elder Scrolls VI trailers including the 2018 announcement teaser, future gameplay reveals, and frame-by-frame analysis of every confirmed detail.",
+      "categoryLabel": "TRAILERS & MEDIA",
+      "whatIs": "What are trailer analyses?",
+      "whatIsDescription": "Every official The Elder Scrolls VI trailer, teaser, and gameplay reveal, with frame-by-frame analysis of the 2018 announcement footage and breakdowns of the confirmed visual details shown on screen.",
+      "why": "Why watch trailers?",
+      "whySteps": {
+        "step1Title": "Official Footage",
+        "step1Description": "Watch the verified 2018 announcement teaser and future reveals",
+        "step2Title": "Frame Analysis",
+        "step2Description": "Examine terrain, architecture, and clues hidden in each shot",
+        "step3Title": "Release Clues",
+        "step3Description": "Spot setting, timeline, and feature hints from official media"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Trailer Articles"
+    },
+    "guide": {
+      "title": "The Elder Scrolls VI Guides",
+      "description": "Complete overviews, latest news summaries, previews, wishlists, and community discussions for The Elder Scrolls VI.",
+      "metaTitle": "The Elder Scrolls VI Guides - News, Previews & Community",
+      "metaDescription": "Read The Elder Scrolls VI guides covering what we know so far, latest news summaries, previews, wishlists, and Reddit community discussions.",
+      "categoryLabel": "GUIDES & NEWS",
+      "whatIs": "What are guides?",
+      "whatIsDescription": "Reader-friendly overviews of The Elder Scrolls VI, combining what we know so far, the latest news, previews, fan wishlists, and community discussion highlights into clear, regularly updated summaries.",
+      "why": "Why read guides?",
+      "whySteps": {
+        "step1Title": "What We Know",
+        "step1Description": "Get a clear summary of every confirmed detail in one place",
+        "step2Title": "Latest News",
+        "step2Description": "Catch up on recent Bethesda updates and industry coverage",
+        "step3Title": "Community Pulse",
+        "step3Description": "See what Reddit and fans are discussing right now"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guide Articles"
+    },
+    "rumors": {
+      "title": "The Elder Scrolls VI Rumors",
+      "description": "Leaks, insider reports, and fan speculation about The Elder Scrolls VI, collected and organized in one hub.",
+      "metaTitle": "The Elder Scrolls VI Rumors - Leaks & Fan Speculation",
+      "metaDescription": "Track The Elder Scrolls VI rumors, insider leaks, and fan speculation including release window talk, all gathered in one organized hub.",
+      "categoryLabel": "RUMORS & LEAKS",
+      "whatIs": "What are rumors?",
+      "whatIsDescription": "The latest leaks, insider reports, and fan speculation about The Elder Scrolls VI, gathered into one organized hub covering rumored release windows and community theories.",
+      "why": "Why read rumors?",
+      "whySteps": {
+        "step1Title": "Leak Tracking",
+        "step1Description": "Follow insider reports and rumored release windows",
+        "step2Title": "Fan Theories",
+        "step2Description": "Explore community theories grounded in teaser evidence",
+        "step3Title": "All in One Place",
+        "step3Description": "Find every rumor and theory gathered together"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Rumor Articles"
     }
   }
 }

@@ -1,0 +1,149 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Elder Scrolls VI Gameplay: Features and Expectations",
+  description: "Explore the latest details on The Elder Scrolls VI gameplay, including combat mechanics, settlement building, and the expansive world of Hammerfell.",
+  category: "Features",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Elder+Scrolls+VI+Gameplay",
+  date: "2026-07-19",
+  author: "the elder scrolls vi Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **The Elder Scrolls VI gameplay** emphasizes deep immersion through an overhauled Creation Engine.
+- **Combat systems** are evolving to feature mature, gritty, and high-impact melee encounters.
+- **Settlement building** mechanics allow players to construct fortresses and castles within the Hammerfell region.
+- **Naval exploration** introduces ship building and tactical battles on the high seas.
+- **Faction dynamics** heavily influence world-building and narrative outcomes based on player choice.
+</Callout>
+
+<Section icon={Map} title="An Ambitious Return to Tamriel">
+
+The anticipation for The Elder Scrolls VI continues to grow as details regarding the game's core mechanics emerge. Set in the vast, arid landscapes of Hammerfell, the title aims to redefine the series' tradition of open-world exploration. By leveraging the advanced capabilities of the latest engine, developers are focusing on reducing loading screens to create a seamless transition between the sprawling wilderness and dense urban environments.
+
+**Video Highlights:**
+- Detailed look at the Hammerfell region and world-building.
+- Breakdown of the overhauled combat and dismemberment systems.
+- Insight into new settlement and naval traversal mechanics.
+
+<YouTubeEmbed videoId="6ra5uKjdkBQ" title="LEAKED! Elder Scrolls VI Iliac Gameplay Details & Release Date!" />
+
+The game is expected to feature 11 major cities, providing a scale of civilization that surpasses previous entries. Whether navigating the coastal regions or exploring the fortress cities, the environment is crafted to react dynamically to your presence and faction alignments.
+
+<Callout type="tip" title="Pro Tip">
+Focus on exploring coastal areas early, as the new ship-building mechanics offer unique advantages for traversing the Iliac Bay and discovering hidden locations.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat and Character Progression">
+
+Combat in The Elder Scrolls VI is undergoing a significant transformation. The focus is on high-impact, mature melee feedback, incorporating visceral elements like dismemberment to enhance the realism of swordplay. Magic remains a pillar of the experience, now integrated more fluidly with physical combat to allow for diverse character builds.
+
+| Feature | Description | Impact |
+| :--- | :--- | :--- |
+| Melee Combat | High-impact hit-drag and weight | Gritty and realistic |
+| Magic Systems | Integrated spellcasting and power | Highly versatile |
+| Dismemberment | Mature, blood-focused visuals | Enhanced immersion |
+| Stealth | Refined mechanics for shadows | Tactical depth |
+
+<Callout type="success" title="Combat Improvement">
+The transition to a modernized engine ensures that spells and strikes feel more connected to the world, offering a tactile experience that rewards precision and strategy.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Building Your Legacy">
+
+For the first time in the series, players are granted the agency to shape the landscape through robust settlement and fortress building. This optional mechanic invites you to construct your own kingdom, merging survival-style crafting with traditional RPG questing.
+
+<Steps>
+  <Step num="1" title="Select a Site">
+    Identify a strategic location within the Hammerfell region to establish your homestead or fortress.
+  </Step>
+  <Step num="2" title="Gather Resources">
+    Collect wood, steel, and rare materials from the surrounding environment to fuel your construction efforts.
+  </Step>
+  <Step num="3" title="Design and Expand">
+    Utilize the building interface to customize your castle's layout, defenses, and interior living spaces.
+  </Step>
+  <Step num="4" title="Manage Factions">
+    Assign NPCs or faction members to your settlement to defend your territory and generate unique resources.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Strategic Consideration">
+Your chosen faction alignment will directly impact which architectural styles and defensive capabilities are available for your settlements.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Faction Dynamics and Comparison">
+
+The political landscape of Hammerfell is complex, with various groups vying for control. Your choices in the story will dictate the fate of the region, making faction selection a critical decision early in your journey.
+
+| Faction | Primary Focus | Joinable |
+| :--- | :--- | :--- |
+| Thieves Guild | Stealth and illicit gain | Yes |
+| Dark Brotherhood | Assassination and cultism | Yes |
+| Crowns vs Forebears | Regional political influence | Exclusive Choice |
+| Imperial Cult | Religious and state control | No |
+
+<CardGrid cols={3}>
+  <Card title="Player Agency">
+    Decisions in the main questline significantly alter the political state of Hammerfell.
+  </Card>
+  <Card title="Naval Warfare">
+    Build and command your own battleships to dominate the high seas and explore coastal mysteries.
+  </Card>
+  <Card title="Diverse Lore">
+    The return of the Dwmer and Orsinium Orcs adds depth to the cultural tapestry of the world.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Faction Advice">
+Choose your path between the Crowns and the Forebears carefully, as this choice will lock out access to certain questlines and NPC interactions for the remainder of your playthrough.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is The Elder Scrolls VI gameplay going to be fully open world?",
+    answer: "Yes, The Elder Scrolls VI features a massive open-world region centered on Hammerfell, designed for seamless exploration."
+  },
+  {
+    question: "Can I build my own castle in the game?",
+    answer: "Absolutely. The game introduces new settlement building mechanics that allow you to construct and customize your own fortresses and homes."
+  },
+  {
+    question: "Will naval combat be a major part of the experience?",
+    answer: "Naval exploration and combat are significant optional mechanics, allowing players to build ships and engage in battles on the high seas."
+  },
+  {
+    question: "How does the faction system impact gameplay?",
+    answer: "Factions dictate the political landscape, available quests, and your standing within the cities of Hammerfell, offering high replayability."
+  }
+]} />
+
+<Checklist
+  id="gameplay-readiness"
+  title="Final Preparation Checklist:"
+  items={[
+    "Review faction bonuses and penalties",
+    "Prepare for settlement management",
+    "Study the geography of the Iliac Bay",
+    "Master the new melee hit-drag mechanics"
+  ]}
+/>
+
+</Section>

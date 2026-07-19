@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "release": "Lanzamiento",
+    "setting": "Escenario",
+    "platforms": "Plataformas",
+    "features": "Características",
+    "development": "Desarrollo",
+    "trailers": "Tráilers",
+    "guide": "Guía",
+    "rumors": "Rumores"
+  }
+}

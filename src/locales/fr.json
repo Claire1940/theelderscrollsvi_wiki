@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "release": "Sortie",
+    "setting": "Cadre",
+    "platforms": "Plateformes",
+    "features": "Fonctionnalités",
+    "development": "Développement",
+    "trailers": "Bandes-annonces",
+    "guide": "Guide",
+    "rumors": "Rumeurs"
+  }
+}

@@ -1,1 +1,196 @@
-{}
+{
+  "en": {
+    "development": [
+      {
+        "slug": "the-elder-scrolls-vi-bethesda",
+        "file": "the-elder-scrolls-vi-bethesda"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-creation-engine",
+        "file": "the-elder-scrolls-vi-creation-engine"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-development-status",
+        "file": "the-elder-scrolls-vi-development-status"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-todd-howard",
+        "file": "the-elder-scrolls-vi-todd-howard"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-xbox-layoffs",
+        "file": "the-elder-scrolls-vi-xbox-layoffs"
+      }
+    ],
+    "features": [
+      {
+        "slug": "the-elder-scrolls-vi-ai-features",
+        "file": "the-elder-scrolls-vi-ai-features"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-gameplay",
+        "file": "the-elder-scrolls-vi-gameplay"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-handcrafted-world",
+        "file": "the-elder-scrolls-vi-handcrafted-world"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-mods",
+        "file": "the-elder-scrolls-vi-mods"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-multiplayer",
+        "file": "the-elder-scrolls-vi-multiplayer"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "the-elder-scrolls-vi-latest-news",
+        "file": "the-elder-scrolls-vi-latest-news"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-preview",
+        "file": "the-elder-scrolls-vi-preview"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-reddit",
+        "file": "the-elder-scrolls-vi-reddit"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-what-we-know",
+        "file": "the-elder-scrolls-vi-what-we-know"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-wishlist",
+        "file": "the-elder-scrolls-vi-wishlist"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "the-elder-scrolls-vi-nintendo-switch",
+        "file": "the-elder-scrolls-vi-nintendo-switch"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-pc",
+        "file": "the-elder-scrolls-vi-pc"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-ps5",
+        "file": "the-elder-scrolls-vi-ps5"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-ps6",
+        "file": "the-elder-scrolls-vi-ps6"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-xbox-exclusive",
+        "file": "the-elder-scrolls-vi-xbox-exclusive"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-xbox",
+        "file": "the-elder-scrolls-vi-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "the-elder-scrolls-vi-cancelled",
+        "file": "the-elder-scrolls-vi-cancelled"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-collector-s-edition",
+        "file": "the-elder-scrolls-vi-collector's-edition"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-delayed",
+        "file": "the-elder-scrolls-vi-delayed"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-price",
+        "file": "the-elder-scrolls-vi-price"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-release-date",
+        "file": "the-elder-scrolls-vi-release-date"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-release-year",
+        "file": "the-elder-scrolls-vi-release-year"
+      }
+    ],
+    "rumors": [
+      {
+        "slug": "the-elder-scrolls-vi-leaks",
+        "file": "the-elder-scrolls-vi-leaks"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-release-window-speculated-to-be-in-late-2027",
+        "file": "the-elder-scrolls-vi-release-window-speculated-to-be-in-late-2027"
+      }
+    ],
+    "setting": [
+      {
+        "slug": "the-elder-scrolls-vi-akavir",
+        "file": "the-elder-scrolls-vi-akavir"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-hammerfell",
+        "file": "the-elder-scrolls-vi-hammerfell"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-high-rock",
+        "file": "the-elder-scrolls-vi-high-rock"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-iliac",
+        "file": "the-elder-scrolls-vi-iliac"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-location",
+        "file": "the-elder-scrolls-vi-location"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-map",
+        "file": "the-elder-scrolls-vi-map"
+      }
+    ],
+    "trailers": [
+      {
+        "slug": "the-elder-scrolls-vi-gameplay-trailer",
+        "file": "the-elder-scrolls-vi-gameplay-trailer"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-leaked-trailer",
+        "file": "the-elder-scrolls-vi-leaked-trailer"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-new-trailer",
+        "file": "the-elder-scrolls-vi-new-trailer"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-teaser",
+        "file": "the-elder-scrolls-vi-teaser"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-trailer-date",
+        "file": "the-elder-scrolls-vi-trailer-date"
+      }
+    ]
+  },
+  "es": {
+    "setting": [
+      {
+        "slug": "the-elder-scrolls-vi-location",
+        "file": "the-elder-scrolls-vi-location"
+      }
+    ]
+  },
+  "fr": {
+    "setting": [
+      {
+        "slug": "the-elder-scrolls-vi-location",
+        "file": "the-elder-scrolls-vi-location"
+      }
+    ]
+  }
+}

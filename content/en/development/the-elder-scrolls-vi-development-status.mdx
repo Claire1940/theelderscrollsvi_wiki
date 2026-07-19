@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Elder Scrolls VI Development Status: 2026 Progress Update",
+  description: "Get the latest insights on The Elder Scrolls VI development status, engine upgrades, and anticipated gameplay features as of 2026.",
+  category: "Development",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Elder+Scrolls+VI+Update",
+  date: "2026-07-19",
+  author: "the elder scrolls vi Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **The Elder Scrolls VI development status** has transitioned into full production at Bethesda Game Studios.
+- **Engine Evolution**: The team is refining Creation Engine technology to support complex world-building.
+- **Design Philosophy**: Todd Howard aims to create the **ultimate fantasy world simulator** with deep immersion.
+- **Release Outlook**: Development timelines suggest a focus on next-generation hardware capabilities.
+</Callout>
+
+<Section icon={Target} title="Current Development Milestones">
+
+Bethesda Game Studios is currently prioritizing the development of The Elder Scrolls VI. Following years of pre-production, the project entered full-scale development to establish the foundation of the next chapter in the series. The team is leveraging lessons learned from previous projects to refine the core mechanics and world-building tools.
+
+**Video Highlights:**
+- Full development cycle is the primary focus at Bethesda.
+- Creation Engine upgrades are underway to support advanced gameplay systems.
+- The project aims for a more lived-in, reactive world design.
+
+<YouTubeEmbed videoId="YACheSpniK4" title="The Elder Scrolls 6™ 2024 Update | Creation Engine 3, Full Development & More!" />
+
+<Callout type="tip" title="Development Insight">
+The studio is actively experimenting with engine modifications to ensure that environmental interactions feel natural and systems remain robust throughout the player's journey.
+</Callout>
+
+| Milestone Phase | Status | Focus Area |
+| :--- | :--- | :--- |
+| Pre-production | Complete | World lore, concept art, core design |
+| Engine Refinement | Active | Creation Engine, physics, AI systems |
+| Full Production | Active | World building, quest design, combat |
+
+</Section>
+
+<Section icon={Swords} title="Gameplay Vision and Design">
+
+The vision for the game centers on creating an immersive fantasy simulator. Rather than relying on traditional quest-marker-heavy design, the developers are exploring ways to make the world react naturally to player choices. This approach draws inspiration from modern RPG standards where player agency significantly impacts the environment.
+
+<CardGrid cols={3}>
+  <Card title="World Simulation">
+    Focusing on a living, breathing environment where NPCs and factions operate independently.
+  </Card>
+  <Card title="Combat Mechanics">
+    Refining third-person and first-person combat to provide more weight and tactical variety.
+  </Card>
+  <Card title="Player Agency">
+    Ensuring that decisions have lasting consequences on the world and narrative paths.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Design Philosophy">
+By moving away from repetitive structures, the team hopes to foster a sense of discovery that rewards exploration and curiosity rather than just following a checklist.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Technical and Hardware Considerations">
+
+Technical development is heavily focused on hardware optimization. The team is evaluating how modern console features, such as haptic feedback and adaptive triggers, can enhance the tactile experience of spellcasting and combat.
+
+| Feature | Impact on Gameplay |
+| :--- | :--- |
+| Haptic Feedback | Increased immersion during combat and environmental interaction |
+| Adaptive Triggers | Enhanced sensation for archery and magical casting |
+| Engine Upgrades | Improved asset streaming and complex system handling |
+
+<Steps>
+  <Step num="1" title="Engine Optimization">
+    Integrating advanced physics and AI systems into the core framework.
+  </Step>
+  <Step num="2" title="Hardware Integration">
+    Utilizing high-speed storage and haptic controller features for better performance.
+  </Step>
+  <Step num="3" title="Modular Systems">
+    Developing flexible tools that allow for future modding support and content expansion.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Note on Hardware">
+The studio is carefully balancing the game's scope to ensure it runs optimally on target hardware, keeping performance and visual fidelity as core pillars.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Strategic Goals and Expectations">
+
+Looking toward the future, the primary goal remains delivering a title that defines the next generation of open-world RPGs. The team is committed to maintaining the high standards expected of the franchise while pushing the boundaries of what a fantasy world simulator can achieve.
+
+<Checklist
+  id="dev-goals"
+  title="Development Priorities:"
+  items={[
+    "Refining the ultimate fantasy world simulator experience",
+    "Implementing responsive NPC interaction systems",
+    "Enhancing combat fluidity and depth",
+    "Ensuring robust support for future modding communities"
+  ]}
+/>
+
+| Aspect | Target Approach |
+| :--- | :--- |
+| World Depth | Reactive systems and organic storytelling |
+| Combat | Tactical depth with impactful feedback |
+| Replayability | Branching narrative paths based on player decisions |
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the current status of The Elder Scrolls VI?",
+    answer: "The Elder Scrolls VI is currently in full development at Bethesda Game Studios, with the team focusing on engine refinement and core world simulation systems."
+  },
+  {
+    question: "Will the game feature new engine technology?",
+    answer: "Yes, the developers are actively upgrading the Creation Engine to support more complex world systems and improved environmental interactions."
+  },
+  {
+    question: "How will player choices affect the game world?",
+    answer: "The goal is to create a living world where player actions have tangible consequences, moving away from repetitive quest structures to more natural, reactive storytelling."
+  }
+]} />
+
+<Callout type="info" title="Stay Informed">
+As development progresses, official updates will remain the most reliable source for specific release timing and technical requirements.
+</Callout>
+
+</Section>
