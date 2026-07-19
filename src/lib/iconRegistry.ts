@@ -38,6 +38,23 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // The Elder Scrolls VI 主题图标
+  CalendarClock: LucideIcons.CalendarClock,
+  MonitorSmartphone: LucideIcons.MonitorSmartphone,
+  Clapperboard: LucideIcons.Clapperboard,
+  Map: LucideIcons.Map,
+  Swords: LucideIcons.Swords,
+  GitBranch: LucideIcons.GitBranch,
+  Cpu: LucideIcons.Cpu,
+  ScrollText: LucideIcons.ScrollText,
+  Compass: LucideIcons.Compass,
+  Flag: LucideIcons.Flag,
+  Layers: LucideIcons.Layers,
+  Milestone: LucideIcons.Milestone,
+  Trophy: LucideIcons.Trophy,
+  Wand2: LucideIcons.Wand2,
+  Youtube: LucideIcons.Youtube,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }

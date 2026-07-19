@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Visit Official Site",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -52,696 +52,590 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "The Elder Scrolls VI Gameplay",
+    "description": "Track the next mainline Elder Scrolls adventure — open-world exploration, combat, magic, factions, and a return to Tamriel powered by Bethesda's latest Creation Engine."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "The Elder Scrolls VI",
+    "titleHighlight": "Wiki Hub",
+    "subtitle": "Everything we know about The Elder Scrolls VI — release, platforms, setting, gameplay, engine, and lore",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "icon": "CalendarClock",
+        "title": "Release Date",
+        "description": "Confirmed status, launch window, and development progress"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "MonitorSmartphone",
+        "title": "Platforms",
+        "description": "Xbox, PC, PlayStation, Game Pass, and next-gen support"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Clapperboard",
+        "title": "Trailer",
+        "description": "Official announcement teaser and future showcases"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Map",
+        "title": "Setting and Map",
+        "description": "Hammerfell, High Rock, and Iliac Bay theories"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Swords",
+        "title": "Gameplay",
+        "description": "Exploration, combat, magic, and RPG systems"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "GitBranch",
+        "title": "Development Timeline",
+        "description": "From the 2018 reveal to active production"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "icon": "Cpu",
+        "title": "Creation Engine 3",
+        "description": "Rendering, animation, AI, and mod support"
       },
       {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "ScrollText",
+        "title": "Story and Lore",
+        "description": "Tamriel history, races, factions, and conflicts"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
+    "elderScrollsViReleaseDate": {
+      "title": "The Elder Scrolls VI Release Date",
+      "eyebrow": "Release Status",
+      "subtitle": "Bethesda has not announced a release date. Follow the game's progression from the 2018 reveal to early playable builds.",
       "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
+      "intro": "Bethesda announced The Elder Scrolls VI after Fallout 76 at E3 2018. Development remained in planning and pre-production while Bethesda Game Studios focused on Starfield, before moving into active production and internal early builds.",
+      "items": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "date": "June 2018",
+          "type": "Official Announcement",
+          "title": "The Elder Scrolls VI Is Revealed",
+          "description": "Bethesda Game Studios unveiled a short landscape teaser during its E3 2018 showcase. The announcement confirmed the project but did not reveal its setting, platforms, gameplay, or release date."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "date": "2018–2022",
+          "type": "Development Phase",
+          "title": "Planning and Pre-Production",
+          "description": "The project remained behind Starfield in Bethesda Game Studios' development schedule. Early work focused on technology, design concepts, world planning, and the systems needed for the next main Elder Scrolls game."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "date": "2023",
+          "type": "Development Update",
+          "title": "Early Development Begins",
+          "description": "Following the completion and launch of Starfield, Bethesda described The Elder Scrolls VI as being in early development. The studio began shifting more development resources toward the project."
+        },
+        {
+          "date": "March 2024",
+          "type": "Playable Milestone",
+          "title": "Early Builds Are Being Played",
+          "description": "Bethesda confirmed that developers were already playing early versions of the game. This marked a transition from planning work toward playable environments, mechanics, and internal prototypes."
+        },
+        {
+          "date": "2026 or later",
+          "type": "Planning Estimate",
+          "title": "Microsoft Court Document Window",
+          "description": "Documents published during Microsoft's legal proceedings listed the game as expected in 2026 or later. This was an internal planning range rather than a public Bethesda launch announcement."
+        },
+        {
+          "date": "Current Status",
+          "type": "Official Status",
+          "title": "No Release Date Announced",
+          "description": "Bethesda has not announced a release year, launch day, preorder schedule, or public gameplay showcase. The game remains an active long-term project at Bethesda Game Studios."
         }
       ]
     },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
+    "elderScrollsViPlatforms": {
+      "title": "The Elder Scrolls VI Platforms",
+      "eyebrow": "Platform Guide",
+      "subtitle": "Xbox and PC have appeared in Microsoft's internal planning documents, while Bethesda has not published a final platform list.",
+      "displayType": "table",
+      "intro": "The Elder Scrolls VI is being developed under Xbox-owned Bethesda Game Studios. Its long development cycle means final hardware targets may depend on the console generation available near release.",
+      "columns": {
+        "platform": "Platform",
+        "status": "Status",
+        "availability": "Expected Availability",
+        "details": "Details"
+      },
+      "items": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "platform": "Xbox Series X|S",
+          "status": "Included in older Xbox planning",
+          "availability": "Expected Xbox ecosystem release",
+          "details": "Microsoft court documents associated the game with Xbox and PC. Bethesda has not released a final store page or console-specific technical specification."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "platform": "Windows PC",
+          "status": "Included in older Xbox planning",
+          "availability": "Expected PC release",
+          "details": "Mainline Bethesda Game Studios titles traditionally launch on Windows PC, and Microsoft documentation listed PC alongside Xbox for The Elder Scrolls VI."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "platform": "Xbox Game Pass",
+          "status": "Not individually announced",
+          "availability": "No dedicated listing",
+          "details": "The game does not yet have a public Game Pass page, release date, subscription tier, or preload information."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "platform": "PlayStation 5",
+          "status": "No platform announcement",
+          "availability": "Undetermined",
+          "details": "Bethesda and Xbox have not published a PlayStation 5 version, release schedule, store listing, or exclusivity statement for the finished game."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "platform": "Next-Generation Xbox",
+          "status": "Possible future target",
+          "availability": "Dependent on release timing",
+          "details": "The game's long production schedule could place it near a newer Xbox hardware generation, but Bethesda has not named any next-generation console."
+        },
+        {
+          "platform": "Steam",
+          "status": "No store page announced",
+          "availability": "Undetermined storefront support",
+          "details": "A Steam release has not been formally listed. Bethesda's recent major PC releases have supported both the Microsoft Store and Steam."
+        },
+        {
+          "platform": "Nintendo Hardware",
+          "status": "No announcement",
+          "availability": "Undetermined",
+          "details": "No Nintendo version, cloud edition, port, or technical target has been announced."
+        },
+        {
+          "platform": "Cloud Gaming",
+          "status": "No announcement",
+          "availability": "Undetermined",
+          "details": "Bethesda has not confirmed Xbox Cloud Gaming availability, streaming performance targets, or supported devices."
+        }
+      ]
+    },
+    "elderScrollsViTrailer": {
+      "title": "The Elder Scrolls VI Trailer",
+      "eyebrow": "Official Videos",
+      "subtitle": "The official 2018 announcement teaser remains the primary public video. It reveals a large coastal landscape but contains no characters, combat, interface, or gameplay systems.",
+      "displayType": "video-gallery",
+      "intro": "Bethesda introduced The Elder Scrolls VI with a brief cinematic flyover at its E3 2018 showcase. The footage established the project's scale and fantasy atmosphere while keeping its province, story, era, and central conflict hidden.",
+      "featuredVideo": {
+        "videoId": "OkFdqqyI8y4",
+        "title": "The Elder Scrolls VI – Official Announcement Teaser",
+        "date": "June 10, 2018",
+        "event": "Bethesda E3 2018 Showcase",
+        "watchLabel": "Watch on YouTube"
+      },
+      "items": [
+        {
+          "title": "Official Announcement Teaser",
+          "date": "June 10, 2018",
+          "event": "Bethesda E3 2018 Showcase",
+          "videoType": "Cinematic Announcement Teaser",
+          "available": true,
+          "details": [
+            "An aerial camera moves across a mountainous coastal landscape.",
+            "The environment includes cliffs, valleys, water, roads, and distant settlements.",
+            "The Elder Scrolls theme accompanies the landscape reveal.",
+            "The final title card confirms The Elder Scrolls VI.",
+            "No playable character, combat system, interface, dialogue, or quest footage appears."
+          ]
+        },
+        {
+          "title": "Gameplay Reveal",
+          "date": "Not released",
+          "event": "Future Bethesda showcase",
+          "videoType": "Gameplay Presentation",
+          "available": false,
+          "details": [
+            "No official gameplay demonstration has been published.",
+            "Character creation, exploration, combat, magic, dialogue, and quest systems have not been shown.",
+            "Bethesda has not announced a date for the first gameplay presentation."
+          ]
+        },
+        {
+          "title": "Developer Deep Dive",
+          "date": "Not released",
+          "event": "Future developer presentation",
+          "videoType": "Developer Interview or Documentary",
+          "available": false,
+          "details": [
+            "No dedicated development documentary has been released.",
+            "Bethesda has not publicly demonstrated the game's world-building tools or Creation Engine technology.",
+            "Future developer videos may cover the setting, factions, exploration systems, and technical design."
+          ]
+        },
+        {
+          "title": "Launch Trailer",
+          "date": "Not released",
+          "event": "Future launch campaign",
+          "videoType": "Release Trailer",
+          "available": false,
+          "details": [
+            "No launch trailer or release campaign is available.",
+            "Preorders, editions, bonuses, and launch platforms have not been presented in video form.",
+            "This entry will follow the official release marketing schedule."
+          ]
+        }
+      ]
+    },
+    "elderScrollsViSettingAndMap": {
+      "title": "The Elder Scrolls VI Setting and Map",
+      "eyebrow": "World and Location",
+      "subtitle": "Bethesda has not named the game's province, but the announcement teaser has produced strong Hammerfell, High Rock, and Iliac Bay theories.",
+      "displayType": "map-cards",
+      "intro": "The Elder Scrolls VI will return to Tamriel, the continent used by the main numbered Elder Scrolls games. Its exact province remains unrevealed, leaving the teaser landscape as the main source for comparing possible locations.",
+      "items": [
+        {
+          "category": "Confirmed Visual Information",
+          "region": "Unnamed region of Tamriel",
+          "mapScope": "Unknown",
+          "evidence": [
+            "The teaser shows a large mountainous landmass beside a substantial body of water.",
+            "Cliffs, valleys, paths, ruins, and distant settlements are visible.",
+            "The landscape contains both dry rocky areas and greener elevated terrain.",
+            "No readable map, province name, city name, flag, or faction symbol appears."
+          ],
+          "summary": "The footage confirms a large coastal fantasy region but does not identify its province."
+        },
+        {
+          "category": "Leading Setting Theory",
+          "region": "Hammerfell",
+          "mapScope": "A province in western Tamriel",
+          "evidence": [
+            "Hammerfell contains dry mountains, deserts, rocky coastlines, and major port settlements.",
+            "Its western and northern landscapes can resemble the rugged terrain shown in the teaser.",
+            "The province is the homeland of the Redguards.",
+            "Important locations include Sentinel, Hegathe, Taneth, Rihad, Dragonstar, and the Alik'r Desert."
+          ],
+          "summary": "Hammerfell is the most prominent single-province theory connected to the teaser's dry coastal geography."
+        },
+        {
+          "category": "Leading Setting Theory",
+          "region": "High Rock",
+          "mapScope": "A province in northwestern Tamriel",
+          "evidence": [
+            "High Rock is known for steep mountains, green valleys, castles, and fragmented coastal kingdoms.",
+            "The province is the homeland of the Bretons.",
+            "Its major regions include Daggerfall, Wayrest, Evermore, Northpoint, and the Wrothgarian Mountains.",
+            "The teaser's cliffs and distant fortified locations match parts of High Rock's established geography."
+          ],
+          "summary": "High Rock remains a major theory because of the teaser's mountainous coastline and medieval-looking settlements."
+        },
+        {
+          "category": "Combined-Map Theory",
+          "region": "Iliac Bay",
+          "mapScope": "Hammerfell and High Rock",
+          "evidence": [
+            "The Iliac Bay separates southern High Rock from northern Hammerfell.",
+            "A regional map could include Breton kingdoms, Redguard cities, islands, ports, mountains, and desert areas.",
+            "The region previously served as the central setting of The Elder Scrolls II: Daggerfall.",
+            "A two-province structure would support naval travel and strong political conflict between neighboring cultures."
+          ],
+          "summary": "The Iliac Bay theory combines the strongest Hammerfell and High Rock interpretations into one connected game world."
+        },
+        {
+          "category": "Wider-World Theory",
+          "region": "Multiple Tamriel Provinces",
+          "mapScope": "Several connected regions",
+          "evidence": [
+            "Bethesda's newer technology supports larger environments and denser exploration spaces.",
+            "A border-spanning story could connect Hammerfell, High Rock, Orsinium, and nearby islands.",
+            "The announcement teaser does not establish the final boundaries of the playable map."
+          ],
+          "summary": "A multi-region map could extend beyond one province, especially around the Iliac Bay and western Tamriel."
+        },
+        {
+          "category": "Unsupported Rumor",
+          "region": "All of Tamriel",
+          "mapScope": "The entire continent",
+          "evidence": [
+            "No official trailer or statement presents every Tamriel province as playable.",
+            "The teaser displays only one continuous landscape.",
+            "No complete continental map, travel system, or province list has been shown."
+          ],
+          "summary": "The entire continent has not been announced as the playable map for The Elder Scrolls VI."
+        }
+      ]
+    },
+    "elderScrollsViGameplay": {
+      "title": "The Elder Scrolls VI Gameplay",
+      "eyebrow": "Gameplay Systems",
+      "subtitle": "Explore the confirmed direction of Bethesda's next single-player fantasy RPG and the core systems inherited from earlier Elder Scrolls games.",
+      "displayType": "card-list",
+      "intro": "The Elder Scrolls VI returns to Tamriel as Bethesda Game Studios' next major open-world role-playing game. Detailed mechanics have not been publicly demonstrated, but exploration, character freedom, quests, combat, magic, and environmental storytelling remain central to the series.",
+      "items": [
+        {
+          "category": "Exploration",
+          "classification": "Confirmed Direction",
+          "icon": "Compass",
+          "title": "A New Open World in Tamriel",
+          "description": "Players will explore another large region of Tamriel filled with wilderness, settlements, ruins, dungeons, and environmental stories. Bethesda has described the game as the next chapter in The Elder Scrolls series."
+        },
+        {
+          "category": "Combat",
+          "classification": "Series Foundation",
+          "icon": "Swords",
+          "title": "First-Person and Third-Person Combat",
+          "description": "The series traditionally supports melee weapons, bows, shields, stealth attacks, and offensive magic from first-person or third-person viewpoints. Skyrim's blocking, dual-wielding, and equipment-based combat provide the clearest foundation for the next game."
+        },
+        {
+          "category": "Magic",
+          "classification": "Series Foundation",
+          "icon": "Wand2",
+          "title": "Spells, Enchanting, and Magical Builds",
+          "description": "Destruction, Restoration, Conjuration, Illusion, and Alteration are the main modern spell schools. Enchanting, magical artifacts, racial abilities, and specialized mage builds are established parts of Elder Scrolls character progression."
+        },
+        {
+          "category": "Quests",
+          "classification": "Confirmed Direction",
+          "icon": "ScrollText",
+          "title": "Main Story, Factions, and Side Adventures",
+          "description": "The game is being designed as a full single-player role-playing experience. The Elder Scrolls structure normally combines a central conflict with faction questlines, town stories, Daedric quests, dungeon objectives, and smaller encounters discovered while exploring."
+        },
+        {
+          "category": "Character Progression",
+          "classification": "Series Foundation",
+          "icon": "TrendingUp",
+          "title": "Build a Character Through Skills",
+          "description": "Previous games improve skills through use and connect those skills to levels, attributes, or perks. Players can traditionally combine warrior, mage, thief, assassin, archer, alchemist, and hybrid playstyles without selecting a permanently locked class."
+        },
+        {
+          "category": "Dialogue and Choice",
+          "classification": "Series Foundation",
+          "icon": "MessageCircle",
+          "title": "Conversations, Persuasion, and Player Decisions",
+          "description": "Dialogue is expected to support quest discovery, persuasion, intimidation, bribery, and faction interactions. Earlier games also allow players to choose quest outcomes, support competing groups, and change how individual characters respond."
+        },
+        {
+          "category": "Settlements",
+          "classification": "Series Foundation",
+          "icon": "Home",
+          "title": "Cities, Villages, Homes, and Local Economies",
+          "description": "Tamriel's settlements traditionally contain shops, inns, guild halls, temples, homes, guards, and local quest networks. Property ownership, crafting stations, merchants, crime systems, and regional politics are established open-world features."
+        },
+        {
+          "category": "Emergent Systems",
+          "classification": "Bethesda Design Tradition",
+          "icon": "Sparkles",
+          "title": "Dynamic Encounters and Environmental Interaction",
+          "description": "Bethesda worlds combine scheduled NPC behavior, wildlife, physics objects, random encounters, crime responses, and unscripted conflicts. These systems allow quests and exploration events to overlap instead of functioning as isolated activities."
+        }
+      ]
+    },
+    "elderScrollsViDevelopmentTimeline": {
+      "title": "The Elder Scrolls VI Development Timeline",
+      "eyebrow": "Development History",
+      "subtitle": "Follow the game's progress from its 2018 announcement through pre-production, early builds, and active development.",
+      "displayType": "vertical-timeline",
+      "intro": "Bethesda announced The Elder Scrolls VI years before full production because Starfield was the studio's immediate priority. Development moved forward through engine preparation, pre-production, and playable internal builds before becoming Bethesda Game Studios' next major project.",
+      "items": [
+        {
+          "date": "June 10, 2018",
+          "phase": "Announcement",
+          "title": "The Elder Scrolls VI Is Revealed",
+          "description": "Bethesda announced the game during its E3 2018 showcase with a short landscape teaser. The reveal confirmed that a sixth main Elder Scrolls game was planned after Starfield."
+        },
+        {
+          "date": "2018–2021",
+          "phase": "Pre-Production",
+          "title": "Concept and Technology Planning",
+          "description": "The project remained in an early planning stage while Bethesda concentrated its main production resources on Starfield. World concepts, technology requirements, and the game's long-term creative direction were developed during this period."
+        },
+        {
+          "date": "2021–2022",
+          "phase": "Engine Foundation",
+          "title": "Creation Engine 2 Becomes the Technical Baseline",
+          "description": "Starfield became Bethesda's first game built on Creation Engine 2. Its renderer, animation pipeline, procedural tools, and updated development systems created the technical foundation available to the Elder Scrolls VI team."
+        },
+        {
+          "date": "2023",
+          "phase": "Production Transition",
+          "title": "Development Expands After Starfield",
+          "description": "As Starfield approached release, Bethesda began shifting more developers and production attention toward The Elder Scrolls VI. The project moved beyond its long pre-production period into early development."
+        },
+        {
+          "date": "March 2024",
+          "phase": "Playable Builds",
+          "title": "Bethesda Mentions Early Internal Builds",
+          "description": "In a studio message celebrating The Elder Scrolls anniversary, Bethesda said developers were returning to Tamriel and playing early builds of the new game."
+        },
+        {
+          "date": "2024–2025",
+          "phase": "Active Development",
+          "title": "World and Gameplay Systems Take Shape",
+          "description": "Production focused on building the playable world, core role-playing systems, quests, technology, and content pipelines required for Bethesda's next large single-player release."
+        },
+        {
+          "date": "December 2025",
+          "phase": "Studio Update",
+          "title": "Bethesda Discusses Continued Progress",
+          "description": "Bethesda provided another development update as work continued on the game. The project remained positioned as the studio's next major fantasy role-playing game after Starfield."
+        },
+        {
+          "date": "Current Production Stage",
+          "phase": "Full Development",
+          "title": "Bethesda Builds the Next Version of Tamriel",
+          "description": "The development team is working across world design, gameplay, quests, art, animation, audio, and engine technology. No public gameplay demonstration or final launch date has been released."
+        }
+      ]
+    },
+    "elderScrollsViCreationEngine3": {
+      "title": "The Elder Scrolls VI Creation Engine 3",
+      "eyebrow": "Engine and Technology",
+      "subtitle": "Compare Bethesda's older engine systems, Starfield's Creation Engine 2 upgrades, and the technology requirements of the next Elder Scrolls world.",
+      "displayType": "comparison-table",
+      "intro": "The Elder Scrolls VI is being developed after Bethesda's major Creation Engine overhaul for Starfield. Bethesda has not published a formal Creation Engine 3 specification, but the next engine iteration can build on Creation Engine 2 while focusing on denser landscapes, cities, characters, combat, and fantasy-world simulation.",
+      "columns": {
+        "technologyArea": "Technology Area",
+        "earlierGames": "Earlier Elder Scrolls Games",
+        "starfieldBaseline": "Starfield (Creation Engine 2)",
+        "tesViDirection": "The Elder Scrolls VI Direction"
+      },
+      "items": [
+        {
+          "technologyArea": "Engine Foundation",
+          "earlierGames": "Oblivion used Gamebryo technology, while Skyrim and Fallout 4 used generations of Bethesda's original Creation Engine.",
+          "starfieldBaseline": "Starfield introduced Creation Engine 2 with major changes to rendering, animation, tools, and large-scale world production.",
+          "tesViDirection": "A further-developed engine branch designed around a dense fantasy province, handcrafted quests, and long-term content support."
+        },
+        {
+          "technologyArea": "World Rendering",
+          "earlierGames": "Older games used region cells, limited distant detail, and simpler material, shadow, and lighting systems.",
+          "starfieldBaseline": "Creation Engine 2 added improved materials, lighting, volumetric effects, terrain rendering, and more detailed environments.",
+          "tesViDirection": "Large natural landscapes, detailed cities, stronger weather effects, improved water, longer sightlines, and richer vegetation."
+        },
+        {
+          "technologyArea": "Loading and Streaming",
+          "earlierGames": "Cities, buildings, caves, and large regions frequently used separate loading transitions.",
+          "starfieldBaseline": "Faster storage and updated streaming support larger environments, although many ships, interiors, and locations remain separated.",
+          "tesViDirection": "Faster regional streaming and smoother movement between wilderness, settlements, interiors, and underground spaces."
+        },
+        {
+          "technologyArea": "Character Animation",
+          "earlierGames": "Skyrim used a legacy animation system for movement, melee attacks, conversations, and creature behavior.",
+          "starfieldBaseline": "Starfield expanded facial animation, locomotion, weapon handling, and character interaction systems.",
+          "tesViDirection": "More responsive melee combat, improved spell casting, better creature movement, and more expressive dialogue scenes."
+        },
+        {
+          "technologyArea": "Artificial Intelligence",
+          "earlierGames": "Radiant AI gave NPCs schedules, homes, jobs, and basic reactions to crimes or nearby events.",
+          "starfieldBaseline": "NPCs support combat roles, crew assignments, settlement activity, and large numbers of quest interactions.",
+          "tesViDirection": "Deeper daily routines, faction relationships, dynamic encounters, coordinated combat, and stronger reactions to player reputation."
+        },
+        {
+          "technologyArea": "Physics and Interaction",
+          "earlierGames": "Loose objects, traps, bodies, weapons, and environmental items could react through physics simulation.",
+          "starfieldBaseline": "The engine supports large quantities of movable objects, ship interiors, low-gravity movement, and zero-gravity combat.",
+          "tesViDirection": "Improved environmental interaction for weapons, spells, traps, doors, clutter, destructible objects, and dungeon mechanisms."
+        },
+        {
+          "technologyArea": "World-Building Tools",
+          "earlierGames": "Bethesda assembled provinces from handcrafted exterior cells, dungeons, towns, and scripted quest locations.",
+          "starfieldBaseline": "Procedural terrain and location-placement tools support a very large universe alongside handcrafted cities and quests.",
+          "tesViDirection": "Procedural tools can establish terrain and natural detail while developers concentrate handcrafted work on settlements, dungeons, and story locations."
+        },
+        {
+          "technologyArea": "Mod Support",
+          "earlierGames": "The Creation Kit and plugin system enabled new quests, locations, items, characters, and total conversions.",
+          "starfieldBaseline": "Creation Kit 2 supports official mod creation and Bethesda's modern content pipeline.",
+          "tesViDirection": "A data-driven world structure suited to long-term community mods, custom quests, new regions, equipment, and gameplay overhauls."
+        }
+      ]
+    },
+    "elderScrollsViStoryAndLore": {
+      "title": "The Elder Scrolls VI Story and Lore",
+      "eyebrow": "Story and Tamriel Lore",
+      "subtitle": "Review the established history of Tamriel, major regional conflicts, and the lore connected to the game's possible setting.",
+      "displayType": "accordion",
+      "intro": "Bethesda has confirmed that The Elder Scrolls VI will return players to Tamriel, but it has not published the protagonist, central conflict, or exact historical date. Hammerfell and High Rock remain the main setting theories because of the reveal trailer's landscape and the political storylines established around the Iliac Bay region.",
+      "items": [
+        {
+          "section": "Confirmed Story Information",
+          "classification": "Official Information",
+          "summary": "The game is the sixth main entry in The Elder Scrolls series and takes place somewhere in Tamriel.",
+          "details": [
+            "Bethesda revealed a mountainous coastal landscape in the announcement teaser.",
+            "The playable character, main antagonist, and central quest have not been introduced.",
+            "The exact province and historical year have not been published.",
+            "The story follows the events of the earlier main Elder Scrolls games within the same shared universe."
+          ]
+        },
+        {
+          "section": "Hammerfell",
+          "classification": "Established Lore",
+          "summary": "Hammerfell is the homeland of the Redguards and contains deserts, mountains, ports, ancient ruins, and politically divided kingdoms.",
+          "details": [
+            "Major locations include Sentinel, Hegathe, Dragonstar, Rihad, Taneth, Elinhir, and the Alik'r Desert.",
+            "Redguard politics have historically been divided between the traditionalist Crowns and the more cosmopolitan Forebears.",
+            "Hammerfell fought the Aldmeri Dominion after the Empire accepted the White-Gold Concordat.",
+            "The Second Treaty of Stros M'Kai ended the conflict in 4E 180 and required Dominion forces to withdraw from Hammerfell."
+          ]
+        },
+        {
+          "section": "High Rock and the Iliac Bay",
+          "classification": "Established Lore",
+          "summary": "High Rock is the homeland of the Bretons and is known for feudal kingdoms, noble rivalries, knightly orders, and powerful magical traditions.",
+          "details": [
+            "Important cities include Daggerfall, Wayrest, Camlorn, and Northpoint.",
+            "High Rock and western Hammerfell surround the Iliac Bay, the setting of The Elder Scrolls II: Daggerfall.",
+            "Breton society combines human, elven, and Direnni cultural influences.",
+            "The region's fragmented kingdoms provide a natural setting for diplomacy, succession disputes, and faction warfare."
+          ]
+        },
+        {
+          "section": "The Aldmeri Dominion and the Empire",
+          "classification": "Established Lore",
+          "summary": "The Fourth Era is shaped by the weakened Empire, the rise of the Aldmeri Dominion, and the unresolved consequences of the Great War.",
+          "details": [
+            "The White-Gold Concordat ended the Great War between the Empire and the Dominion.",
+            "The treaty outlawed Talos worship and transferred disputed territory in southern Hammerfell.",
+            "Hammerfell rejected the Imperial settlement and continued fighting independently.",
+            "The political balance between the Empire, Dominion, and independent provinces remains one of Tamriel's largest unresolved conflicts."
+          ]
+        },
+        {
+          "section": "Playable Races",
+          "classification": "Series Tradition",
+          "summary": "Modern Elder Scrolls games traditionally allow players to create characters from ten major Tamrielic races.",
+          "details": [
+            "Human races: Breton, Imperial, Nord, and Redguard.",
+            "Elven races: Altmer, Bosmer, Dunmer, and Orsimer.",
+            "Beast races: Argonian and Khajiit.",
+            "Each race traditionally receives different starting bonuses, resistances, powers, or cultural dialogue."
+          ]
+        },
+        {
+          "section": "Regional Factions",
+          "classification": "Setting-Based Story Material",
+          "summary": "A Hammerfell or Iliac Bay game can draw from Redguard houses, Breton kingdoms, Orc strongholds, and international political forces.",
+          "details": [
+            "Crown and Forebear political groups represent competing Redguard traditions.",
+            "Breton noble houses and knightly orders control separate kingdoms and territories.",
+            "Orsinium and the Orc clans have a long history of conflict with neighboring Breton and Redguard powers.",
+            "Imperial agents, Thalmor operatives, merchants, pirates, mercenaries, and Daedric cults can connect regional stories to wider Tamriel."
+          ]
+        },
+        {
+          "section": "Ancient Yokudan Lore",
+          "classification": "Established Lore",
+          "summary": "The Redguards descend from Yokuda, a lost western continent whose warriors, gods, and magical traditions still shape Hammerfell.",
+          "details": [
+            "The Ra Gada migrations established Redguard rule across much of Hammerfell.",
+            "Sword-singers were warriors who could manifest spirit weapons known as Shehai.",
+            "Yokudan religion includes deities such as Ruptga, Tu'whacca, Zeht, Tava, and the HoonDing.",
+            "Ancient Yokudan ruins and lost sword techniques provide major foundations for regional quests and artifacts."
+          ]
+        },
+        {
+          "section": "Possible Main Story Themes",
+          "classification": "Setting Theory",
+          "summary": "The strongest setting-based themes connect Hammerfell's independence, Dominion pressure, and the unstable politics of the Iliac Bay.",
+          "details": [
+            "A renewed conflict between Hammerfell and the Aldmeri Dominion.",
+            "Competition between Crown and Forebear leaders over Hammerfell's future.",
+            "Breton succession disputes and alliances between Iliac Bay kingdoms.",
+            "The restoration or destruction of Orsinium.",
+            "The return of sword-singer traditions or another ancient Yokudan power."
+          ]
         }
       ]
     }
@@ -749,36 +643,36 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything we know so far about The Elder Scrolls VI",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "When is The Elder Scrolls VI release date?",
+        "answer": "Bethesda has not announced a release date for The Elder Scrolls VI. The game remains in active development as Bethesda Game Studios' next major project, with no public launch window, preorder schedule, or gameplay showcase confirmed."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "What platforms will The Elder Scrolls VI be on?",
+        "answer": "The Elder Scrolls VI is being developed by Xbox-owned Bethesda Game Studios. Xbox and PC have appeared in Microsoft's internal planning documents, but Bethesda has not published a final platform list, and PlayStation, Game Pass, and next-generation support remain without dedicated announcements."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Where is The Elder Scrolls VI set?",
+        "answer": "Bethesda has not named the province. The Elder Scrolls VI announcement teaser has produced strong Hammerfell, High Rock, and Iliac Bay setting theories based on its mountainous coastal landscape, but no official location has been confirmed."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Is The Elder Scrolls VI an Xbox exclusive?",
+        "answer": "The Elder Scrolls VI has not been confirmed as an Xbox exclusive. Older Microsoft court documents listed an Xbox and PC release window, but Bethesda and Xbox have not published a final exclusivity statement for the finished game."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What engine does The Elder Scrolls VI use?",
+        "answer": "The Elder Scrolls VI is being built on Bethesda's next Creation Engine iteration, building on the Creation Engine 2 technology introduced with Starfield. Bethesda has not published a formal Creation Engine 3 specification yet."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Where can I watch The Elder Scrolls VI trailer?",
+        "answer": "The official The Elder Scrolls VI announcement teaser from E3 2018 is the primary public video, available on Bethesda's YouTube channel. No gameplay reveal, developer deep dive, or launch trailer has been released so far."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Follow The Elder Scrolls VI?",
+    "title": "Stay Updated on The Elder Scrolls VI",
     "description": "Track Bethesda's next mainline fantasy RPG — official release updates, trailers, setting clues, and community discussions.",
     "joinCommunity": "Join Discord",
     "joinGame": "Visit Official Site"
@@ -802,124 +696,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "The Elder Scrolls VI Guides",
+      "description": "Complete guides covering release tracking, platforms, setting theories, gameplay systems, and Tamriel lore for The Elder Scrolls VI.",
+      "metaTitle": "The Elder Scrolls VI Guides - Release, Platforms & Lore",
+      "metaDescription": "Complete The Elder Scrolls VI guides covering release updates, platform news, setting theories, gameplay systems, Creation Engine 3, and Tamriel lore.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides tracking release updates, platform news, setting theories, gameplay systems, and Tamriel lore. Learn everything confirmed about Bethesda's next mainline Elder Scrolls game.",
       "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Track Verified Updates",
+        "step1Description": "Follow official Bethesda statements and separate confirmed facts from rumors",
+        "step2Title": "Understand the Setting",
+        "step2Description": "Explore Hammerfell, High Rock, and Iliac Bay theories with visual evidence",
+        "step3Title": "Prepare for Launch",
+        "step3Description": "Study gameplay systems, races, factions, and lore before release"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "release": {
+      "title": "The Elder Scrolls VI Release Date",
+      "description": "Track the confirmed release status, possible launch window, development progress, and major Bethesda statements.",
+      "metaTitle": "The Elder Scrolls VI Release Date - Status & Updates",
+      "metaDescription": "Track The Elder Scrolls VI release status, development milestones, and Bethesda statements. Separate official information from rumors and estimates.",
+      "categoryLabel": "RELEASE TRACKING",
+      "whatIs": "What is release tracking?",
+      "whatIsDescription": "Verified updates on The Elder Scrolls VI release status, development phase, and Bethesda announcements, clearly separated from media estimates and rumors.",
+      "why": "Why track the release?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Verified Status",
+        "step1Description": "Follow official Bethesda development updates and milestones",
+        "step2Title": "Clear Sources",
+        "step2Description": "Distinguish confirmed facts from media estimates and leaks",
+        "step3Title": "Launch Readiness",
+        "step3Description": "Know when preorders, editions, and platform announcements appear"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Release Articles"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "platforms": {
+      "title": "The Elder Scrolls VI Platforms",
+      "description": "Xbox, PC, PlayStation, Game Pass, and next-generation console support explained with verified sources.",
+      "metaTitle": "The Elder Scrolls VI Platforms - Xbox, PC, PS5 & Game Pass",
+      "metaDescription": "The Elder Scrolls VI platform guide covering Xbox, PC, PlayStation 5, Game Pass, Steam, and next-generation console support with verified sources.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What are platforms?",
+      "whatIsDescription": "Confirmed and unconfirmed platforms for The Elder Scrolls VI, comparing official information with older Microsoft court documents and newer multiplatform developments.",
+      "why": "Why check platforms?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Confirmed Support",
+        "step1Description": "See which platforms appear in official Xbox planning",
+        "step2Title": "Exclusivity Clarity",
+        "step2Description": "Understand what is and is not confirmed about Xbox exclusivity",
+        "step3Title": "Hardware Targets",
+        "step3Description": "Track possible next-generation console support"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Platform Articles"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "setting": {
+      "title": "The Elder Scrolls VI Setting and Map",
+      "description": "Hammerfell, High Rock, Iliac Bay, and wider Tamriel setting theories based on the announcement teaser.",
+      "metaTitle": "The Elder Scrolls VI Setting - Hammerfell, High Rock & Map",
+      "metaDescription": "Explore The Elder Scrolls VI setting theories including Hammerfell, High Rock, the Iliac Bay, and wider Tamriel, with teaser evidence and confirmed geography.",
+      "categoryLabel": "WORLD & LOCATION",
+      "whatIs": "What is the setting?",
+      "whatIsDescription": "Analysis of the announcement teaser landscape and the leading Hammerfell, High Rock, and Iliac Bay setting theories, with confirmed information labeled separately from speculation.",
+      "why": "Why explore the setting?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Visual Evidence",
+        "step1Description": "Examine the terrain, coastline, and settlements shown in the teaser",
+        "step2Title": "Leading Theories",
+        "step2Description": "Compare Hammerfell, High Rock, and combined Iliac Bay maps",
+        "step3Title": "Established Lore",
+        "step3Description": "Connect the possible location to Tamriel history and factions"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Setting Articles"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "lore": {
+      "title": "The Elder Scrolls VI Story and Lore",
+      "description": "Tamriel history, playable races, regional factions, and possible main story themes for The Elder Scrolls VI.",
+      "metaTitle": "The Elder Scrolls VI Story & Lore - Races, Factions & History",
+      "metaDescription": "Explore The Elder Scrolls VI story and Tamriel lore, including playable races, Hammerfell and High Rock factions, the Aldmeri Dominion, and possible main story themes.",
+      "categoryLabel": "STORY & LORE",
+      "whatIs": "What is the lore?",
+      "whatIsDescription": "Established Tamriel history, playable races, regional factions, and possible main story themes connected to The Elder Scrolls VI's rumored Hammerfell or Iliac Bay setting.",
+      "why": "Why study the lore?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Tamriel History",
+        "step1Description": "Review the Fourth Era, the Great War, and the White-Gold Concordat",
+        "step2Title": "Races & Factions",
+        "step2Description": "Learn the ten playable races and the region's political groups",
+        "step3Title": "Story Themes",
+        "step3Description": "Explore possible main conflicts based on the setting"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Lore Articles"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+      "title": "The Elder Scrolls VI Dev Tracker",
+      "description": "Bethesda development updates, official statements, and verified news tracking for The Elder Scrolls VI.",
+      "metaTitle": "The Elder Scrolls VI Dev Tracker - News & Updates",
+      "metaDescription": "Track The Elder Scrolls VI development updates, Bethesda statements, and verified news with dated entries and clear reliability labels.",
+      "categoryLabel": "NEWS & UPDATES",
+      "whatIs": "What is the dev tracker?",
+      "whatIsDescription": "A chronological record of Bethesda development updates, official statements, and verified news for The Elder Scrolls VI, with each entry dated and labeled by reliability.",
+      "why": "Why follow the tracker?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Dated Updates",
+        "step1Description": "See development news in clear chronological order",
+        "step2Title": "Source Labels",
+        "step2Description": "Distinguish confirmed, reported, and speculative information",
+        "step3Title": "Milestone Alerts",
+        "step3Description": "Catch release date, platform, and trailer announcements"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All News Articles"
     }
   }
 }
