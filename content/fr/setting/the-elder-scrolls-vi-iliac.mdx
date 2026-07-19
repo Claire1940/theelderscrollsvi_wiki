@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Ship, Tent } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "the elder scrolls vi iliac : fuites de gameplay et fonctionnalités 2026",
+  description: "Explorez les dernières fuites pour the elder scrolls vi iliac, incluant le cadre de Martelfell, la construction de navires et les détails du Creation Engine 3.0 pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Elder+Scrolls+VI+Iliac+Guide",
+  date: "2026-07-19",
+  author: "L'équipe du Wiki the elder scrolls vi",
+  keywords: "the elder scrolls vi, iliac, martelfell, haute-roche, gameplay, fuites, 2026"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **the elder scrolls vi iliac** serait le titre complet selon les rumeurs, se concentrant sur la région de la baie d'Iliaque.
+- **Le cadre** englobe Martelfell et la Haute-Roche, avec 11 villes majeures et des déplacements fluides.
+- **Les nouvelles mécaniques** incluent la construction navale avancée, le combat naval et la construction de forteresses.
+- **La mise à jour du moteur** vers le Creation Engine 3.0 supprime les écrans de chargement pour la plupart des lieux intérieurs.
+- **La fenêtre de sortie** est prévue pour fin 2026 ou début 2027 en exclusivité sur Xbox et PC.
+</Callout>
+
+<Section icon={Map} title="the elder scrolls vi iliac : Cadre et conception du monde">
+
+Le monde de **the elder scrolls vi iliac** représente un bond massif en termes d'échelle et d'immersion pour la franchise. Situé principalement à Martelfell, le jeu englobe également la région côtière de la Haute-Roche entourant la baie d'Iliaque. Ce choix géographique permet à Bethesda de mélanger des paysages désertiques arides avec des environnements côtiers luxuriants et des chaînes de montagnes escarpées. Contrairement aux toundras gelées de Skyrim, la région d'Iliaque offre un ensemble de biomes diversifiés, allant du désert d'Alik'r aux centres maritimes animés de l'ouest.
+
+**Points forts de la vidéo :**
+- **Refonte du moteur** : Détails sur la transition du Creation Engine 2.0 vers le 3.0 pour une meilleure fluidité.
+- **Portée géographique** : Couverture des régions de Martelfell et de la Haute-Roche, incluant la baie d'Iliaque.
+- **Nouveaux systèmes** : Introduction de la construction navale, de la navigation et d'un combat brut et mature.
+
+<YouTubeEmbed videoId="6ra5uKjdkBQ" title="FUITE ! Détails du gameplay et date de sortie de Elder Scrolls VI Iliac !" />
+
+La conception du monde se concentre sur la "fluidité". Les fuites suggèrent que les écrans de chargement traditionnels qui affectaient les précédents titres Bethesda lors de l'entrée dans les villes ou les maisons ont été largement éliminés. Ceci est rendu possible par l'architecture remaniée du moteur, permettant au jeu de charger des ressources de haute fidélité en continu sans interrompre l'expérience de jeu.
+
+| Fonctionnalité | the elder scrolls vi iliac | Elder Scrolls V: Skyrim |
+| :--- | :--- | :--- |
+| **Région principale** | Martelfell & Haute-Roche | Skyrim |
+| **Villes majeures** | 11 (dont 2 cités-forteresses) | 9 Châtelleries |
+| **Écrans de chargement** | Minimaux (Voyage rapide uniquement) | Fréquents (Intérieurs/Villes) |
+| **Déplacement** | À pied, à cheval et navires de guerre | À pied et à cheval |
+| **Échelle du monde** | Nettement plus vaste que Skyrim | Monde ouvert standard |
+
+<Callout type="tip" title="Conseil d'exploration">
+La baie d'Iliaque sert de plaque tournante centrale du monde. Maîtriser la navigation navale dès le début sera essentiel pour accéder aux quêtes des îles isolées et aux centres marchands côtiers autrement inaccessibles par terre.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Évolution technique avec le Creation Engine 3.0">
+
+Au cœur de **the elder scrolls vi iliac** se trouve le lancement du Creation Engine 3.0. Alors que Starfield utilisait l'itération 2.0, la version 3.0 est conçue spécifiquement pour gérer les environnements denses et artisanaux d'un RPG de haute fantaisie. Cette évolution technique se concentre sur "l'immersion par la persistance", où les objets et les actions des PNJ ont un impact plus permanent sur l'état du monde.
+
+Le changement le plus significatif est la suppression des chargements compartimentés. Dans les jeux précédents, entrer dans une petite boutique nécessitait une transition de chargement. Dans la version Iliaque, les joueurs peuvent passer directement d'une dune de désert à une taverne animée sans une seule interruption de frame. Cette fluidité s'étend au système de combat, qui utilise désormais des mécaniques d'impact "hit-drag".
+
+| Aspect technique | CE 2.0 (Starfield) | CE 3.0 (Iliac) |
+| :--- | :--- | :--- |
+| **Cellules intérieures** | Chargement souvent requis | Intégration fluide |
+| **Physique de combat** | Réactions aux impacts standard | Hit-drag et démembrement |
+| **Densité des ressources** | Haute (focus procédural) | Ultra-haute (focus artisanal) |
+| **Emploi du temps de l'IA** | Routines basiques | IA sociale complexe et réactive |
+
+<Callout type="warning" title="Configuration matérielle">
+En raison de la nature fluide du Creation Engine 3.0, un SSD NVMe sera probablement une exigence obligatoire pour les joueurs PC afin d'éviter l'apparition soudaine d'objets (pop-in) lors de déplacements rapides ou de l'entrée en ville.
+</Callout>
+
+</Section>
+
+<Section icon={Ship} title="Combat naval et construction de navires">
+
+Pour la première fois dans la série principale, **the elder scrolls vi iliac** introduit un système robuste de construction de navires et de combat naval. S'inspirant de titres maritimes classiques comme Assassin's Creed IV: Black Flag, Bethesda a développé un système où les joueurs peuvent construire leurs propres vaisseaux à partir de bois et d'acier. Ces navires ne servent pas seulement au voyage rapide ; ils font office de bases mobiles et de plateformes de combat.
+
+<CardGrid cols={3}>
+  <Card title="Personnalisation">
+    - **Renforcement de la coque** : Utilisez de l'acier pour résister aux canons navals.
+    - **Amélioration des voiles** : Améliorez la vitesse et la maniabilité.
+    - **Quartiers de l'équipage** : Assignez des PNJ pour gérer les fonctions du navire.
+  </Card>
+  <Card title="Combat naval">
+    - **Attaques de flanc** : Utilisez de l'artillerie magique ou mécanique.
+    - **Abordages** : Engagez le combat au corps à corps sur les ponts ennemis.
+    - **Pillage** : Récupérez des ressources sur les navires rivaux coulés.
+  </Card>
+  <Card title="Exploration">
+    - **Criques cachées** : Trouvez des îles non marquées sur la carte principale.
+    - **Plongée sous-marine** : Explorez des ruines et des épaves sous-marines.
+    - **Routes commerciales** : Escortez des navires marchands pour obtenir de l'or.
+  </Card>
+</CardGrid>
+
+La mécanique de construction navale est intégrée au système d'artisanat, obligeant les joueurs à collecter du bois rare dans les forêts de la Haute-Roche et des métaux spécialisés dans les mines de Martelfell.
+
+<Steps>
+  <Step num="1" title="Acquérir un chantier naval">
+    Localisez une ville côtière dotée d'une cale sèche fonctionnelle pour commencer votre première construction.
+  </Step>
+  <Step num="2" title="Sélectionner un plan">
+    Choisissez entre une galère d'éclaireur rapide ou un cuirassé lourdement blindé selon votre style de jeu.
+  </Step>
+  <Step num="3" title="Rassembler les matériaux">
+    Collectez du bois de haute qualité et du fer. Certains composants magiques peuvent nécessiter des Gemmes Spirituelles.
+  </Step>
+  <Step num="4" title="Assigner un équipage">
+    Recrutez des marins dans les tavernes locales ou assignez des compagnons à des rôles spécifiques comme Navigateur ou Canonnier.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Maître Marinier">
+Investir dans l'arbre de compétences "Ingénierie navale" vous permet d'ajouter un blindage imprégné de Daedra à votre navire, le rendant presque insensible aux attaques de pirates standard.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Factions, histoire et le retour des Dwemers">
+
+Le récit de **the elder scrolls vi iliac** s'articule autour de l'influence daedrique et de l'instabilité politique. L'intrigue principale implique les artefacts de Nocturne et de Peryite, suggérant une histoire remplie de motivations cultistes et de guerres de l'ombre. Les joueurs se retrouveront pris entre les Couronnes et les Aïeux — deux factions Rougegardes rivales ayant des visions profondément différentes pour l'avenir de Martelfell.
+
+L'une des fuites les plus choquantes est le retour des Dwemers. Alors qu'ils n'étaient qu'un souvenir dans Skyrim, ils semblent avoir une présence physique ou une influence beaucoup plus directe dans la région d'Iliaque. À cela s'ajoutent les Orques d'Orsinium, qui cherchent à établir un foyer permanent au milieu du chaos de l'invasion du Thalmor.
+
+<Checklist
+  id="factions-list"
+  title="Factions et guildes joignables :"
+  items={[
+    "La Guilde des Voleurs (Chapitre d'Iliaque)",
+    "La Confrérie Noire",
+    "La Guilde des Guerriers",
+    "La Guilde des Mages",
+    "Les Couronnes (traditionalistes Rougegardes)",
+    "Les Aïeux (progressistes Rougegardes)"
+  ]}
+/>
+
+| Faction | Alignement | Objectif principal |
+| :--- | :--- | :--- |
+| **Guilde des Voleurs** | Neutre | Furtivité, Contrebande, Vol maritime |
+| **Confrérie Noire** | Mauvais | Assassinat, Rituels daedriques |
+| **Les Couronnes** | Loyal | Tradition, Indépendance de Martelfell |
+| **Orques d'Orsinium** | Neutre | Construction de forteresses, Combat lourd |
+
+<Callout type="info" title="Note sur le Lore">
+Le Culte Impérial est présent dans le jeu mais ne serait pas une faction joignable pour le personnage du joueur, servant plutôt de force politique d'arrière-plan.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Calendrier de sortie et plateformes">
+
+Bien que Bethesda ait gardé le secret sur les dates officielles, des fuites internes de Microsoft suggèrent une fenêtre cible pour fin 2026. Cela coïncide avec le 25e anniversaire de l'ère moderne de la franchise. Microsoft exercerait une pression pour s'assurer que le jeu serve de "vendeur de système" pour l'écosystème Xbox pendant la période des fêtes.
+
+| Jalon | Date prévue | État |
+| :--- | :--- | :--- |
+| **Révélation complète du gameplay** | Janvier 2026 | Rumeur (Developer Direct) |
+| **Présentation estivale (Showcase)** | Juin 2026 | Haute probabilité |
+| **Lancement initial** | Novembre 2026 | Fenêtre cible |
+| **Sortie PlayStation** | Début 2027 | Possible (fenêtre de 3 à 6 mois) |
+
+Le jeu est confirmé comme une exclusivité Xbox et PC au lancement. Cependant, les récents changements dans la stratégie multiplateforme de Microsoft suggèrent qu'une version PlayStation 5 (ou son successeur) pourrait arriver dans les six mois suivant la sortie initiale.
+
+<Callout type="warning" title="Retards potentiels">
+Les jeux Bethesda sont célèbres pour leurs "phases de polissage" qui peuvent durer six mois. Si l'objectif de fin 2026 est manqué, une sortie au printemps 2027 est l'alternative la plus probable.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Est-ce que the elder scrolls vi iliac est une suite directe de Skyrim ?",
+    answer: "Bien qu'il se déroule dans le même monde (Tamriel), il se situe dans une région différente (Martelfell/Haute-Roche) et met en scène un nouveau protagoniste et une histoire se déroulant des années après les événements de Skyrim."
+  },
+  {
+    question: "Puis-je construire ma propre maison dans ce jeu ?",
+    answer: "Oui, le système de colonies revient et est étendu à la 'Construction de Forteresses', vous permettant de bâtir d'immenses châteaux en pierre et des bastions côtiers."
+  },
+  {
+    question: "Le combat naval sera-t-il obligatoire ?",
+    answer: "La majeure partie du système naval est optionnelle pour les joueurs qui préfèrent l'exploration terrestre, bien que certains moments clés de l'histoire principale nécessitent l'usage d'un navire pour le transport."
+  },
+  {
+    question: "Le jeu sortira-t-il sur PlayStation ?",
+    answer: "Les fuites actuelles suggèrent qu'il sera une exclusivité Xbox et PC pendant une courte période, probablement de 3 à 6 mois, avant une sortie potentielle sur d'autres consoles."
+  }
+]} />
+
+</Section>

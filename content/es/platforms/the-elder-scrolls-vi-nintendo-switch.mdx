@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Cpu, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Elder Scrolls VI Nintendo Switch: Especificaciones de Hardware y Noticias de Lanzamiento",
+  description: "Explora el potencial de The Elder Scrolls VI en Nintendo Switch. Conoce los requisitos de hardware, las posibilidades de juego en la nube y los rumores de lanzamiento para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=TES+VI+Switch+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de The Elder Scrolls VI"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La disponibilidad de **The Elder Scrolls VI en Nintendo Switch** depende en gran medida del rumoreado 'Switch 2' o de las capacidades de hardware de próxima generación.
+- La **historia de Bethesda** con Nintendo sugiere un fuerte interés en adaptar grandes juegos de rol, tras el enorme éxito de Skyrim en la plataforma.
+- El **juego en la nube** sigue siendo una alternativa muy probable si el hardware nativo no puede soportar las exigencias del Creation Engine 2.
+- Los **objetivos de rendimiento** para una versión portátil probablemente apuntarían a 30 FPS con una resolución dinámica de 720p o 1080p.
+- Las expectativas para la **ventana de lanzamiento** de la versión de Nintendo suelen retrasarse de 6 a 12 meses con respecto a los lanzamientos principales en PC y Xbox.
+</Callout>
+
+<Section icon={Cpu} title="Requisitos de Hardware y The Elder Scrolls VI en Nintendo Switch">
+
+El puente técnico entre un RPG de mundo abierto masivo y una consola portátil siempre es una hazaña de ingeniería compleja. Para que **The Elder Scrolls VI en Nintendo Switch** se convierta en una realidad, debemos observar la evolución del Creation Engine 2. A diferencia de su predecesor utilizado en Skyrim, el nuevo motor está diseñado para iluminación de alta fidelidad, físicas complejas y transmisión masiva de recursos.
+
+Aunque el hardware actual de Nintendo Switch ha hecho milagros con títulos como *The Witcher 3* y *Skyrim*, se acepta ampliamente que la próxima entrega de la serie Elder Scrolls requerirá la "Switch 2" o un sucesor de hardware similar. Históricamente, Bethesda ha priorizado la escala del mundo, lo que significa que las limitaciones de CPU y RAM son los mayores obstáculos para una adaptación portátil.
+
+| Componente | Especificaciones de la Switch Actual | Requisitos Mínimos para TES VI | Resultado Previsto |
+| :--- | :--- | :--- | :--- |
+| **Procesador** | NVIDIA Tegra X1 | NVIDIA T239 (Personalizado) | Cuello de botella significativo de la CPU en hardware antiguo |
+| **Memoria** | 4GB LPDDR4 | 12GB - 16GB RAM | Esencial para la transmisión de recursos e IA |
+| **Almacenamiento** | 32GB/64GB eMMC | 100GB+ NVMe SSD | Requiere tarjetas SD de alta velocidad o SSD interno |
+| **Gráficos** | 256 núcleos Maxwell | Arquitectura basada en Ampere | El soporte de DLSS es obligatorio para 1080p |
+
+<Callout type="warning" title="Limitaciones de Hardware">
+Es poco probable que el hardware original de Nintendo Switch de 2017 ejecute el juego de forma nativa. La mayoría de los analistas de la industria sugieren que cualquier versión para Nintendo sería exclusiva del hardware de próxima generación o se ofrecería a través de una "Versión en la Nube".
+</Callout>
+
+El compromiso de Bethesda con el ecosistema de Nintendo ha crecido significativamente desde el lanzamiento de Skyrim en la plataforma en 2017. El éxito de esa adaptación demostró que existe un mercado masivo para un "Tamriel portátil". Sin embargo, la densidad pura de un RPG de próxima generación requiere un salto generacional en la potencia de procesamiento móvil.
+
+</Section>
+
+<Section icon={Map} title="Estrategias de Adaptación: Versión Nativa vs Versión en la Nube">
+
+Al hablar de **The Elder Scrolls VI en Nintendo Switch**, los desarrolladores tienen dos caminos principales. Una adaptación nativa ofrece la mejor experiencia sin conexión, pero requiere una optimización masiva (a menudo llamada "la adaptación imposible"). Una versión en la nube permite que el juego se ejecute en potentes servidores remotos, transmitiendo el video a la consola portátil.
+
+<CardGrid cols={2}>
+  <Card title="Ventajas de la Adaptación Nativa">
+    - **Juego sin conexión**: Accede a Tamriel en cualquier lugar sin Wi-Fi.
+    - **Formato físico**: Cartuchos coleccionables para los fans.
+    - **Latencia cero**: Respuesta inmediata para el combate.
+    - **Longevidad**: Jugable incluso si los servidores se apagan.
+  </Card>
+  <Card title="Ventajas de la Versión en la Nube">
+    - **Gráficos al máximo**: Trazado de rayos y texturas de alta resolución.
+    - **Sin problemas de almacenamiento**: Sin necesidad de descargas de 100GB.
+    - **Acceso instantáneo**: Juega inmediatamente tras el lanzamiento.
+    - **Menor costo**: A menudo más barato que las adaptaciones nativas completas.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Perspectivas de Optimización">
+Si se desarrolla una adaptación nativa, se espera una gestión "agresiva de LOD" (nivel de detalle) y una menor densidad de NPC en las ciudades principales en comparación con la versión de PC para mantener una tasa de fotogramas estable.
+</Callout>
+
+La historia de los juegos de Bethesda en las plataformas de Nintendo proporciona una hoja de ruta de lo que podemos esperar. La siguiente tabla destaca cómo los títulos anteriores hicieron la transición al formato portátil.
+
+| Título del Juego | Tipo de Adaptación | Rendimiento | Compromisos Clave |
+| :--- | :--- | :--- | :--- |
+| **Skyrim** | Nativo | 30 FPS / 720p | Distancia de dibujado reducida, menor resolución de sombras |
+| **DOOM Eternal** | Nativo | 30 FPS / Dinámico | Menor calidad de texturas, fuerte desenfoque de movimiento |
+| **Wolfenstein II** | Nativo | 30 FPS / Dinámico | Caídas significativas de resolución en combate |
+| **Starfield** | Ninguno | N/D | Limitaciones de hardware citadas como la razón principal |
+
+</Section>
+
+<Section icon={Target} title="Pasos para Prepararse para el Lanzamiento">
+
+Si estás planeando experimentar **The Elder Scrolls VI en Nintendo Switch** desde el primer día, hay varios pasos preparatorios para garantizar que tu hardware y tu cuenta estén listos para la descarga masiva y los requisitos de rendimiento.
+
+<Steps>
+  <Step num="1" title="Mejora tu almacenamiento">
+    Se espera que el juego supere los 100GB. Compra una tarjeta MicroSD de alta velocidad (UHS-I U3) con al menos 256GB de espacio para alojar el juego base y futuros DLC.
+  </Step>
+  <Step num="2" title="Conexión a internet estable">
+    Ya sea para descargar un parche masivo o para jugar a través de la nube, una conexión Wi-Fi de 5GHz o un adaptador LAN para el Dock es esencial para una experiencia sin tirones.
+  </Step>
+  <Step num="3" title="Vinculación de cuenta de Bethesda.net">
+    Asegúrate de que tu cuenta de Nintendo esté vinculada a tu perfil de Bethesda.net. Esto a menudo otorga acceso al contenido del "Creation Club" y a posibles funciones de progresión cruzada.
+  </Step>
+  <Step num="4" title="Calibración del control">
+    Para un juego de esta escala, considera el Nintendo Switch Pro Controller. Los sensores de efecto Hall en los controles modernos de terceros también pueden prevenir el "Joy-Con drift" durante las largas sesiones de exploración.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Potencial de Guardado Cruzado">
+Microsoft y Bethesda han expresado interés en los ecosistemas multiplataforma. Existe una alta probabilidad de que tu progreso en PC o Xbox se pueda transferir a la versión de Nintendo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="La Relación de Bethesda con Nintendo">
+
+La adquisición de Bethesda por parte de Microsoft cambió el panorama, pero no puso fin a la relación con Nintendo. Microsoft has firmado acuerdos de 10 años para llevar franquicias importantes a las plataformas de Nintendo. Este compromiso legal prácticamente garantiza que **The Elder Scrolls VI en Nintendo Switch** (o su sucesor) eventualmente verá la luz.
+
+| Año | Hito | Impacto en TES VI |
+| :--- | :--- | :--- |
+| **2017** | Lanzamiento de Skyrim en Switch | Demostró la demanda de un Elder Scrolls portátil |
+| **2021** | Adquisición por parte de Microsoft | Se abordaron los temores iniciales de exclusividad |
+| **2023** | Acuerdo de 10 años con Nintendo | Obliga legalmente a Microsoft a llevar IPs importantes a Nintendo |
+| **2026** | Transición de Hardware | La ventana probable para noticias de "Switch 2" y TES VI |
+
+<Callout type="info" title="Opinión de Expertos">
+La mayoría de los expertos de la industria creen que, aunque el juego podría ser exclusivo de la consola Xbox por un tiempo limitado, el mercado "portátil" es demasiado grande para que Microsoft lo ignore, especialmente con su estrategia actual de "Juego en todas partes".
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación para el Día del Lanzamiento">
+
+A medida que nos acercamos a la ventana prevista para 2026-2027, mantén esta lista de verificación a mano para asegurarte de no perderte ninguna actualización o requisito crítico para el lanzamiento en Nintendo.
+
+<Checklist
+  id="tes-vi-launch"
+  title="Requisitos Previos al Lanzamiento:"
+  items={[
+    "Verificar la compatibilidad de hardware con 'Switch 2'",
+    "Comprobar el tamaño del parche del primer día (estimado en más de 20GB)",
+    "Liberar al menos 120GB de espacio de almacenamiento",
+    "Actualizar el firmware del sistema a la última versión",
+    "Reservar para obtener bonificaciones exclusivas del 'Creation Club'"
+  ]}
+/>
+
+<Callout type="tip" title="Gestión de la Batería">
+Un juego tan intensivo como este probablemente agotará la batería de la Switch en 2 o 3 horas. Se recomienda invertir en una batería externa (Power Bank) de alta capacidad (PD 3.0) para sesiones de viaje largas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Será The Elder Scrolls VI en Nintendo Switch un juego diferente?",
+    answer: "No, el contenido principal, la historia y el mundo serán idénticos a las versiones de PC y Xbox. Sin embargo, la fidelidad gráfica, la resolución de las texturas y la densidad de los NPC probablemente se reducirán para adaptarse a la potencia de la consola portátil."
+  },
+  {
+    question: "¿Puedo jugar a TES VI en la Nintendo Switch Lite original?",
+    answer: "Es muy poco probable que se ejecute de forma nativa en la Switch Lite. Si se lanza una versión para ese hardware, casi con seguridad será una versión en la nube que requerirá una conexión constante a internet."
+  },
+  {
+    question: "¿Cuándo es la fecha de lanzamiento prevista para la versión de Nintendo?",
+    answer: "Aunque se rumorea que el lanzamiento principal será en 2026, la adaptación para Nintendo suele llegar de 6 a 12 meses más tarde para permitir la optimización especializada que requiere la plataforma."
+  },
+  {
+    question: "¿Habrá controles de movimiento como en la adaptación de Skyrim?",
+    answer: "Bethesda tuvo un gran éxito con el tiro con arco y la ganzúa controlados por movimiento en la adaptación de Skyrim para Switch. Es muy probable que estas características regresen para la versión de Nintendo de la secuela."
+  }
+]} />
+
+</Section>

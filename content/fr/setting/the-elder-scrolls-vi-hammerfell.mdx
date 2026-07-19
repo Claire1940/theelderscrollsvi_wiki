@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Anchor, Mountain } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Elder Scrolls VI Hammerfell : Histoire, Univers et Prédictions de Gameplay",
+  description: "Explorez l'histoire profonde et l'univers de The Elder Scrolls VI Hammerfell, comprenant l'histoire des Rougegardes, les biomes et les mécaniques de gameplay prévues pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/ffffff?text=TES+VI+Hammerfell+Guide",
+  date: "2026-07-19",
+  author: "l'équipe du Wiki de The Elder Scrolls VI"
+}
+
+<Callout type="info" title="Guide rapide">
+- **The Elder Scrolls VI Hammerfell** devrait se dérouler dans la patrie des Rougegardes, une terre de déserts, de montagnes et de ports marchands côtiers.
+- **Lore de base** : L'histoire de la province est marquée par la migration des Yokudans (Ra Gada) et leur maîtrise des arts martiaux de « l'épée courbe ».
+- **Climat politique** : Les joueurs devront probablement naviguer entre la rivalité ancestrale opposant les traditionalistes **Couronnes** et les cosmopolites **Aïeux**.
+- **Gameplay** : Attendez-vous à un accent prononcé sur la navigation navale, la survie dans le désert et un système de combat au corps à corps affiné intégrant le légendaire Shehai.
+- **Contexte de sortie** : En 2026, Bethesda est entrée en pleine production, Hammerfell servant de toile de fond culturelle et géographique principale.
+</Callout>
+
+<Section icon={Map} title="La géographie de Hammerfell : Au-delà du désert d'Alik'r">
+
+Hammerfell est souvent résumé à un vaste désert aride, mais c'est en réalité l'une des provinces les plus diversifiées de Tamriel. Bien que le désert d'Alik'r domine le paysage central, la province abrite des prairies verdoyantes, des chaînes de montagnes imposantes et des ports tropicaux animés. Comprendre le terrain est crucial pour anticiper le fonctionnement des déplacements dans **the elder scrolls vi hammerfell**.
+
+<CardGrid cols={3}>
+  <Card title="Le désert d'Alik'r">
+    - **Environnement** : Dunes arides et chaleur étouffante.
+    - **Gameplay** : Mécaniques de survie et navigation dans les tempêtes de sable.
+    - **Ville clé** : Sentinelle, le joyau de la côte.
+  </Card>
+  <Card title="Les montagnes de la Queue du Dragon">
+    - **Environnement** : Sommets de haute altitude et cols rocheux.
+    - **Gameplay** : Exploration verticale et ruines Dwemers cachées.
+    - **Ville clé** : Étoile du Dragon, une ville divisée par les conflits.
+  </Card>
+  <Card title="La baie d'Iliaque">
+    - **Environnement** : Côtes tropicales et archipels.
+    - **Gameplay** : Navigation, combat naval et commerce maritime.
+    - **Ville clé** : Stros M'Kai, célèbre pour son histoire de pirates.
+  </Card>
+</CardGrid>
+
+| Région | Biome principal | Point d'intérêt notable | Importance stratégique |
+| :--- | :--- | :--- | :--- |
+| **Côte nord** | Tropical / Maritime | Sentinelle | Carrefour commercial de la baie d'Iliaque |
+| **Alik'r central** | Désert aride | La cité perdue de Na-Totambu | Secrets yokudans ancestraux |
+| **Frontière orientale** | Alpin / Montagneux | Montagnes de la Queue du Dragon | Défense contre Bordeciel et Cyrodiil |
+| **Confins sud** | Prairie / Aride | Hégathe | Bastion des Couronnes traditionalistes |
+| **Mer Abécéenne** | Océanique | Stros M'Kai | Base navale et ruines |
+
+<Callout type="tip" title="Conseil d'exploration">
+Dans Hammerfell, la gestion de l'eau et l'exposition au soleil devraient être des fonctionnalités clés du « Mode Survie », faisant du choix de l'équipement bien plus qu'une simple décision d'indice d'armure.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Époques historiques et la Vague Guerrière">
+
+L'histoire de Hammerfell n'appartient pas à l'origine aux Rougegardes eux-mêmes. Bien avant l'arrivée de la « Vague Guerrière », cette terre était connue sous le nom de Volenfell, la patrie du clan Dwemer Rourken. La transition d'un bastion Dwemer à un royaume Rougegarde est un pilier de l'histoire qui guidera probablement la quête principale de **the elder scrolls vi hammerfell**.
+
+| Ère | Événement majeur | Personnages clés | Résultat |
+| :--- | :--- | :--- | :--- |
+| **1E 420** | Migration du clan Rourken | Haut-Roi Dumac | Fondation de Volenfell |
+| **1E 808** | Arrivée des Ra Gada | La flotte yokudane | Les Rougegardes conquièrent la province |
+| **2E 862** | Les guerres de Tiber | Cyrus le Voyageur | Hammerfell rejoint l'Empire Septim |
+| **4E 175** | La Grande Guerre | Domaine Aldmeri | Hammerfell rejette le Concordat de l'Or blanc |
+| **4E 180** | Second traité de Stros M'Kai | Résistance rougegarde | Hammerfell devient un État souverain |
+
+<Callout type="warning" title="Avertissement sur le Lore">
+Hammerfell est actuellement une nation indépendante, ayant fait sécession de l'Empire après la Grande Guerre. Cela crée un vide politique unique où ni le Thalmor ni la dynastie Mede n'ont de contrôle officiel.
+</Callout>
+
+Les Rougegardes, ou Yokudans, ont fui leur continent englouti de Yokuda au cours de la première ère. Ils n'étaient pas de simples réfugiés, mais une force militaire disciplinée connue sous le nom de Ra Gada. Cette « Vague Guerrière » a rapidement soumis les populations locales d'hommes-bêtes et de Nèdes, établissant une culture fondée sur l'honneur martial et la « Voie de l'Épée ».
+
+</Section>
+
+<Section icon={Shield} title="Factions : Les Couronnes contre les Aïeux">
+
+L'intrigue politique a toujours été un élément central de la série, et **the elder scrolls vi hammerfell** devrait accentuer les tensions internes entre les deux principales factions rougegardes. Cette division remonte à la migration depuis Yokuda et influence tout, de la religion à la politique étrangère.
+
+| Faction | Philosophie | Divinité préférée | Position vis-à-vis de l'Empire |
+| :--- | :--- | :--- | :--- |
+| **Les Couronnes** | Traditionaliste / Isolationniste | Dieux yokudans (Satakal) | Fortement indépendante |
+| **Les Aïeux** | Cosmopolite / Progressiste | Divinités impériales (Arkay) | Ouverte aux alliances |
+| **Les Lhotuniques** | Centriste / Modérée | Panthéon hybride | Diplomatie pragmatique |
+
+<Steps>
+  <Step num="1" title="Choisissez votre allégeance">
+    Les quêtes de début de jeu à Sentinelle ou Hégathe forceront probablement les joueurs à s'allier soit avec la noblesse traditionaliste, soit avec la classe marchande.
+  </Step>
+  <Step num="2" title="Influencez la politique locale">
+    En accomplissant des tâches régionales, les joueurs pourront modifier l'équilibre des pouvoirs dans les grandes villes, ce qui affectera les prix des marchands et le comportement des gardes.
+  </Step>
+  <Step num="3" title="Unisez la province">
+    L'arc narratif de fin de jeu pourrait consister à négocier une paix entre les factions pour faire face à une menace commune, telle qu'une nouvelle invasion du Thalmor.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Avantage de faction">
+S'allier avec les Aïeux permet souvent d'accéder à un meilleur équipement maritime et au commerce international, tandis que les Couronnes offrent la maîtrise des techniques de combat ancestrales de Yokuda.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Innovations de combat et de gameplay">
+
+Les Rougegardes sont considérés comme les meilleurs guerriers de Tamriel. Par conséquent, **the elder scrolls vi hammerfell** devrait revitaliser les combats au corps à corps de la série. Les « épées courbes » mentionnées dans Skyrim ne sont qu'un début ; le lore suggère des liens mystiques profonds avec l'armement.
+
+**Mécaniques de gameplay prévues :**
+- **Le Shehai (l'Épée spirituelle)** : Une manifestation de pure volonté. Cela pourrait fonctionner de manière similaire aux « Cris » dans Skyrim, offrant un avantage surnaturel au combat.
+- **Navigation navale** : La baie d'Iliaque et la mer Abécéenne jouant un rôle majeur, des navires personnalisables et la gestion d'équipage sont très attendus.
+- **Parkour avancé** : Compte tenu de la verticalité de villes comme Taneth et des montagnes rocheuses de la Queue du Dragon, des mécaniques de mouvement améliorées sont probables.
+
+| Catégorie d'arme | Style | Origine dans le lore | Mécanique attendue |
+| :--- | :--- | :--- | :--- |
+| **Cimeterres** | Rapide / Tranchant | Ra Gada | Dégâts de saignement et parade |
+| **Épées à deux mains** | Lourd / Impact | Chantres de l'Épée | Attaques brise-garde |
+| **Ambidextrie** | Agile / Fluide | Tradition Ansei | Enchaînements de combos rapides |
+| **Armes spirituelles** | Éthéré / Magique | Le Shehai | Lames invoquées basées sur le mana |
+
+<Callout type="info" title="Conseil de pro">
+Maîtriser la « Voie de l'Épée » n'est pas seulement une question de statistiques ; c'est une question de timing. Recherchez des entraîneurs dans l'Alik'r qui peuvent vous enseigner des postures spécifiques des Chantres de l'Épée.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de préparation pour 2026">
+
+À l'approche de la période prévue pour de nouvelles révélations de gameplay, les fans devraient se familiariser avec les bases de la province. Utilisez cette liste pour vous assurer que vous êtes prêt pour le voyage vers l'ouest.
+
+<Checklist
+  id="tes6-prep"
+  title="Tâches de préparation pour Hammerfell :"
+  items={[
+    "Jouer au jeu dérivé 'Redguard' pour découvrir le lore de Stros M'Kai",
+    "Lire le livre en jeu 'L'Alik'r' dans Skyrim",
+    "Étudier l'histoire de la guerre de Bend'r-mahk",
+    "Comprendre les bases de la théologie yokudane",
+    "Faire des recherches sur l'architecture Dwemer du clan Rourken"
+  ]}
+/>
+
+<Callout type="tip" title="Lore approfondi">
+Le clan Dwemer Rourken est unique car il a refusé de rejoindre le Premier Conseil en Morrowind. Leurs ruines en Hammerfell contiennent souvent des technologies introuvables dans d'autres provinces.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ : The Elder Scrolls VI Hammerfell">
+
+<FAQ items={[
+  {
+    question: "Le jeu est-il officiellement confirmé à Hammerfell ?",
+    answer: "Bien que Bethesda n'ait pas explicitement mentionné ce nom dans un communiqué de presse, la géographie de la bande-annonce de 2018 correspond parfaitement à la côte de Hammerfell près de la baie d'Iliaque."
+  },
+  {
+    question: "Y aura-t-il des dragons à Hammerfell ?",
+    answer: "Bien que les dragons ne soient pas originaires de la région comme ils le sont de Bordeciel, le lore mentionne des dragons habitant les montagnes de la Queue du Dragon, des rencontres occasionnelles sont donc possibles."
+  },
+  {
+    question: "Pourrai-je naviguer sur mon propre navire dans The Elder Scrolls VI Hammerfell ?",
+    answer: "Les rumeurs et les offres d'emploi de Bethesda suggèrent un système de « véhicules » qui, dans le contexte géographique de Hammerfell, fait presque certainement référence aux voyages maritimes."
+  },
+  {
+    question: "Quelle est la taille de Hammerfell par rapport à Skyrim ?",
+    answer: "Hammerfell est géographiquement plus grand que Bordeciel, et avec l'inclusion du désert d'Alik'r, l'espace de jeu devrait sembler nettement plus vaste."
+  }
+]} />
+
+</Section>

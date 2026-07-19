@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Die handgefertigte Welt von The Elder Scrolls VI: Design- & Technik-Leitfaden",
+  description: "Erfahren Sie, wie die handgefertigte Welt von The Elder Scrolls VI mithilfe der Creation Engine 3 prozedurale Werkzeuge und manuelle Details in Einklang bringt. Neueste Updates für 2026 und Hinweise zum Schauplatz.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/e0aa3e?text=Handcrafted+World+Design",
+  date: "2026-07-19",
+  author: "the elder scrolls vi Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Die handgefertigte Welt von The Elder Scrolls VI**: Bethesda legt den Schwerpunkt auf manuelles Environmental Storytelling anstelle der gewaltigen prozeduralen Skalierung früherer Titel.
+- **Creation Engine 3**: Die aktualisierte Engine ermöglicht dichtere, detailreichere Stadtzentren und nahtlose Übergänge zwischen Wildnis und Innenräumen.
+- **Hinweise zum Schauplatz**: Visuelle Beweise aus offiziellem Bildmaterial deuten auf eine Rückkehr zur Iliac-Bucht hin, mit Fokus auf Hammerfell und Hochfels.
+- **Entwicklungsstatus**: Stand Juli 2026 befindet sich das Spiel in der Hauptproduktion und ist das Hauptprojekt der Bethesda Game Studios.
+- **Kernphilosophie**: Das Designziel ist es, eine Welt zu erschaffen, die man ein Jahrzehnt lang spielen kann, wobei Tiefe und spielerische Freiheit im Vordergrund stehen.
+</Callout>
+
+<Section icon={Map} title="Die Philosophie einer handgefertigten Welt">
+
+Die **handgefertigte Welt von The Elder Scrolls VI** stellt einen strategischen Wendepunkt in Bethesdas Entwicklungsphilosophie dar. Während *Starfield* prozedurale Generierung nutzte, um tausend Planeten zu bevölkern, konzentriert sich das nächste Kapitel der Elder-Scrolls-Reihe auf eine einzige, hochdetaillierte Landmasse. Dieser Ansatz stellt sicher, dass jede Ruine, jeder Bergpfad und jede Siedlung das charakteristische Environmental Storytelling enthält, das Fans von der Reihe erwarten.
+
+**Video-Highlights:**
+- Luftaufnahme einer bergigen Küstenlandschaft mit zerklüfteten Klippen.
+- Abwechslungsreiches Terrain, darunter trockene, felsige Täler und üppig grüne Anhöhen.
+- In der Ferne befestigte Siedlungen und antike Ruinen, die auf eine tiefgründige Lore hindeuten.
+- Atmosphärische Beleuchtung, welche die Fähigkeiten der aktualisierten Engine demonstriert.
+
+<YouTubeEmbed videoId="OkFdqqyI8y4" title="The Elder Scrolls VI – Offizieller Ankündigungs-Teaser" />
+
+| Design-Aspekt | Handgefertigter Ansatz | Prozedurale Integration |
+|:--- |:--- |:--- |
+| **Environmental Storytelling** | Hoch: Jedes Skelett und jede Notiz wird manuell platziert | Gering: Im Allgemeinen für Gelände und Vegetation verwendet |
+| **Dungeon-Design** | Einzigartige Layouts mit spezifischen Rätseln und Lore | Modulare Sets für grundlegende Füllinhalte |
+| **Größenordnung der Städte** | Dichter, vertikaler und hochgradig interaktiv | Größere Grundflächen mit automatisierten Füll-NPCs |
+| **Erkundungsbelohnung** | Spezifische, einzigartige Gegenstände und versteckte Erzählstränge | Ressourcensammeln und generische Beute-Drops |
+
+<Callout type="tip" title="Einblick der Redaktion">
+Bethesdas Fokus auf „Handgefertigtes“ bedeutet nicht, dass sie keine Werkzeuge verwenden. Es bedeutet, dass prozedurale Technologie die „Leinwand“ (Berge, Wälder) erschafft, während Entwickler ihre Zeit damit verbringen, die spezifischen Details zu „malen“, die die Welt lebendig wirken lassen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Entwicklungszeitplan und aktueller Status">
+
+Der Weg zur **handgefertigten Welt von The Elder Scrolls VI** war lang und begann offiziell im Jahr 2018. Nach der Veröffentlichung von *Starfield* verlagerte das Studio sein gesamtes Gewicht auf Tamriel. Im Jahr 2026 bestätigen interne Berichte, dass das Spiel der Hauptfokus von Bethesda Game Studios ist, wobei bereits erste spielbare Builds vom Entwicklungsteam getestet werden.
+
+<Steps>
+  <Step num="1" title="Ankündigung (2018)">
+    Bethesda enthüllte das Projekt auf der E3 2018 mit einem Landschafts-Teaser, um die Existenz des Spiels zu bestätigen, bevor der Fokus auf Starfield gelegt wurde.
+  </Step>
+  <Step num="2" title="Vorproduktion (2018–2022)">
+    Ein kleines team arbeitete an Weltkonzepten, Lore-Grundlagen und den technologischen Anforderungen für die Next-Gen-Engine.
+  </Step>
+  <Step num="3" title="Produktionswechsel (2023–2024)">
+    Nach der Veröffentlichung von Starfield wechselte das Kern-Entwicklungsteam zu TES VI und überführte das Projekt in die aktive Entwicklung.
+  </Step>
+  <Step num="4" title="Interne Meilensteine (2025–2026)">
+    Bethesda bestätigte, dass Entwickler bereits frühe Builds spielen. Der Fokus hat sich auf die Implementierung von Quests und das Worldbuilding verlagert.
+  </Step>
+</Steps>
+
+| Datum des Meilensteins | Entwicklungsphase | Status-Update |
+|:--- |:--- |:--- |
+| **Juni 2018** | Offizielle Enthüllung | Teaser-Trailer weltweit veröffentlicht |
+| **2021-2022** | Technisches Fundament | Creation Engine 2 als Baseline etabliert |
+| **März 2024** | Spielbare Builds | Interne Teams testen frühe Umgebungen |
+| **Juli 2026** | Hauptproduktion | Hauptentwicklungsprojekt des Studios |
+
+<Callout type="success" title="Update 2026">
+Bethesdas jüngste Mitteilungen deuten darauf hin, dass die Entwicklungspipeline nun vollständig optimiert ist, wobei die „handgefertigten“ Elemente der Welt derzeit die Priorität für die Grafik- und Designteams darstellen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Technologie: Creation Engine 3">
+
+Um die **handgefertigte Welt von The Elder Scrolls VI** zum Leben zu erwecken, nutzt Bethesda die **Creation Engine 3**. Diese Technologie baut auf den Grundlagen der für *Starfield* verwendeten Engine auf, führt jedoch erhebliche Upgrades beim Welt-Streaming, den KI-Routinen und den physischen Interaktionen ein. Das Ziel ist es, die Barriere der „Ladebildschirme“ zu beseitigen, die historisch gesehen Städte und Innenräume von der offenen Welt getrennt hat.
+
+<CardGrid cols={3}>
+  <Card title="Welt-Rendering">
+    Verbesserte volumetrische Beleuchtung, hohe Sichtweiten und detailreiche Vegetation für eine realistische Fantasy-Atmosphäre.
+  </Card>
+  <Card title="Laden & Streaming">
+    Fortschrittliches regionales Streaming ermöglicht reibungslosere Übergänge zwischen der Wildnis und dichten städtischen Siedlungen.
+  </Card>
+  <Card title="Radiant AI 2.0">
+    NPCs verfügen über komplexere Tagesabläufe, fraktionsbasierte Reaktionen und dynamischere Reaktionen auf den Ruf des Spielers.
+  </Card>
+</CardGrid>
+
+| Feature | Creation Engine 2 (Starfield) | Creation Engine 3 (TES VI) |
+|:--- |:--- |:--- |
+| **Atmosphärische Technologie** | Beleuchtung und Schwerkraft auf Planetenskala | Dichte Wetter-, Wasser- und Magieeffekte |
+| **NPC-Interaktion** | Standarddialoge und Crew-Rollen | Dynamische, fraktionsbasierte soziale Simulation |
+| **Weltdichte** | Weitläufig, aber oft spärlich | Aufwendig detailliert und handgefertigt |
+| **Mod-Unterstützung** | Kern-Plugin-Unterstützung | Datengetriebene Welt für einfachere Erweiterungen |
+
+<Callout type="info" title="Technischer Hinweis">
+Die Creation Engine 3 ist speziell auf „Dichte“ statt auf „Distanz“ ausgelegt. Während es in Starfield um die Weiten des Weltraums ging, dreht sich in TES VI alles um den Reichtum einer einzelnen Provinz.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Schauplatz- und Kartenanalyse">
+
+Obwohl der genaue Ort noch nicht offiziell bekannt gegeben wurde, liefert das Teaser-Material deutliche Hinweise darauf, dass die **handgefertigte Welt von The Elder Scrolls VI** in **Hammerfell** oder **Hochfels** angesiedelt ist. Diese Regionen bieten eine Mischung aus zerklüfteten Küsten, trockenen Wüsten und mittelalterlichen Königreichen und bilden so eine abwechslungsreiche Kulisse für ein handgefertigtes Erlebnis.
+
+<Checklist
+  id="setting-evidence"
+  title="Visuelle Beweise aus dem Teaser:"
+  items={[
+    "Zerklüftete Küstenberge, die der Geografie der Iliac-Bucht entsprechen.",
+    "Trockenes, felsiges Terrain, das zum Norden von Hammerfell passt.",
+    "Befestigungen im mittelalterlichen Stil, die auf bretonische oder rothwardonische Architektur hindeuten.",
+    "Fortschrittliches Wasser-Rendering für einen Fokus auf See- oder Küstenreisen."
+  ]}
+/>
+
+| Theorie | Region | Beweise |
+|:--- |:--- |:--- |
+| **Hammerfell** | Westliches Tamriel | Wüsten, felsige Küsten und rothwardonische Lore |
+| **High Rock** | Nordwestliches Tamriel | Steile Berge, Burgen und bretonische Geschichte |
+| **Iliac-Bucht** | Kombinierte Provinzen | Umfasst Teile von beiden, zentriert um die Bucht |
+
+<Callout type="warning" title="Spekulationswarnung">
+Obwohl die Community-Meinung stark in Richtung Hammerfell tendiert, hat Bethesda die endgültigen Kartengrenzen nicht bestätigt. Das spielbare Gebiet könnte sich über mehrere Provinzen erstrecken oder sich auf eine bestimmte Subregion konzentrieren.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gameplay und RPG-Systeme">
+
+Die **handgefertigte Welt von The Elder Scrolls VI** dient als Spielwiese für weiterentwickelte RPG-Systeme. Bethesda bewegt sich weg von starren Klassenstrukturen hin zu einer fließenderen „Lernen durch Tun“-Mechanik, welche die Reihe geprägt hat. Kampf, Magie und Schleichen werden verfeinert, um sich in den handgefertigten Umgebungen reaktionsschneller anzufühlen.
+
+| Gameplay-Säule | Beschreibung | Erwartete Entwicklung |
+|:--- |:--- |:--- |
+| **Kampf** | Nahkampf, Fernkampf und Magie | Physikbasierte Trefferwirkung und verbessertes Blocken |
+| **Magie** | Zauberschulen und Verzauberung | Mehr Interaktion der Zauber mit der Umgebung |
+| **Fortschritt** | Fertigkeitsbasiertes Aufleveln | Tiefere Talentbäume und spezialisierte Builds |
+| **Wirtschaft** | Lokale Geschäfte und Handelsrouten | Dynamische Preisgestaltung basierend auf regionalen Ereignissen |
+
+<Callout type="tip" title="Profi-Strategie">
+Der Fokus auf „Freiheit bei der Charakterentwicklung“ bedeutet, dass Spieler ohne Neustart zwischen verschiedenen Spielstilen wechseln können. Eine handgefertigte Welt belohnt dies, indem sie spezifische Ausrüstung und Herausforderungen für jeden erdenklichen Build bietet.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Ist die Welt von The Elder Scrolls VI vollständig handgefertigt?",
+    answer: "Bethesda nutzt prozedurale Werkzeuge, um das Basisgelände und die Vegetation zu generieren, aber die überwiegende Mehrheit der Points of Interest, Dungeons und Siedlungen ist handgefertigt, um qualitativ hochwertiges Environmental Storytelling zu gewährleisten."
+  },
+  {
+    question: "Welche Engine nutzt The Elder Scrolls VI?",
+    answer: "Das Spiel wird auf der Creation Engine 3 entwickelt, einer Weiterentwicklung der für Starfield genutzten Technologie, optimiert für dichte Fantasy-Umgebungen und nahtloses Welt-Streaming."
+  },
+  {
+    question: "Wird die Welt größer sein als die von Skyrim?",
+    answer: "Obwohl die physische Kartengröße größer sein mag, liegt der Fokus für die handgefertigte Welt von The Elder Scrolls VI auf Dichte und Tiefe statt auf reiner Größe."
+  },
+  {
+    question: "Wann ist das Veröffentlichungsdatum für The Elder Scrolls VI?",
+    answer: "Stand Juli 2026 hat Bethesda kein offizielles Veröffentlichungsdatum bekannt gegeben. Das Spiel befindet sich weiterhin in aktiver Hauptproduktion."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Statut de développement de The Elder Scrolls VI : Mise à jour des progrès 2026",
+  description: "Découvrez les dernières informations sur le statut de développement de The Elder Scrolls VI, les améliorations du moteur et les fonctionnalités de gameplay attendues pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Elder+Scrolls+VI+Update",
+  date: "2026-07-19",
+  author: "L'équipe du Wiki de The Elder Scrolls VI"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Le statut de développement de The Elder Scrolls VI** est passé en phase de production complète chez Bethesda Game Studios.
+- **Évolution du moteur** : L'équipe perfectionne la technologie du Creation Engine pour prendre en charge une création de monde complexe.
+- **Philosophie de conception** : Todd Howard vise à créer le **simulateur de monde fantastique ultime** avec une immersion profonde.
+- **Perspectives de sortie** : Les calendriers de développement suggèrent de se concentrer sur les capacités du matériel de nouvelle génération.
+</Callout>
+
+<Section icon={Target} title="Jalons de développement actuels">
+
+Bethesda Game Studios donne actuellement la priorité au développement de The Elder Scrolls VI. Après des années de préproduction, le projet est entré en phase de production complète pour établir les bases du prochain chapitre de la série. L'équipe s'appuie sur les leçons tirées des projets précédents pour perfectionner les mécaniques de base et les outils de création de monde.
+
+**Points forts de la vidéo :**
+- Le cycle de développement complet est la priorité absolue chez Bethesda.
+- Des mises à niveau du Creation Engine sont en cours pour prendre en charge des systèmes de gameplay avancés.
+- Le projet vise une conception de monde plus vivante et réactive.
+
+<YouTubeEmbed videoId="YACheSpniK4" title="Mise à jour 2024 de The Elder Scrolls 6™ | Creation Engine 3, développement complet et plus encore !" />
+
+<Callout type="tip" title="Aperçu du développement">
+Le studio expérimente activement des modifications du moteur pour s'assurer que les interactions environnementales semblent naturelles et que les systèmes restent robustes tout au long du parcours du joueur.
+</Callout>
+
+| Phase de jalon | Statut | Domaine de concentration |
+| :--- | :--- | :--- |
+| Préproduction | Terminé | Lore du monde, concept art, conception de base |
+| Perfectionnement du moteur | Actif | Creation Engine, physique, systèmes d'IA |
+| Production complète | Actif | Création de monde, conception de quêtes, combat |
+
+</Section>
+
+<Section icon={Swords} title="Vision et conception du gameplay">
+
+La vision du jeu est centrée sur la création d'un simulateur de fantasy immersif. Plutôt que de s'appuyer sur une conception traditionnelle surchargée de marqueurs de quête, les développeurs explorent des moyens de rendre le monde réactif aux choix du joueur de manière naturelle. Cette approche s'inspire des standards des RPG modernes où la liberté d'action du joueur a un impact significatif sur l'environnement.
+
+<CardGrid cols={3}>
+  <Card title="Simulation du monde">
+    Concentration sur un environnement vivant et dynamique où les PNJ et les factions opèrent de manière indépendante.
+  </Card>
+  <Card title="Mécaniques de combat">
+    Perfectionnement des combats à la troisième et première personne pour offrir plus de poids et de variété tactique.
+  </Card>
+  <Card title="Liberté d'action du joueur">
+    Garantir que les décisions ont des conséquences durables sur le monde et les parcours narratifs.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Philosophie de conception">
+En s'éloignant des structures répétitives, l'équipe espère favoriser un sentiment de découverte qui récompense l'exploration et la curiosité plutôt que de simplement suivre une liste de tâches.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Considérations techniques et matérielles">
+
+Le développement technique est fortement axé sur l'optimisation matérielle. L'équipe évalue comment les fonctionnalités des consoles modernes, telles que le retour haptique et les gâchettes adaptatives, peuvent améliorer l'expérience tactile des lancers de sorts et des combats.
+
+| Fonctionnalité | Impact sur le gameplay |
+| :--- | :--- |
+| Retour haptique | Immersion accrue pendant les combats et les interactions environnementales |
+| Gâchettes adaptatives | Sensation améliorée pour le tir à l'arc et les lancers de sorts |
+| Mises à niveau du moteur | Amélioration du streaming des ressources et de la gestion des systèmes complexes |
+
+<Steps>
+  <Step num="1" title="Optimisation du moteur">
+    Intégration de systèmes physiques et d'IA avancés dans la structure de base.
+  </Step>
+  <Step num="2" title="Intégration matérielle">
+    Utilisation du stockage à haute vitesse et des fonctionnalités de manette haptique pour de meilleures performances.
+  </Step>
+  <Step num="3" title="Systèmes modulaires">
+    Développement d'outils flexibles permettant un futur support des mods et l'extension du contenu.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Note sur le matériel">
+Le studio équilibre soigneusement la portée du jeu pour s'assurer qu'il fonctionne de manière optimale sur le matériel cible, en gardant les performances et la fidélité visuelle comme piliers centraux.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objectifs stratégiques et attentes">
+
+En regardant vers l'avenir, l'objectif principal reste de proposer un titre qui définira la prochaine génération de RPG en monde ouvert. L'équipe s'engage à maintenir les standards élevés attendus de la franchise tout en repoussant les limites de ce qu'un simulateur de monde fantastique peut accomplir.
+
+<Checklist
+  id="dev-goals"
+  title="Priorités de développement :"
+  items={[
+    "Perfectionner l'expérience du simulateur de monde fantastique ultime",
+    "Implémenter des systèmes d'interaction réactifs pour les PNJ",
+    "Améliorer la fluidité et la profondeur des combats",
+    "Assurer un support solide pour les futures communautés de modding"
+  ]}
+/>
+
+| Aspect | Approche ciblée |
+| :--- | :--- |
+| Profondeur du monde | Systèmes réactifs et narration organique |
+| Combat | Profondeur tactique avec retours percutants |
+| Rejouabilité | Parcours narratifs ramifiés basés sur les décisions du joueur |
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Quel est le statut actuel de The Elder Scrolls VI ?",
+    answer: "The Elder Scrolls VI est actuellement en plein développement chez Bethesda Game Studios, l'équipe se concentrant sur le perfectionnement du moteur et les systèmes de simulation du monde de base."
+  },
+  {
+    question: "Le jeu bénéficiera-t-il d'une nouvelle technologie de moteur ?",
+    answer: "Oui, les développeurs mettent activement à niveau le Creation Engine pour prendre en charge des systèmes de monde plus complexes et des interactions environnementales améliorées."
+  },
+  {
+    question: "Comment les choix du joueur affecteront-ils le monde du jeu ?",
+    answer: "L'objectif est de créer un monde vivant où les actions du joueur ont des conséquences tangibles, en s'éloignant des structures de quêtes répétitives au profit d'une narration plus naturelle et réactive."
+  }
+]} />
+
+<Callout type="info" title="Restez informé">
+À mesure que le développement progresse, les mises à jour officielles resteront la source la plus fiable concernant les dates de sortie spécifiques et les configurations requises.
+</Callout>
+
+</Section>

@@ -1,0 +1,136 @@
+import { Map, Swords, Trophy, Target, Sparkles, BrainCircuit } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fonctionnalités IA de The Elder Scrolls VI : Attentes et Réalité",
+  description: "Explorez l'implémentation potentielle des fonctionnalités d'IA dans The Elder Scrolls VI, des interactions avec les PNJ aux flux de travail de développement et à la génération procédurale.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=ESVI+AI+Features",
+  date: "2026-07-19",
+  author: "L'équipe du Wiki de The Elder Scrolls VI"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Les fonctionnalités d'IA de The Elder Scrolls VI** devraient se concentrer sur l'amélioration du réalisme des PNJ et la simplification du développement.
+- **La génération procédurale** sera probablement utilisée avec parcimonie pour éviter les pièges de la répétitivité observés dans les titres récents.
+- **Les systèmes d'animation avancés** et la physique accélérée par GPU sont fondamentaux pour l'architecture technique du jeu.
+- **La narration artisanale** reste la priorité, l'IA servant d'outil de soutien plutôt que de remplacement créatif.
+</Callout>
+
+<Section icon={BrainCircuit} title="Intégration de l'IA dans le développement">
+
+Bethesda Game Studios fait évoluer ses bases techniques pour le prochain chapitre de la franchise. Bien que les spéculations aillent bon train, l'accent est mis sur l'utilisation de la technologie pour créer une expérience plus immersive.
+
+**Points forts de la vidéo :**
+- Le Creation Engine 2 est en cours de perfectionnement spécifiquement pour ce titre.
+- Le partenariat avec Nvidia vise à apporter une physique avancée accélérée par GPU.
+- L'équipe donne la priorité à la profondeur plutôt qu'à la simple échelle observée dans d'autres projets.
+
+<YouTubeEmbed videoId="N9deTu6DpjY" title="Tout ce que nous savons sur Elder Scrolls 6 depuis 2018" />
+
+L'intégration de l'IA dans The Elder Scrolls VI est largement axée sur les aspects « invisibles » du développement. Plutôt que de remplacer l'écriture ou la conception des quêtes, les développeurs utilisent ces outils pour optimiser les systèmes de rendu, les séquences d'animation et les interactions environnementales complexes. En déchargeant ces tâches techniques sur des systèmes pilotés par l'IA, l'équipe créative gagne du temps pour se concentrer sur les récits arborescents et la réactivité du monde qui définissent la série.
+
+<Callout type="tip" title="Aperçu technique">
+L'objectif de l'utilisation de l'IA est de préserver l'aspect « artisanal » du monde. Attendez-vous à ce que l'IA gère les systèmes d'arrière-plan comme le comportement de la foule et la physique plutôt que de dicter les moments clés de l'histoire.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fonctionnalités attendues basées sur l'IA">
+
+Nous pouvons classer les fonctionnalités d'IA attendues en trois piliers principaux : la réactivité environnementale, le comportement des personnages et l'efficacité du développement.
+
+| Catégorie de fonctionnalité | Application potentielle | Impact sur le gameplay |
+| :--- | :--- | :--- |
+| **Interaction avec les PNJ** | Expressions faciales dynamiques | Forte immersion dans les dialogues |
+| **IA de combat** | Tactiques de bandits adaptatives | Combats engageants et non répétitifs |
+| **Simulation du monde** | Radiant AI 2.0 | Villes et colonies réactives |
+| **Génération d'éléments** | Polissage procédural du terrain | Création d'un monde plus rapide et plus dense |
+
+<CardGrid cols={3}>
+  <Card title="Combat adaptatif">
+    Les ennemis pourraient apprendre les schémas du joueur, vous obligeant à changer de tactique lors d'affrontements prolongés.
+  </Card>
+  <Card title="Animation faciale">
+    La synchronisation labiale et les expressions assistées par l'IA visent à rendre chaque conversation plus personnelle.
+  </Card>
+  <Card title="Réactivité du monde">
+    Les PNJ présenteront probablement des horaires et des réactions plus complexes aux actions du joueur dans le monde.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Philosophie de conception">
+Bethesda se concentre sur une conception de monde « intentionnelle ». L'IA est l'outil permettant de s'assurer que même les plus petites villes semblent vivantes, plutôt que de simplement remplir l'espace avec du contenu vide généré de manière procédurale.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Feuille de route de mise en œuvre">
+
+Comprendre comment ces fonctionnalités intègrent la version finale implique plusieurs étapes de perfectionnement.
+
+<Steps>
+  <Step num="1" title="Optimisation du moteur">
+    Intégration du rendu et de la physique pilotés par l'IA au cœur du Creation Engine 2 pour assurer la stabilité.
+  </Step>
+  <Step num="2" title="Scripting comportemental">
+    Entraînement des modèles d'IA des PNJ pour réagir à des déclencheurs spécifiques dans l'environnement, tels que la météo ou la réputation du joueur.
+  </Step>
+  <Step num="3" title="Test de tranche verticale">
+    Création d'une version jouable pour vérifier que les éléments générés par l'IA ne brisent pas l'immersion ou la continuité des quêtes.
+  </Step>
+</Steps>
+
+| Phase de développement | Statut actuel | Zone d'intérêt |
+| :--- | :--- | :--- |
+| **Prototypage** | Terminé | Vérification des capacités du moteur |
+| **Pleine production** | En cours | Intégration des quêtes et de la construction du monde |
+| **Optimisation** | Futur | Contrôles de performance et de stabilité |
+
+</Section>
+
+<Section icon={Trophy} title="Objectifs et attentes">
+
+Les joueurs doivent modérer leurs attentes concernant les fonctionnalités « génératives ». Le consensus de la communauté, soutenu par des données historiques, suggère que Bethesda privilégiera la stabilité et la qualité narrative aux dialogues expérimentaux générés par IA.
+
+<Checklist
+  id="ai-goals"
+  title="Ce qu'il faut surveiller :"
+  items={[
+    "Amélioration de la recherche de chemin des PNJ dans les zones urbaines denses",
+    "Conversations ambiantes aux sonorités plus naturelles",
+    "Améliorations de la fidélité visuelle alimentées par la mise à l'échelle par IA",
+    "Comportement de combat des ennemis cohérent et réactif"
+  ]}
+/>
+
+<Callout type="warning" title="Mise en garde">
+Évitez l'engouement autour des « quêtes générées par IA ». La force de Bethesda réside dans son lore écrit à la main et sa conception de quêtes ; attendez-vous à ce que l'IA améliore la présentation de ces éléments, et non à ce qu'elle les remplace.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "The Elder Scrolls VI utilisera-t-il l'IA pour les dialogues ?",
+    answer: "Bethesda est susceptible d'utiliser l'IA pour l'animation et les expressions faciales, mais le dialogue principal reste écrit à la main pour garantir la haute qualité d'écriture qui fait la réputation de la série."
+  },
+  {
+    question: "Quel est l'impact de l'IA sur la taille du monde ?",
+    answer: "Les outils d'IA aident les développeurs à construire le monde plus rapidement et plus efficacement, permettant une carte dense et très détaillée plutôt qu'un vaste espace vide."
+  },
+  {
+    question: "L'IA remplace-t-elle les développeurs humains ?",
+    answer: "Non. L'équipe s'est en fait agrandie, recrutant des vétérans d'autres studios pour s'assurer que l'élément humain de la narration reste l'objectif principal de The Elder Scrolls VI."
+  }
+]} />
+
+</Section>

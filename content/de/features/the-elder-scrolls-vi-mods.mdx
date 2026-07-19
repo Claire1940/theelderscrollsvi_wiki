@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Cpu, Globe } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Elder Scrolls VI Mods: Creation Engine 3 & Modding-Guide",
+  description: "Erkunden Sie die Zukunft der Mods für The Elder Scrolls VI, einschließlich der Creation Engine 3-Technologie, Plattformunterstützung für Xbox and PC sowie Community-Erwartungen.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/e0aa3e?text=TES+VI+Modding+Guide",
+  date: "2026-07-19",
+  author: "the elder scrolls vi Wiki-Team",
+  keywords: "The Elder Scrolls VI, Mods, Creation Engine 3, Modding-Guide, Xbox, PC"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **The Elder Scrolls VI Mods**: Bethesda hat bestätigt, dass das Spiel auf einer datengesteuerten Architektur aufbaut, die auf langfristiges Modding durch die Community ausgelegt ist.
+- **Creation Engine 3**: Diese neue Iteration der Engine bietet fortschrittliche Werkzeuge für prozedurale Generierung, verbesserte Animations-Pipelines und dichteren Weltenbau.
+- **Plattformunterstützung**: Während der PC die Hauptplattform bleibt, wird die Xbox-Mod-Unterstützung als Kernfeature erwartet, folgend dem Präzedenzfall von Starfield und Skyrim.
+- **Modding-Tools**: Eine aktualisierte Version des Creation Kits wird voraussichtlich nach der Veröffentlichung erscheinen und benutzerdefinierte Quests, Regionen und Gameplay-Überarbeitungen ermöglichen.
+- **Aktueller Status**: Stand Juli 2026 befindet sich das Spiel in aktiver Entwicklung, wobei Bethesda sich auf das technische Fundament konzentriert, das für massive Community-Inhalte erforderlich ist.
+</Callout>
+
+<Section icon={Map} title="Die Evolution der Mods für The Elder Scrolls VI">
+
+Das Erbe der Bethesda Game Studios ist untrennbar mit ihrer Community verbunden, und das Potenzial für **The Elder Scrolls VI Mods** prägt bereits, wie Fans den kommenden Titel wahrnehmen. Da das Spiel seit Juli 2026 der Hauptfokus des Studios ist, sind technische Details zu seiner „datengesteuerten“ Struktur aufgetaucht. Im Gegensatz zu früheren Generationen wird das nächste Kapitel von Tamriel von Grund auf so konzipiert, dass es eine nahtlosere Integration von benutzergenerierten Inhalten unterstützt. Dabei werden die Fortschritte genutzt, die während der Entwicklung von Starfield und dem anschließenden Übergang zur Creation Engine 3 erzielt wurden.
+
+<Callout type="tip" title="Einblick der Redaktion">
+Das Modden in Bethesda-Titeln hat sich von einem Nischenhobby zu einer tragenden Säule für die Langlebigkeit des Spiels entwickelt. Erwarten Sie, dass Mods für The Elder Scrolls VI zugänglicher denn je sein werden, mit einer besseren internen Konfliktlösung für die Ladereihenfolge.
+</Callout>
+
+| Modding-Ära | Haupt-Engine | Schlüssel-Innovation | Vertriebsmethode |
+| :--- | :--- | :--- | :--- |
+| **Skyrim-Ära** | Creation Engine 1 | Script Extender (SKSE) | Nexus Mods, Steam Workshop |
+| **Starfield-Ära** | Creation Engine 2 | Prozedurale Platzierung | Creations (Verifizierte Schöpfer) |
+| **TES VI-Ära** | **Creation Engine 3** | **Datengesteuerte Systeme** | **Plattformübergreifende Creations** |
+
+</Section>
+
+<Section icon={Cpu} title="Creation Engine 3: Das technische Fundament">
+
+Das Herzstück der **The Elder Scrolls VI Mods** bildet die Creation Engine 3. Bethesda hat sich offiziell über die mit Starfield etablierte Basis hinausbewegt und konzentriert sich auf eine Version der Engine, die hochdichte Fantasy-Umgebungen priorisiert. Dieser technologische Sprung ist für Modder von großer Bedeutung, da er verändert, wie die Welt mit „Zellen“ (Cells) und „Streaming“ umgeht. Die Engine ist so konzipiert, dass sie fließendere Übergänge zwischen riesigen Wildnisgebieten und dichten urbanen Zentren wie Schildhalt (Sentinel) oder Dolchsturz (Daggerfall) ermöglicht, wodurch die Ladezeit-Engpässe durch Übergangstüren reduziert werden, die frühere Titel plagten.
+
+**Wichtige technische Verbesserungen für Modder:**
+- **Fortschrittlicher Renderer**: Unterstützt komplexere Beleuchtung und volumetrische Effekte, die Modder für Wetter-Überarbeitungen nutzen können.
+- **Animations-Pipeline**: Ein überarbeitetes System, das reaktionsschnellere Nahkämpfe und komplexere Verhaltensweisen von Kreaturen ermöglicht.
+- **Prozedurale Werkzeuge**: Tools, die Moddern helfen, riesige Landschaften zu generieren, während handgefertigte Details an bestimmten Story-Orten erhalten bleiben.
+- **KI-Simulation**: Tiefgründigere „Radiant AI“-Abläufe, die es Moddern ermöglichen, immersivere Tagesabläufe für NPCs und Fraktionsinteraktionen zu erstellen.
+
+<Callout type="success" title="Entwicklungs-Update">
+Bethesdas Meilenstein vom März 2024 bestätigte, dass frühe Builds bereits spielbar sind. Interne Tests haben sich stark darauf konzentriert, sicherzustellen, dass die Engine die hohen Objektzahlen bewältigen kann, die für stark gemoddete Ladereihenfolgen typisch sind.
+</Callout>
+
+| Technologiebereich | Creation Engine 2 Basis | Creation Engine 3 Ausrichtung | Auswirkung auf das Modding |
+| :--- | :--- | :--- | :--- |
+| **Welt-Streaming** | Verbesserte Zellenübergänge | Nahtloses regionales Streaming | Größere, zusammenhängende Landmassen |
+| **Physik** | Fokus auf geringe Schwerkraft/Weltraum | Fokus auf Fantasy/Umgebung | Zerstörbare Umgebungen |
+| **KI-Systeme** | Crew-/Kampfrollen | Tiefgründige Tagesabläufe | Immersivere NPC-Mods |
+| **Mod-Tools** | Creation Kit 2 | **Creation Kit 3** | **Schnellere Inhaltserstellung** |
+
+</Section>
+
+<Section icon={Swords} title="Erwartete Mod-Kategorien und Community-Projekte">
+
+Angesichts der gerüchteweise als Schauplatz gehandelten Regionen Hammerfell und Hochfels plant die Community bereits Großprojekte. Die Mods für The Elder Scrolls VI werden wahrscheinlich in verschiedene Kategorien fallen, die von einfachen Komfortverbesserungen bis hin zu Total Conversions reichen, die die Karte auf den gesamten Kontinent Tamriel ausdehnen.
+
+<CardGrid cols={3}>
+  <Card title="Gameplay-Überarbeitungen">
+    - **Kampfrealismus**: Mods, die Parieren, Ausdauermanagement und Trefferzonen-Schaden hinzufügen.
+    - **Magie-Erweiterung**: Neue Zauberschulen und ritualbasierte Beschwörungssysteme.
+    - **Überlebensmechaniken**: Bedürfnissysteme für Hunger, Durst und regionale Temperaturen.
+  </Card>
+  <Card title="Inhalte & Quests">
+    - **Neue Provinzen**: Von Fans erstellte Erweiterungen für Cyrodiil, Himmelsrand (Skyrim) oder Morrowind.
+    - **Gilden-Überarbeitungen**: Vertiefung der Questreihen für die Kriegergilde oder Magiergilde.
+    - **Begleitersysteme**: Vollständig vertonte Begleiter mit komplexen Beziehungs-Trackern.
+  </Card>
+  <Card title="Visuell & Technisch">
+    - **Texturpakete**: 8K-Umgebungs- und Charakter-Skin-Ersetzungen.
+    - **Beleuchtungs-Mods**: Komplette Überarbeitungen der Innen- und Außenbeleuchtungs-Engines.
+    - **UI-Redesign**: Benutzerdefinierte Benutzeroberflächen für eine bessere Maus-/Tastatur- und Controller-Navigation.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Hinweis zur Kompatibilität">
+Mit dem Wechsel zur Creation Engine 3 müssen ältere Script-Extender-Methoden möglicherweise komplett neu geschrieben werden. Modder sollten sich auf eine robustere, aber grundlegend andere interne API einstellen.
+</Callout>
+
+</Section>
+
+<Section icon={Globe} title="Plattformunterstützung und Vertrieb">
+
+Die Debatte über Exklusivität und Plattformverfügbarkeit für **The Elder Scrolls VI Mods** wurde durch jüngste Microsoft-Gerichtsdokumente und Bethesdas eigene Veröffentlichungsmuster beigelegt. Während das Spiel voraussichtlich für das Xbox- und PC-Ökosystem erscheinen wird, wird die Modding-Landschaft zwischen dem traditionellen „offenen“ PC-Modding und dem „kuratierten“ Konsolenerlebnis aufgeteilt sein.
+
+| Feature | Windows PC (Steam/MS Store) | Xbox Series X|S / Next-Gen |
+| :--- | :--- | :--- |
+| **Mod-Zugriff** | Vollständig (Nexus, LL, Creations) | Creations (Offizieller Hub) |
+| **Script Extender** | Unterstützt (über Community) | Nicht unterstützt |
+| **Speicherlimit** | Unbegrenzt (hardwareabhängig) | Eingeschränkt (Reservierter Speicher) |
+| **Asset-Unterstützung** | Vollständig eigene Assets | Eingeschränkte externe Assets |
+| **Entwicklungswerkzeuge** | Creation Kit 3 / xEdit | Keine nativen Tools |
+
+<Callout type="info" title="„Verified Creators“-Programm">
+Es ist zu erwarten, dass Bethesda schon früh im Lebenszyklus des Spiels ein „Verified Creators“-Programm startet. Dies wird es professionellen Moddern ermöglichen, qualitativ hochwertige Inhalte direkt über das Spielmenü zu verkaufen, ähnlich dem System in der Skyrim Anniversary Edition.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Der Weg zum Modding: Zeitplan für die Veröffentlichung">
+
+Modding-Unterstützung startet selten am ersten Tag. Basierend auf historischen Daten der Bethesda Game Studios folgt die Veröffentlichung offizieller Werkzeuge einer bestimmten Abfolge.
+
+<Steps>
+  <Step num="1" title="Erstveröffentlichung des Spiels">
+    Das Hauptspiel erscheint für Xbox und PC. Erste „Loose File“-Mods (Texturen, grundlegende Anpassungen) erscheinen innerhalb von 24–48 Stunden über von der Community erstellte Tools.
+  </Step>
+  <Step num="2" title="Creation Kit 3 Beta">
+    Bethesda veröffentlicht die offizielle Entwicklungssuite für eine ausgewählte Gruppe von „Verified Creators“, um Inhalte für den In-Game-Hub zum Veröffentlichungstag vorzubereiten.
+  </Step>
+  <Step num="3" title="Öffentliche Freigabe der Tools">
+    Das Creation Kit 3 wird für die breite Öffentlichkeit freigegeben, normalerweise 3–6 Monate nach dem Launch. Dies markiert den Beginn komplexer Quest- und skriptbasierter Mods.
+  </Step>
+  <Step num="4" title="Konsolen-Mod-Integration">
+    Die Xbox-Mod-Unterstützung wird offiziell aktiviert, sodass Konsolenspieler kuratierte und kompatible Mods direkt aus dem Hauptmenü herunterladen können.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Checkliste zur Vorbereitung auf das Modding">
+
+Für Spieler und angehende Entwickler, die in die Welt der **The Elder Scrolls VI Mods** eintauchen möchten, beginnt die Vorbereitung bereits vor dem offiziellen Release. Es ist wichtig, sich über Engine-Updates und Community-Standards auf dem Laufenden zu halten.
+
+<Checklist
+  id="modding-prep"
+  title="Checkliste für angehende Modder:"
+  items={[
+    "Lernen Sie die Grundlagen des Creation Kits 2 (Starfield) als Fundament",
+    "Verfolgen Sie die offiziellen Bethesda-Entwicklerblogs für Updates zur Creation Engine 3",
+    "Treten Sie den Communities r/TESVI und r/ElderScrolls bei, um Ankündigungen zu Tools nicht zu verpassen",
+    "Bereiten Sie eine schnelle SSD (NVMe) für schnelleres Laden von Assets und Testen vor",
+    "Verfolgen Sie den Bewerbungsprozess für „Verified Creators“, wenn Sie professionelle Mods planen"
+  ]}
+/>
+
+<Callout type="tip" title="Profi-Tipp">
+Wenn Sie planen, Hunderte von Mods zu verwenden, priorisieren Sie immer eine „saubere“ Installation des Spiels auf einem eigenen, dedizierten Laufwerk. Das schnellere Streaming der Creation Engine 3 wird erheblich von leistungsstarker Hardware profitieren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="The Elder Scrolls VI Mods FAQ">
+
+<FAQ items={[
+  {
+    question: "Werden die Mods für The Elder Scrolls VI kostenlos sein?",
+    answer: "Die überwiegende Mehrheit der auf Seiten wie Nexus Mods gehosteten Mods wird kostenlos bleiben. Bethesda wird jedoch voraussichtlich einen „Creations“-Store anbieten, in dem verifizierte Autoren Premium-Inhalte verkaufen können."
+  },
+  {
+    question: "Kann ich Skyrim-Mods in The Elder Scrolls VI verwenden?",
+    answer: "Nein. Da das Spiel die neue Creation Engine 3 verwendet, sind die Dateistrukturen, Skripte und Assets nicht abwärtskompatibel. Modder müssen ihre Arbeiten portieren oder neu erstellen."
+  },
+  {
+    question: "Erhalten Xbox-Spieler dieselben Mods wie PC-Spieler?",
+    answer: "Xbox-Spieler werden Zugriff auf viele der gleichen Mods haben, sind jedoch durch das Fehlen eines Script Extenders auf Konsolen und strengere Hardware-Leistungsbeschränkungen limitiert."
+  },
+  {
+    question: "Wann werden die Modding-Werkzeuge (Creation Kit) veröffentlicht?",
+    answer: "Historisch gesehen veröffentlicht Bethesda das offizielle Creation Kit einige Monate nach dem Launch des Spiels, um sicherzustellen, dass das Hauptspiel zuerst stabil läuft."
+  }
+]} />
+
+</Section>
