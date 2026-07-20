@@ -2,6 +2,14 @@
   "de": {
     "development": [
       {
+        "slug": "the-elder-scrolls-6-development",
+        "file": "the-elder-scrolls-6-development"
+      },
+      {
+        "slug": "the-elder-scrolls-6-first-announced",
+        "file": "the-elder-scrolls-6-first-announced"
+      },
+      {
         "slug": "the-elder-scrolls-vi-bethesda",
         "file": "the-elder-scrolls-vi-bethesda"
       },
@@ -23,6 +31,14 @@
       }
     ],
     "features": [
+      {
+        "slug": "the-elder-scrolls-6-ai-features",
+        "file": "the-elder-scrolls-6-ai-features"
+      },
+      {
+        "slug": "the-elder-scrolls-6-features",
+        "file": "the-elder-scrolls-6-features"
+      },
       {
         "slug": "the-elder-scrolls-vi-ai-features",
         "file": "the-elder-scrolls-vi-ai-features"
@@ -68,6 +84,14 @@
     ],
     "platforms": [
       {
+        "slug": "the-elder-scrolls-6-on-xbox",
+        "file": "the-elder-scrolls-6-on-xbox"
+      },
+      {
+        "slug": "the-elder-scrolls-6-platforms",
+        "file": "the-elder-scrolls-6-platforms"
+      },
+      {
         "slug": "the-elder-scrolls-vi-nintendo-switch",
         "file": "the-elder-scrolls-vi-nintendo-switch"
       },
@@ -93,6 +117,10 @@
       }
     ],
     "release": [
+      {
+        "slug": "the-elder-scrolls-6-release-date",
+        "file": "the-elder-scrolls-6-release-date"
+      },
       {
         "slug": "the-elder-scrolls-vi-cancelled",
         "file": "the-elder-scrolls-vi-cancelled"
@@ -120,6 +148,10 @@
     ],
     "rumors": [
       {
+        "slug": "the-elder-scrolls-6-rumored-for-late-2027",
+        "file": "the-elder-scrolls-6-rumored-for-late-2027"
+      },
+      {
         "slug": "the-elder-scrolls-vi-leaks",
         "file": "the-elder-scrolls-vi-leaks"
       },
@@ -129,6 +161,22 @@
       }
     ],
     "setting": [
+      {
+        "slug": "the-elder-scrolls-6-high-rock",
+        "file": "the-elder-scrolls-6-high-rock"
+      },
+      {
+        "slug": "the-elder-scrolls-6-region",
+        "file": "the-elder-scrolls-6-region"
+      },
+      {
+        "slug": "the-elder-scrolls-6-setting",
+        "file": "the-elder-scrolls-6-setting"
+      },
+      {
+        "slug": "the-elder-scrolls-6-valenwood",
+        "file": "the-elder-scrolls-6-valenwood"
+      },
       {
         "slug": "the-elder-scrolls-vi-akavir",
         "file": "the-elder-scrolls-vi-akavir"
@@ -155,6 +203,18 @@
       }
     ],
     "trailers": [
+      {
+        "slug": "the-elder-scrolls-6-first-teaser",
+        "file": "the-elder-scrolls-6-first-teaser"
+      },
+      {
+        "slug": "the-elder-scrolls-6-first-trailer",
+        "file": "the-elder-scrolls-6-first-trailer"
+      },
+      {
+        "slug": "the-elder-scrolls-6-xbox-showcase",
+        "file": "the-elder-scrolls-6-xbox-showcase"
+      },
       {
         "slug": "the-elder-scrolls-vi-gameplay-trailer",
         "file": "the-elder-scrolls-vi-gameplay-trailer"
@@ -180,6 +240,14 @@
   "en": {
     "development": [
       {
+        "slug": "the-elder-scrolls-6-development",
+        "file": "the-elder-scrolls-6-development"
+      },
+      {
+        "slug": "the-elder-scrolls-6-first-announced",
+        "file": "the-elder-scrolls-6-first-announced"
+      },
+      {
         "slug": "the-elder-scrolls-vi-bethesda",
         "file": "the-elder-scrolls-vi-bethesda"
       },
@@ -201,6 +269,14 @@
       }
     ],
     "features": [
+      {
+        "slug": "the-elder-scrolls-6-ai-features",
+        "file": "the-elder-scrolls-6-ai-features"
+      },
+      {
+        "slug": "the-elder-scrolls-6-features",
+        "file": "the-elder-scrolls-6-features"
+      },
       {
         "slug": "the-elder-scrolls-vi-ai-features",
         "file": "the-elder-scrolls-vi-ai-features"
@@ -246,6 +322,14 @@
     ],
     "platforms": [
       {
+        "slug": "the-elder-scrolls-6-on-xbox",
+        "file": "the-elder-scrolls-6-on-xbox"
+      },
+      {
+        "slug": "the-elder-scrolls-6-platforms",
+        "file": "the-elder-scrolls-6-platforms"
+      },
+      {
         "slug": "the-elder-scrolls-vi-nintendo-switch",
         "file": "the-elder-scrolls-vi-nintendo-switch"
       },
@@ -271,6 +355,10 @@
       }
     ],
     "release": [
+      {
+        "slug": "the-elder-scrolls-6-release-date",
+        "file": "the-elder-scrolls-6-release-date"
+      },
       {
         "slug": "the-elder-scrolls-vi-cancelled",
         "file": "the-elder-scrolls-vi-cancelled"
@@ -298,6 +386,10 @@
     ],
     "rumors": [
       {
+        "slug": "the-elder-scrolls-6-rumored-for-late-2027",
+        "file": "the-elder-scrolls-6-rumored-for-late-2027"
+      },
+      {
         "slug": "the-elder-scrolls-vi-leaks",
         "file": "the-elder-scrolls-vi-leaks"
       },
@@ -307,6 +399,22 @@
       }
     ],
     "setting": [
+      {
+        "slug": "the-elder-scrolls-6-high-rock",
+        "file": "the-elder-scrolls-6-high-rock"
+      },
+      {
+        "slug": "the-elder-scrolls-6-region",
+        "file": "the-elder-scrolls-6-region"
+      },
+      {
+        "slug": "the-elder-scrolls-6-setting",
+        "file": "the-elder-scrolls-6-setting"
+      },
+      {
+        "slug": "the-elder-scrolls-6-valenwood",
+        "file": "the-elder-scrolls-6-valenwood"
+      },
       {
         "slug": "the-elder-scrolls-vi-akavir",
         "file": "the-elder-scrolls-vi-akavir"
@@ -333,6 +441,18 @@
       }
     ],
     "trailers": [
+      {
+        "slug": "the-elder-scrolls-6-first-teaser",
+        "file": "the-elder-scrolls-6-first-teaser"
+      },
+      {
+        "slug": "the-elder-scrolls-6-first-trailer",
+        "file": "the-elder-scrolls-6-first-trailer"
+      },
+      {
+        "slug": "the-elder-scrolls-6-xbox-showcase",
+        "file": "the-elder-scrolls-6-xbox-showcase"
+      },
       {
         "slug": "the-elder-scrolls-vi-gameplay-trailer",
         "file": "the-elder-scrolls-vi-gameplay-trailer"
@@ -358,6 +478,14 @@
   "es": {
     "development": [
       {
+        "slug": "the-elder-scrolls-6-development",
+        "file": "the-elder-scrolls-6-development"
+      },
+      {
+        "slug": "the-elder-scrolls-6-first-announced",
+        "file": "the-elder-scrolls-6-first-announced"
+      },
+      {
         "slug": "the-elder-scrolls-vi-bethesda",
         "file": "the-elder-scrolls-vi-bethesda"
       },
@@ -379,6 +507,14 @@
       }
     ],
     "features": [
+      {
+        "slug": "the-elder-scrolls-6-ai-features",
+        "file": "the-elder-scrolls-6-ai-features"
+      },
+      {
+        "slug": "the-elder-scrolls-6-features",
+        "file": "the-elder-scrolls-6-features"
+      },
       {
         "slug": "the-elder-scrolls-vi-ai-features",
         "file": "the-elder-scrolls-vi-ai-features"
@@ -424,6 +560,14 @@
     ],
     "platforms": [
       {
+        "slug": "the-elder-scrolls-6-on-xbox",
+        "file": "the-elder-scrolls-6-on-xbox"
+      },
+      {
+        "slug": "the-elder-scrolls-6-platforms",
+        "file": "the-elder-scrolls-6-platforms"
+      },
+      {
         "slug": "the-elder-scrolls-vi-nintendo-switch",
         "file": "the-elder-scrolls-vi-nintendo-switch"
       },
@@ -449,6 +593,10 @@
       }
     ],
     "release": [
+      {
+        "slug": "the-elder-scrolls-6-release-date",
+        "file": "the-elder-scrolls-6-release-date"
+      },
       {
         "slug": "the-elder-scrolls-vi-cancelled",
         "file": "the-elder-scrolls-vi-cancelled"
@@ -476,6 +624,10 @@
     ],
     "rumors": [
       {
+        "slug": "the-elder-scrolls-6-rumored-for-late-2027",
+        "file": "the-elder-scrolls-6-rumored-for-late-2027"
+      },
+      {
         "slug": "the-elder-scrolls-vi-leaks",
         "file": "the-elder-scrolls-vi-leaks"
       },
@@ -485,6 +637,22 @@
       }
     ],
     "setting": [
+      {
+        "slug": "the-elder-scrolls-6-high-rock",
+        "file": "the-elder-scrolls-6-high-rock"
+      },
+      {
+        "slug": "the-elder-scrolls-6-region",
+        "file": "the-elder-scrolls-6-region"
+      },
+      {
+        "slug": "the-elder-scrolls-6-setting",
+        "file": "the-elder-scrolls-6-setting"
+      },
+      {
+        "slug": "the-elder-scrolls-6-valenwood",
+        "file": "the-elder-scrolls-6-valenwood"
+      },
       {
         "slug": "the-elder-scrolls-vi-akavir",
         "file": "the-elder-scrolls-vi-akavir"
@@ -511,6 +679,18 @@
       }
     ],
     "trailers": [
+      {
+        "slug": "the-elder-scrolls-6-first-teaser",
+        "file": "the-elder-scrolls-6-first-teaser"
+      },
+      {
+        "slug": "the-elder-scrolls-6-first-trailer",
+        "file": "the-elder-scrolls-6-first-trailer"
+      },
+      {
+        "slug": "the-elder-scrolls-6-xbox-showcase",
+        "file": "the-elder-scrolls-6-xbox-showcase"
+      },
       {
         "slug": "the-elder-scrolls-vi-gameplay-trailer",
         "file": "the-elder-scrolls-vi-gameplay-trailer"
@@ -536,6 +716,14 @@
   "fr": {
     "development": [
       {
+        "slug": "the-elder-scrolls-6-development",
+        "file": "the-elder-scrolls-6-development"
+      },
+      {
+        "slug": "the-elder-scrolls-6-first-announced",
+        "file": "the-elder-scrolls-6-first-announced"
+      },
+      {
         "slug": "the-elder-scrolls-vi-bethesda",
         "file": "the-elder-scrolls-vi-bethesda"
       },
@@ -557,6 +745,14 @@
       }
     ],
     "features": [
+      {
+        "slug": "the-elder-scrolls-6-ai-features",
+        "file": "the-elder-scrolls-6-ai-features"
+      },
+      {
+        "slug": "the-elder-scrolls-6-features",
+        "file": "the-elder-scrolls-6-features"
+      },
       {
         "slug": "the-elder-scrolls-vi-ai-features",
         "file": "the-elder-scrolls-vi-ai-features"
@@ -602,6 +798,14 @@
     ],
     "platforms": [
       {
+        "slug": "the-elder-scrolls-6-on-xbox",
+        "file": "the-elder-scrolls-6-on-xbox"
+      },
+      {
+        "slug": "the-elder-scrolls-6-platforms",
+        "file": "the-elder-scrolls-6-platforms"
+      },
+      {
         "slug": "the-elder-scrolls-vi-nintendo-switch",
         "file": "the-elder-scrolls-vi-nintendo-switch"
       },
@@ -627,6 +831,10 @@
       }
     ],
     "release": [
+      {
+        "slug": "the-elder-scrolls-6-release-date",
+        "file": "the-elder-scrolls-6-release-date"
+      },
       {
         "slug": "the-elder-scrolls-vi-cancelled",
         "file": "the-elder-scrolls-vi-cancelled"
@@ -654,6 +862,10 @@
     ],
     "rumors": [
       {
+        "slug": "the-elder-scrolls-6-rumored-for-late-2027",
+        "file": "the-elder-scrolls-6-rumored-for-late-2027"
+      },
+      {
         "slug": "the-elder-scrolls-vi-leaks",
         "file": "the-elder-scrolls-vi-leaks"
       },
@@ -663,6 +875,22 @@
       }
     ],
     "setting": [
+      {
+        "slug": "the-elder-scrolls-6-high-rock",
+        "file": "the-elder-scrolls-6-high-rock"
+      },
+      {
+        "slug": "the-elder-scrolls-6-region",
+        "file": "the-elder-scrolls-6-region"
+      },
+      {
+        "slug": "the-elder-scrolls-6-setting",
+        "file": "the-elder-scrolls-6-setting"
+      },
+      {
+        "slug": "the-elder-scrolls-6-valenwood",
+        "file": "the-elder-scrolls-6-valenwood"
+      },
       {
         "slug": "the-elder-scrolls-vi-akavir",
         "file": "the-elder-scrolls-vi-akavir"
@@ -689,6 +917,18 @@
       }
     ],
     "trailers": [
+      {
+        "slug": "the-elder-scrolls-6-first-teaser",
+        "file": "the-elder-scrolls-6-first-teaser"
+      },
+      {
+        "slug": "the-elder-scrolls-6-first-trailer",
+        "file": "the-elder-scrolls-6-first-trailer"
+      },
+      {
+        "slug": "the-elder-scrolls-6-xbox-showcase",
+        "file": "the-elder-scrolls-6-xbox-showcase"
+      },
       {
         "slug": "the-elder-scrolls-vi-gameplay-trailer",
         "file": "the-elder-scrolls-vi-gameplay-trailer"

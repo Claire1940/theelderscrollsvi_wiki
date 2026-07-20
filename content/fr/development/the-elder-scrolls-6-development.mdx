@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Développement de The Elder Scrolls 6 : Calendrier et État du Projet",
+  description: "Suivez l'historique complet, les améliorations du moteur, les prévisions de sortie et les mises à jour de 2026 concernant le développement de The Elder Scrolls 6.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=TES+6+Development+Timeline",
+  date: "2026-07-21",
+  author: "L'équipe du Wiki de The Elder Scrolls VI"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Statut actuel** : La production active du jeu a débuté en août 2023, devenant la priorité absolue du studio à la fin de l'année 2025.
+- **Technologie du moteur** : Propulsé par le tout nouveau Creation Engine 3, améliorant les bases établies par Starfield.
+- **Prévisions de sortie** : Prévu pour être lancé après Fable (2027), des fuites de l'industrie pointant vers une sortie en 2028 aux côtés de la console Xbox de nouvelle génération.
+- **Jalons 2026** : Un jalon interne majeur a été franchi en février 2026, bien que les licenciements chez Xbox en juillet 2026 aient entraîné des revers de développement inattendus.
+</Callout>
+
+<Section icon={Map} title="Le calendrier de développement de The Elder Scrolls 6">
+
+Le calendrier de **développement de The Elder Scrolls 6** représente l'un des cycles de production les plus attendus et les plus prolongés de l'histoire du jeu vidéo moderne. Annoncé officiellement par un court teaser à l'E3 en 2018, le projet est passé par plusieurs phases de production distinctes. Pendant des années, Bethesda Game Studios a concentré ses principales ressources sur la finalisation de *Starfield*, laissant le prochain opus de la légendaire franchise de fantasy dans un état de pré-production prolongé.
+
+Cette stratégie d'allocation des ressources a radicalement changé en août 2023. Après le lancement officiel de *Starfield*, Bethesda a réaffecté la majeure partie de ses talents de développement à la production active de ce RPG de fantasy. Fin 2025, le producteur exécutif Todd Howard a confirmé que le jeu était officiellement devenu la priorité principale du studio, signalant une accélération majeure dans la conception, la création du monde et l'ingénierie des systèmes.
+
+<Callout type="warning" title="Statut du développement">
+Bien que la production active soit pleinement lancée, les joueurs doivent s'attendre à un cycle de développement extrêmement méticuleux. Bethesda est connu pour créer des mondes ouverts massifs qui nécessitent des tests et des itérations approfondis avant leur lancement.
+</Callout>
+
+Pour comprendre comment le projet a évolué au cours de la dernière décennie, examinez les principaux jalons de développement détaillés ci-dessous :
+
+| Année | Phase de développement | Jalons clés et annonces |
+| :--- | :--- | :--- |
+| 2016 | Phase de concept | Todd Howard confirme l'intention de développer la suite, la qualifiant d'« éléphant dans la pièce ». |
+| 2018 | Pré-production | Annonce officielle à l'E3 2018 avec un court teaser de paysage. |
+| 2020 | Acquisition | Microsoft acquiert la société mère ZeniMax Media pour 7,5 milliards de dollars. |
+| 2021 | Phase de conception | La conception technologique commence, s'appuyant sur les bases du Creation Engine 2. |
+| 2023 | Production active | Le développement à grande échelle commence immédiatement après le lancement de Starfield. |
+| 2024 | Tests internes | Bethesda célèbre le 30e anniversary de la franchise, confirmant que des versions préliminaires sont jouables. |
+| 2025 | Priorité principale | Todd Howard confirme que le jeu est désormais la priorité absolue du studio. |
+| 2026 | Jalon & Licenciements | Un jalon majeur est franchi en février ; le développement est impacté par d'importants licenciements chez Xbox en juillet. |
+
+</Section>
+
+<Section icon={Sparkles} title="Technologie du moteur et piliers du gameplay">
+
+Les fondations technologiques du jeu subissent une transformation massive. Dans une interview accordée le 18 février 2026, Todd Howard a confirmé que le jeu est développé sur le tout nouveau **Creation Engine 3**. Cela représente un véritable saut générationnel par rapport au Creation Engine 2, qui propulsait *Starfield*. Le nouveau moteur est conçu pour gérer des systèmes de simulation avancés, une physique améliorée et des pipelines de rendu considérablement optimisés pour offrir un niveau de détail environnemental inégalé.
+
+La philosophie de conception fondamentale de Bethesda pour ce titre se concentre sur la création d'un jeu de rôle « classique de Bethesda ». L'équipe s'inspire intentionnellement de la liberté totale offerte par *The Elder Scrolls IV: Oblivion* et *The Elder Scrolls V: Skyrim*, plutôt que d'adopter les tendances modernes qui limitent les choix des joueurs.
+
+<Callout type="tip" title="Évolution du moteur">
+Le Creation Engine 3 est spécifiquement optimisé pour concevoir ce que Todd Howard décrit comme le « simulateur de monde fantastique ultime », en mettant l'accent sur les éléments de monde persistant et les comportements complexes des PNJ.
+</Callout>
+
+L'équipe de développement a structuré ses objectifs autour de trois piliers fondamentaux pour s'assurer que le jeu réponde aux attentes immenses de sa communauté mondiale :
+
+<CardGrid cols={3}>
+  <Card title="Conception RPG classique">
+    - **Racines d'Oblivion et Skyrim** : Concentration sur une grande liberté pour le joueur, la progression des factions et l'exploration libre.
+    - **Systèmes immersifs** : Retour à une progression complexe des statistiques et à des mécanismes d'interaction classiques.
+  </Card>
+  <Card title="Simulateur ultime">
+    - **Mondes vivants** : Routines d'IA avancées pour les PNJ, météo dynamique et systèmes économiques évolutifs.
+    - **Détail inégalé** : Environnements hautement interactifs où presque chaque objet peut être manipulé.
+  </Card>
+  <Card title="Moteur de nouvelle génération">
+    - **Creation Engine 3** : Conçu pour exploiter les architectures CPU et GPU modernes pour un streaming de monde fluide.
+    - **Physique avancée** : Destruction réaliste de l'environnement, interactions magiques et poids des combats.
+  </Card>
+</CardGrid>
+
+Pour mieux comprendre l'évolution de la technologie sous-jacente à travers le catalogue moderne de Bethesda, consultez le comparatif des moteurs ci-dessous :
+
+| Version du moteur | Titre principal | Focus technologique clé | Complexité maximale de la simulation |
+| :--- | :--- | :--- | :--- |
+| Creation Engine 1 | Skyrim (2011) | Construction de monde modulaire, script de base | Modérée |
+| Creation Engine 2 | Starfield (2023) | Physique spatiale, génération procédurale, éclairage global | Élevée |
+| Creation Engine 3 | The Elder Scrolls VI | Simulation fantastique ultime, IA avancée, mondes persistants | Extrêmement élevée |
+
+</Section>
+
+<Section icon={Trophy} title="Analyse de la fenêtre de sortie et exclusivité de plateforme">
+
+Prédire la date de sortie exacte du jeu nécessite d'analyser plusieurs éléments mobiles, notamment les acquisitions d'entreprises, la stratégie de plateforme et les récentes perturbations internes au sein du studio. Suite à l'acquisition de ZeniMax Media par Microsoft en 2020, le modèle de distribution du jeu a changé. L'ancien PDG de Xbox, Phil Spencer, s'est engagé à proposer le jeu exclusivement sur les plateformes prenant en charge le Xbox Game Pass, confirmant ainsi que le titre ne sortira pas sur les consoles concurrentes.
+
+Le calendrier a également été fortement influencé par des projets similaires au sein du portefeuille de Xbox Game Studios. Spencer a confirmé que le jeu devrait sortir après le reboot très attendu de *Fable* par Playground Games, actuellement prévu pour 2027. Ce positionnement, combiné à des fuites indiquant les plans de Microsoft pour un nouveau matériel de nouvelle génération vers 2028, rend une **fenêtre de sortie en 2028** hautement probable.
+
+<Callout type="warning" title="Revers du studio en 2026">
+En juillet 2026, Xbox a procédé à une série de licenciements massifs entraînant plus de 50 suppressions de postes chez Bethesda Game Studios. Les rapports de l'industrie indiquent que ces coupes ont gravement affecté le moral du studio et devraient retarder le développement en raison de la perte de talents clés en ingénierie.
+</Callout>
+
+Le tableau ci-dessous présente les principaux facteurs qui influencent le calendrier de sortie prévu :
+
+| Facteur d'influence | Détails et contexte | Impact prévu |
+| :--- | :--- | :--- |
+| Stratégie de plateforme de Microsoft | Exclusivité Xbox et PC via l'écosystème Xbox Game Pass. | Exclusivité console confirmée. |
+| Calendrier de sortie de Fable | Prévu pour 2027 ; Spencer a confirmé que TES6 suivra Fable. | Repousse la fenêtre de sortie à fin 2027 ou 2028. |
+| Matériel Xbox de nouvelle génération | Des documents Microsoft divulgués indiquent un nouveau matériel en 2028. | Très probablement un titre de lancement cross-gen ou next-gen. |
+| Licenciements chez Xbox en juillet 2026 | Plus de 50 membres du personnel licenciés de Bethesda Game Studios. | Devrait entraîner des retards internes et des modifications de calendrier. |
+
+</Section>
+
+<Section icon={Target} title="Historique étape par étape des annonces majeures">
+
+Le chemin menant de la révélation initiale au développement actif a été long et jalonné de légères mises à jour de la part des développeurs clés. Suivez ces étapes pour retracer les moments critiques de l'histoire des annonces publiques du jeu :
+
+<Steps>
+  <Step num="1" title="Le teaser de l'E3 2018">
+    Bethesda annonce officiellement le jeu à l'E3 2018 avec un court teaser de paysage. Todd Howard confirme que le projet est en pré-production, conçu pour suivre les sorties de *Fallout 76* et *Starfield*.
+  </Step>
+  <Step num="2" title="La phase de conception et de technologie (2021)">
+    Todd Howard confirme que le jeu est entré dans une phase de conception formelle. Les développeurs commencent à façonner les systèmes de base et à établir les fondations technologiques en utilisant les améliorations exclusives qui formeront plus tard le Creation Engine 3.
+  </Step>
+  <Step num="3" title="Transition vers la production active (2023)">
+    Immédiatement après le lancement de *Starfield* en août 2023, Bethesda fait passer le jeu en production active. Les ressources sont réaffectées et l'équipe de développement principale commence à construire l'espace du monde et les mécanismes de gameplay.
+  </Step>
+  <Step num="4" title="Les versions jouables du 30e anniversaire (2024)">
+    En mars 2024, lors de la célébration du 30e anniversaire de la franchise *The Elder Scrolls*, Bethesda publie une déclaration officielle confirmant que des versions préliminaires et jouables du jeu sont déjà testées en interne par l'équipe de développement.
+  </Step>
+  <Step num="5" title="Le jalon de 2026 et les licenciements">
+    En février 2026, Howard annonce la réalisation d'un jalon interne majeur, réaffirmant la conception RPG classique. Cependant, des licenciements massifs en juillet 2026 perturbent l'élan, obligeant l'équipe à restructurer son calendrier.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Direction du projet et fonctionnalités confirmées">
+
+Malgré la longue attente, plusieurs détails clés concernant la direction créative, le cadre et les fonctionnalités uniques du jeu ont été confirmés par des développeurs actuels et anciens de Bethesda. L'ancien développeur Kurt Kuhlmann a révélé dans une interview en 2026 que l'équipe était parvenue à un consensus précoce sur l'univers du jeu dès le développement de *Fallout 4*. Bien que la province exacte reste secrète, la décision a été prise suffisamment tôt pour permettre aux équipes artistiques et de conception de créer des bibliothèques d'éléments adaptées au climat et à l'histoire spécifiques de la région.
+
+De plus, le jeu proposera des éléments uniques axés sur la communauté. Suite à une pétition massive de fans, Bethesda a officiellement confirmé que la légendaire youtubeuse Shirley Curry, largement connue sous le nom de « Skyrim Grandma », sera intégrée au jeu en tant que personnage non-joueur (PNJ) à part entière.
+
+<Callout type="success" title="Éléments confirmés">
+Le jeu reste une expérience strictement solo, préservant le style traditionnel d'exploration libre qui a fait de ses prédécessurs des phénomènes culturels mondiaux.
+</Callout>
+
+Pour suivre ce qui est officiellement confirmé par rapport à ce qui reste spéculatif, utilisez la liste de contrôle suivante :
+
+<Checklist
+  id="tes6-confirmed-features"
+  title="Fonctionnalités de développement confirmées :"
+  items={[
+    "Entièrement construit sur le moteur de nouvelle génération Creation Engine 3.",
+    "Structure de RPG d'action classique en solo, sans éléments multijoueurs.",
+    "Consensus sur le cadre atteint en interne pendant l'ère Fallout 4.",
+    "Shirley Curry (« Skyrim Grandma ») intégrée en tant que PNJ officiel dans le jeu.",
+    "Développement dirigé par Todd Howard, reprenant son rôle de Skyrim et Oblivion."
+  ]}
+/>
+
+La vision créative du projet est guidée par un petit groupe de vétérans de l'industrie qui façonnent l'identité de la franchise depuis des décennies :
+
+| Développeur | Rôle | Contribution clé |
+| :--- | :--- | :--- |
+| Todd Howard | Directeur du jeu & Producteur exécutif | Définir la vision du « simulateur de monde fantastique ultime » et superviser tous les systèmes. |
+| Kurt Kuhlmann | Ancien développeur | A facilité le consensus initial sur le cadre géographique du jeu. |
+| Matt Firor | Producteur de ZeniMax Online | Coordonné le calendrier de sortie à long terme aux côtés de Starfield. |
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<Callout type="info" title="Restez informé">
+À mesure que le développement se poursuit, les détails officiels sont partagés principalement lors des grands événements Xbox Showcase. Méfiez-vous des rumeurs non officielles et des fuites non vérifiées en ligne.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Quel est le statut actuel du développement de The Elder Scrolls 6 ?",
+    answer: "Le jeu est actuellement en cours de production active chez Bethesda Game Studios. Il est passé de la pré-production à la production active en août 2023 et est devenu la priorité absolue du studio à la fin de l'année 2025."
+  },
+  {
+    question: "Quel moteur est utilisé pour construire le jeu ?",
+    answer: "Le jeu est propulsé par le Creation Engine 3, une toute nouvelle itération du moteur propriétaire de Bethesda conçu pour offrir une physique avancée, des routines d'IA améliorées et une simulation fantastique hautement détaillée."
+  },
+  {
+    question: "Le jeu sera-t-il exclusif à la Xbox et au PC ?",
+    answer: "Oui. Suite à l'acquisition de ZeniMax Media par Microsoft, le responsable de Xbox, Phil Spencer, a confirmé que le titre est développé en exclusivité pour les plateformes prises en charge par l'écosystème Xbox Game Pass, y compris les consoles Xbox et le PC."
+  },
+  {
+    question: "Comment les licenciements de juillet 2026 ont-ils affecté la date de sortie du jeu ?",
+    answer: "Les licenciements massifs chez Xbox en juillet 2026 ont entraîné plus de 50 suppressions de postes chez Bethesda Game Studios. Bien qu'aucune fenêtre de sortie officielle n'ait été annulée, les rapports de l'industrie indiquent que la perte de talents et la baisse de moral du studio retarderont probablement le développement."
+  }
+]} />
+
+</Section>
