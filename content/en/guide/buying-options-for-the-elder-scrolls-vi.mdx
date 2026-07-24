@@ -1,0 +1,125 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Buying Options for The Elder Scrolls VI",
+  description: "A comprehensive guide to the buying options available for The Elder Scrolls VI, including pre-order bonuses, release date, and platform-specific details.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=The+Elder+Scrolls+VI+Buying+Options",
+  date: "2026-07-24",
+  author: "the elder scrolls vi Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Pre-order Bonuses**: Check out the exclusive in-game items available with pre-orders.
+- **Release Date**: The game is scheduled for release on August 11, 2026.
+- **Platforms**: The Elder Scrolls VI will be available on Nintendo Switch™ 2, PlayStation, and Xbox.
+- **Digital vs Physical**: Consider the benefits of digital versus physical copies.
+</Callout>
+
+<Section icon={Map} title="Pre-order Bonuses">
+
+<Callout type="tip" title="Pre-order Incentives">
+Pre-ordering The Elder Scrolls VI will grant you access to exclusive in-game items, including unique armor sets, weapons, and mounts.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Nintendo Switch™ 2">
+    - Exclusive in-game content
+    - First access to new features
+    - Free game download with pre-order
+  </Card>
+  <Card title="PlayStation">
+    - Free game download with pre-order
+    - Exclusive theme
+    - Early access to beta
+  </Card>
+  <Card title="Xbox">
+    - Free game download with pre-order
+    - Exclusive avatar items
+    - Gamerscore boosts
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Release Date and Availability">
+
+<Steps>
+  <Step num="1" title="Release Date">
+    The Elder Scrolls VI is set to release on August 11, 2026, exclusively on Nintendo Switch™ 2, PlayStation, and Xbox.
+  </Step>
+  <Step num="2" title="Digital vs Physical">
+    Decide whether you prefer a digital or physical copy of the game based on your personal preference and platform compatibility.
+  </Step>
+  <Step num="3" title="Platform-Specific Details">
+    Each platform offers unique features and benefits. Check the official Bethesda website for the latest information.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Goals and Checklist">
+
+<Checklist
+  id="pre-order-checklist"
+  title="Pre-order Checklist:"
+  items={[
+    "Confirm your preferred platform",
+    "Check for pre-order bonuses",
+    "Pre-order from a trusted retailer",
+    "Keep an eye on release date updates",
+    "Prepare for an epic adventure!"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Digital vs Physical">
+
+<Callout type="warning" title="Considerations">
+Before deciding between a digital or physical copy, consider the following factors:
+- Storage space
+- Environmental impact
+- Personal preference
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Digital Copy">
+    - Instant access to the game
+    - No physical storage required
+    - Often more cost-effective
+  </Card>
+  <Card title="Physical Copy">
+    - Collectible edition options
+    - No need for a digital platform
+    - Physical copies often include additional materials
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Where can I pre-order The Elder Scrolls VI?",
+    answer: "You can pre-order The Elder Scrolls VI from any major retailer or the official Bethesda website."
+  },
+  {
+    question: "Are there any differences between the platforms?",
+    answer: "While the core gameplay is the same across platforms, each may offer unique features and exclusive content."
+  },
+  {
+    question: "What if I miss the release date?",
+    answer: "If you miss the release date, you can still purchase the game after its release. Check the official Bethesda website for the latest information."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,125 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Opciones de Compra para The Elder Scrolls VI",
+  description: "Una guía completa sobre las opciones de compra disponibles para The Elder Scrolls VI, incluyendo bonificaciones por precompra, fecha de lanzamiento y detalles específicos de plataforma.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=The+Elder+Scrolls+VI+Buying+Options",
+  date: "2026-07-24",
+  author: "Equipo de Wiki de The Elder Scrolls VI"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Bonificaciones por Precompra**: Consulta los artículos exclusivos del juego disponibles con la precompra.
+- **Fecha de Lanzamiento**: El juego se programó para lanzarse el 11 de agosto de 2026.
+- **Plataformas**: The Elder Scrolls VI estará disponible en Nintendo Switch™ 2, PlayStation y Xbox.
+- **Digital vs Físico**: Considera los beneficios de las copias digitales en comparación con las físicas.
+</Callout>
+
+<Section icon={Map} title="Bonificaciones por Precompra">
+
+<Callout type="tip" title="Incentivos por Precompra">
+Precomprar The Elder Scrolls VI te dará acceso a artículos exclusivos del juego, incluyendo conjuntos de armadura únicos, armas y monturas.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Nintendo Switch™ 2">
+    - Contenido exclusivo del juego
+    - Acceso primero a nuevas características
+    - Descarga gratuita del juego con la precompra
+  </Card>
+  <Card title="PlayStation">
+    - Descarga gratuita del juego con la precompra
+    - Tema exclusivo
+    - Acceso anticipado a la beta
+  </Card>
+  <Card title="Xbox">
+    - Descarga gratuita del juego con la precompra
+    - Artículos de avatar exclusivos
+    - Aumentos de Gamerscore
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Fecha de Lanzamiento y Disponibilidad">
+
+<Steps>
+  <Step num="1" title="Fecha de Lanzamiento">
+    The Elder Scrolls VI se lanzará el 11 de agosto de 2026, exclusivamente en Nintendo Switch™ 2, PlayStation y Xbox.
+  </Step>
+  <Step num="2" title="Digital vs Físico">
+    Decide si prefieres una copia digital o física del juego basándote en tu preferencia personal y la compatibilidad de la plataforma.
+  </Step>
+  <Step num="3" title="Detalles Específicos de Plataforma">
+    Cada plataforma ofrece características y beneficios únicos. Consulta el sitio web oficial de Bethesda para obtener la información más reciente.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos y Lista de Verificación">
+
+<Checklist
+  id="pre-order-checklist"
+  title="Lista de Verificación por Precompra:"
+  items={[
+    "Confirmar tu plataforma preferida",
+    "Revisar las bonificaciones por precompra",
+    "Precomprar en un minorista de confianza",
+    "Mantenerse al tanto de las actualizaciones de la fecha de lanzamiento",
+    "Prepararse para una aventura épica!"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Digital vs Físico">
+
+<Callout type="warning" title="Consideraciones">
+Antes de decidir entre una copia digital o física, considera los siguientes factores:
+- Espacio de almacenamiento
+- Impacto ambiental
+- Preferencia personal
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Copia Digital">
+    - Acceso instantáneo al juego
+    - No se requiere almacenamiento físico
+    - A menudo más económica
+  </Card>
+  <Card title="Copia Física">
+    - Opciones de edición coleccionable
+    - No se necesita una plataforma digital
+    - Las copias físicas a menudo incluyen materiales adicionales
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo precomprar The Elder Scrolls VI?",
+    answer: "Puedes precomprar The Elder Scrolls VI en cualquier gran minorista o en el sitio web oficial de Bethesda."
+  },
+  {
+    question: "¿Hay alguna diferencia entre las plataformas?",
+    answer: "Mientras que el juego base es el mismo en todas las plataformas, cada una puede ofrecer características y contenido exclusivo."
+  },
+  {
+    question: "¿Qué pasa si me pierdo la fecha de lanzamiento?",
+    answer: "Si te pierdes la fecha de lanzamiento, aún puedes comprar el juego después de su lanzamiento. Consulta el sitio web oficial de Bethesda para obtener la información más reciente."
+  }
+]} />
+
+</Section>

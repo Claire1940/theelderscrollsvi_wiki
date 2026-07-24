@@ -62,6 +62,22 @@
     ],
     "guide": [
       {
+        "slug": "buying-options-for-the-elder-scrolls-vi",
+        "file": "buying-options-for-the-elder-scrolls-vi"
+      },
+      {
+        "slug": "elder-scrolls-6-hammerfell",
+        "file": "elder-scrolls-6-hammerfell"
+      },
+      {
+        "slug": "elder-scrolls-vi-coop",
+        "file": "elder-scrolls-vi-coop"
+      },
+      {
+        "slug": "elder-scrolls-vi-gets-shut-down",
+        "file": "elder-scrolls-vi-gets-shut-down"
+      },
+      {
         "slug": "the-elder-scrolls-vi-latest-news",
         "file": "the-elder-scrolls-vi-latest-news"
       },
@@ -92,6 +108,14 @@
         "file": "the-elder-scrolls-6-platforms"
       },
       {
+        "slug": "the-elder-scrolls-6-xbox-exclusive",
+        "file": "the-elder-scrolls-6-xbox-exclusive"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-console",
+        "file": "the-elder-scrolls-vi-console"
+      },
+      {
         "slug": "the-elder-scrolls-vi-nintendo-switch",
         "file": "the-elder-scrolls-vi-nintendo-switch"
       },
@@ -118,8 +142,24 @@
     ],
     "release": [
       {
+        "slug": "does-the-elder-scrolls-6-have-a-release-date",
+        "file": "does-the-elder-scrolls-6-have-a-release-date"
+      },
+      {
+        "slug": "is-the-elder-scrolls-6-ever-coming-out",
+        "file": "is-the-elder-scrolls-6-ever-coming-out"
+      },
+      {
+        "slug": "the-elder-scrolls-6-expected-release-date",
+        "file": "the-elder-scrolls-6-expected-release-date"
+      },
+      {
         "slug": "the-elder-scrolls-6-release-date",
         "file": "the-elder-scrolls-6-release-date"
+      },
+      {
+        "slug": "the-elder-scrolls-6-release-year",
+        "file": "the-elder-scrolls-6-release-year"
       },
       {
         "slug": "the-elder-scrolls-vi-cancelled",
@@ -204,6 +244,10 @@
     ],
     "trailers": [
       {
+        "slug": "teaser-trailer-for-the-elder-scrolls-vi",
+        "file": "teaser-trailer-for-the-elder-scrolls-vi"
+      },
+      {
         "slug": "the-elder-scrolls-6-first-teaser",
         "file": "the-elder-scrolls-6-first-teaser"
       },
@@ -212,8 +256,16 @@
         "file": "the-elder-scrolls-6-first-trailer"
       },
       {
+        "slug": "the-elder-scrolls-6-hammerfell-trailer",
+        "file": "the-elder-scrolls-6-hammerfell-trailer"
+      },
+      {
         "slug": "the-elder-scrolls-6-xbox-showcase",
         "file": "the-elder-scrolls-6-xbox-showcase"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-first-trailer",
+        "file": "the-elder-scrolls-vi-first-trailer"
       },
       {
         "slug": "the-elder-scrolls-vi-gameplay-trailer",
@@ -299,6 +351,10 @@
       }
     ],
     "guide": [
+      {
+        "slug": "buying-options-for-the-elder-scrolls-vi",
+        "file": "buying-options-for-the-elder-scrolls-vi"
+      },
       {
         "slug": "the-elder-scrolls-vi-latest-news",
         "file": "the-elder-scrolls-vi-latest-news"
@@ -538,6 +594,22 @@
     ],
     "guide": [
       {
+        "slug": "buying-options-for-the-elder-scrolls-vi",
+        "file": "buying-options-for-the-elder-scrolls-vi"
+      },
+      {
+        "slug": "elder-scrolls-6-hammerfell",
+        "file": "elder-scrolls-6-hammerfell"
+      },
+      {
+        "slug": "elder-scrolls-vi-coop",
+        "file": "elder-scrolls-vi-coop"
+      },
+      {
+        "slug": "elder-scrolls-vi-gets-shut-down",
+        "file": "elder-scrolls-vi-gets-shut-down"
+      },
+      {
         "slug": "the-elder-scrolls-vi-latest-news",
         "file": "the-elder-scrolls-vi-latest-news"
       },
@@ -568,6 +640,14 @@
         "file": "the-elder-scrolls-6-platforms"
       },
       {
+        "slug": "the-elder-scrolls-6-xbox-exclusive",
+        "file": "the-elder-scrolls-6-xbox-exclusive"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-console",
+        "file": "the-elder-scrolls-vi-console"
+      },
+      {
         "slug": "the-elder-scrolls-vi-nintendo-switch",
         "file": "the-elder-scrolls-vi-nintendo-switch"
       },
@@ -594,8 +674,24 @@
     ],
     "release": [
       {
+        "slug": "does-the-elder-scrolls-6-have-a-release-date",
+        "file": "does-the-elder-scrolls-6-have-a-release-date"
+      },
+      {
+        "slug": "is-the-elder-scrolls-6-ever-coming-out",
+        "file": "is-the-elder-scrolls-6-ever-coming-out"
+      },
+      {
+        "slug": "the-elder-scrolls-6-expected-release-date",
+        "file": "the-elder-scrolls-6-expected-release-date"
+      },
+      {
         "slug": "the-elder-scrolls-6-release-date",
         "file": "the-elder-scrolls-6-release-date"
+      },
+      {
+        "slug": "the-elder-scrolls-6-release-year",
+        "file": "the-elder-scrolls-6-release-year"
       },
       {
         "slug": "the-elder-scrolls-vi-cancelled",
@@ -680,6 +776,10 @@
     ],
     "trailers": [
       {
+        "slug": "teaser-trailer-for-the-elder-scrolls-vi",
+        "file": "teaser-trailer-for-the-elder-scrolls-vi"
+      },
+      {
         "slug": "the-elder-scrolls-6-first-teaser",
         "file": "the-elder-scrolls-6-first-teaser"
       },
@@ -688,8 +788,16 @@
         "file": "the-elder-scrolls-6-first-trailer"
       },
       {
+        "slug": "the-elder-scrolls-6-hammerfell-trailer",
+        "file": "the-elder-scrolls-6-hammerfell-trailer"
+      },
+      {
         "slug": "the-elder-scrolls-6-xbox-showcase",
         "file": "the-elder-scrolls-6-xbox-showcase"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-first-trailer",
+        "file": "the-elder-scrolls-vi-first-trailer"
       },
       {
         "slug": "the-elder-scrolls-vi-gameplay-trailer",
@@ -776,6 +884,22 @@
     ],
     "guide": [
       {
+        "slug": "buying-options-for-the-elder-scrolls-vi",
+        "file": "buying-options-for-the-elder-scrolls-vi"
+      },
+      {
+        "slug": "elder-scrolls-6-hammerfell",
+        "file": "elder-scrolls-6-hammerfell"
+      },
+      {
+        "slug": "elder-scrolls-vi-coop",
+        "file": "elder-scrolls-vi-coop"
+      },
+      {
+        "slug": "elder-scrolls-vi-gets-shut-down",
+        "file": "elder-scrolls-vi-gets-shut-down"
+      },
+      {
         "slug": "the-elder-scrolls-vi-latest-news",
         "file": "the-elder-scrolls-vi-latest-news"
       },
@@ -806,6 +930,18 @@
         "file": "the-elder-scrolls-6-platforms"
       },
       {
+        "slug": "the-elder-scrolls-6-xbox-exclusive",
+        "file": "the-elder-scrolls-6-xbox-exclusive"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-console",
+        "file": "the-elder-scrolls-vi-console"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-downloadable-content",
+        "file": "the-elder-scrolls-vi-downloadable-content"
+      },
+      {
         "slug": "the-elder-scrolls-vi-nintendo-switch",
         "file": "the-elder-scrolls-vi-nintendo-switch"
       },
@@ -832,8 +968,24 @@
     ],
     "release": [
       {
+        "slug": "does-the-elder-scrolls-6-have-a-release-date",
+        "file": "does-the-elder-scrolls-6-have-a-release-date"
+      },
+      {
+        "slug": "is-the-elder-scrolls-6-ever-coming-out",
+        "file": "is-the-elder-scrolls-6-ever-coming-out"
+      },
+      {
+        "slug": "the-elder-scrolls-6-expected-release-date",
+        "file": "the-elder-scrolls-6-expected-release-date"
+      },
+      {
         "slug": "the-elder-scrolls-6-release-date",
         "file": "the-elder-scrolls-6-release-date"
+      },
+      {
+        "slug": "the-elder-scrolls-6-release-year",
+        "file": "the-elder-scrolls-6-release-year"
       },
       {
         "slug": "the-elder-scrolls-vi-cancelled",
@@ -918,6 +1070,10 @@
     ],
     "trailers": [
       {
+        "slug": "teaser-trailer-for-the-elder-scrolls-vi",
+        "file": "teaser-trailer-for-the-elder-scrolls-vi"
+      },
+      {
         "slug": "the-elder-scrolls-6-first-teaser",
         "file": "the-elder-scrolls-6-first-teaser"
       },
@@ -926,8 +1082,16 @@
         "file": "the-elder-scrolls-6-first-trailer"
       },
       {
+        "slug": "the-elder-scrolls-6-hammerfell-trailer",
+        "file": "the-elder-scrolls-6-hammerfell-trailer"
+      },
+      {
         "slug": "the-elder-scrolls-6-xbox-showcase",
         "file": "the-elder-scrolls-6-xbox-showcase"
+      },
+      {
+        "slug": "the-elder-scrolls-vi-first-trailer",
+        "file": "the-elder-scrolls-vi-first-trailer"
       },
       {
         "slug": "the-elder-scrolls-vi-gameplay-trailer",
